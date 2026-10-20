@@ -1,0 +1,97 @@
+# Project instructions — MNG Apps Design System
+
+Read this file first in every session. Karl edits it here on GitHub; nothing in this file needs to live in Claude. If this file and a chat request disagree, ask.
+
+## Goal
+
+Three Figma libraries for MNG's native news apps (77 market apps per platform, one codebase each):
+
+```
+MNG Apps Core Design System   ← everything both apps share
+   ├── MNG iOS Design System      ← only what iOS can't share
+   └── MNG Android Design System  ← only what Android can't share
+```
+
+**The less that lives in the platform files, the better.** Default every item to Core. An item goes to a platform file only when the other app has no such thing, or the platform convention forces it (SF Symbols vs Material Symbols glyphs, status bar, notification icon).
+
+This project is **separate from the MNG Web Design System**. Don't use web tokens, the web IcoMoon set or web components here.
+
+## Figma files
+
+| File | Key | Holds |
+|------|-----|-------|
+| MNG Apps Core Design System | `qgL4Pj306km9NbIBIAubFg` | Tokens, semantic icon list, core atoms. Review pages for colors and icons. |
+| MNG iOS Design System | `uNxwBNoP4ODDUFGByi73mZ` | iOS-only items. Empty for now. |
+| MNG Android Design System | `FGUeuRYhGudxo0VQdToZT9` | Android-only items. Empty for now. |
+
+Use the figma-console Desktop Bridge. Pass `fileKey` on every call, or `figma_navigate` with `lock: true`, because other files (including the Web DS) are often open at the same time.
+
+## Sources (shipped code, read-only)
+
+| Platform | Code | Style guide (Claude artifact) | Data in this repo |
+|----------|------|-------------------------------|-------------------|
+| iOS | TroncKit @ `e30ad2585` | https://claude.ai/artifact/V364juyHFU3STfVZ6EgjMc | `data/source/markets.json`, `data/source/ios-tokens.json` |
+| Android | android-tribpub @ `1cfb069a6` (dev, 2026-10-15) | https://claude.ai/artifact/5MyLP13QSt52WGRgXW35ZJ | `data/source/android-markets.json` |
+
+When the app team sends a new export, update `data/source/`, re-run the scripts and note the new commit here.
+
+## Ownership buckets
+
+Every token, icon and component gets exactly one:
+
+| Bucket | Rule | Goes to |
+|--------|------|---------|
+| **Core** | Both apps have it. Values are the same or rounding twins (OKLab ΔE < 0.012). | Core |
+| **Core, per-platform value** | Both apps have it, but values differ. Keep one Core variable; record the difference as a decision for Karl. Don't split it out yet. | Core (flagged) |
+| **Core alias** | A role that equals another role almost everywhere (e.g. `buy` = `action`). | Core, as an alias |
+| **iOS only** / **Android only** | The other app has no such thing. | Platform file (later) |
+
+Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targets: text 4.5:1, icons and large text 3:1.
+
+## Rules
+
+1. **Shipped values are documented exactly as shipped**, failing ones included. Proposed changes go in `docs/IMPROVEMENTS.md` (iOS-era IDs) or `docs/PLATFORM-OWNERSHIP.md` (`PLAT-` IDs) and are shown beside the shipped value, never instead of it.
+2. **One phase at a time.** Karl reviews each phase before the next starts. Track it in `PROGRESS.md` and add a dated line to its Log.
+3. **Plan before work.** For anything beyond adding review pages or sections, post the plan and wait for an OK.
+4. **Figma edits are additive.** Add new sections (`NN · Title`) beside existing ones and never overwrite or delete Karl's content. Re-running a build replaces only the section it created. Screenshot each section after building it.
+5. **Data first, then Figma.** Every Figma table comes from a JSON in `data/` that a script in `scripts/` regenerates. Never type values by hand.
+6. **Don't invent.** If the source doesn't say, write "unknown, ask Apps team" and add it to `docs/MISSING-ASSETS.md`.
+7. **Moving items to the platform files** happens only after Karl approves the ownership page for that area.
+
+## Figma page style (match the existing pages)
+
+- Open Sans: titles Bold 32/44, body Regular 13–16, table text 11–13.
+- Tables: white frame, 64 px padding; group rows `#1a1a1a` with white text; rows divided by a 1 px `#e6e6e6` bottom border.
+- Ownership chips (always with a text label, never color alone): Core `#e6f4ea`/`#14532d` · Core + variant `#fff4d6`/`#6b4500` · iOS only `#e3eefc`/`#0b3d7a` · Android only `#efe7fb`/`#43217a` · Differs `#fde8e8`/`#8a1c1c`.
+
+## Repo layout
+
+```
+CLAUDE.md                         this file
+PROGRESS.md                       phase tracker + log (start here for status)
+docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- decisions
+docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
+docs/MISSING-ASSETS.md            what we need from the Apps team
+data/source/                      raw exports from each app (don't edit)
+data/*.json                       generated analysis
+scripts/                          regenerate data/*.json
+```
+
+Regenerate:
+
+```
+python3 scripts/analyze_palettes.py data/source/markets.json data/palette-analysis.json
+python3 scripts/compare_platform_colors.py data/source/markets.json data/source/android-markets.json data/color-platform-comparison.json
+python3 scripts/icon_platform_map.py data/icon-comparison.json data/icon-platform-map.json
+```
+
+## People
+
+- Karl: design system owner. Approves every phase.
+- Apps team contacts: Jess Navaro, Patrick Carr.
+
+## Working style
+
+- Keep replies short. Lead with what changed and what needs a decision.
+- Put long findings in `docs/`, not in chat.
+- Say which commit and which file a number came from.

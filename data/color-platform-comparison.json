@@ -1,0 +1,5803 @@
+{
+ "sources": {
+  "ios": "ios-tronckit @ e30ad2585, extracted 2026-10-08",
+  "android": "android-tribpub @ 1cfb069a6 (dev, 2026-10-15): lat-app/src/<flavor>/res/values over lat-app/src/main over corekit libraries"
+ },
+ "thresholds": {
+  "near_dE": 0.012,
+  "close_dE": 0.05
+ },
+ "shared_roles": [
+  {
+   "role": "navbar",
+   "ios": "navigationBarBackgroundColor",
+   "android": "Toolbar_Background"
+  },
+  {
+   "role": "navtext",
+   "ios": "navigationBarTitleColor",
+   "android": "Toolbar_Text_Primary"
+  },
+  {
+   "role": "tabbar",
+   "ios": "tabBarBackgroundColor",
+   "android": "NavigationBar_Background (= Toolbar_Background)"
+  },
+  {
+   "role": "tabactive",
+   "ios": "tabBarSelectedTintColor",
+   "android": "NavigationBar_Icon_ActiveTintColor"
+  },
+  {
+   "role": "tabinactive",
+   "ios": "tabBarUnselectedTintColor",
+   "android": "NavigationBar_Icon_InactiveTintColor (= Toolbar_Text_Primary)"
+  },
+  {
+   "role": "action",
+   "ios": "paywallPrimaryActionColor",
+   "android": "Paywall_PurchaseButton_Background"
+  },
+  {
+   "role": "alert",
+   "ios": "breakingNewsBannerBackgroundColor",
+   "android": "br_news_red (fixed)"
+  }
+ ],
+ "candidate_roles": [
+  {
+   "role": "buy",
+   "ios": "paywallViewPurchaseButtonColor",
+   "android": "Paywall_BuyButton_Background"
+  },
+  {
+   "role": "accent",
+   "ios": "alertTopicCellSwitchTint",
+   "android": "MainStyle_Accent"
+  }
+ ],
+ "platform_only_roles": {
+  "ios": [
+   [
+    "header",
+    "Style.json cell-tertiary-headerBg",
+    "Section-front header band; Android has no equivalent band"
+   ]
+  ],
+  "android": [
+   [
+    "statusbar",
+    "MainStyle_Primary_Dark",
+    "Status bar; iOS status bar takes the nav bar color"
+   ],
+   [
+    "continue",
+    "btn_continue",
+    "Your News Continue button + checked topic box; iOS uses pre-colored Continue-* PNGs"
+   ]
+  ]
+ },
+ "role_stats": {
+  "navbar": {
+   "match": 16,
+   "differ": 17,
+   "close": 5,
+   "near": 39
+  },
+  "navtext": {
+   "match": 75,
+   "differ": 2
+  },
+  "tabbar": {
+   "differ": 18,
+   "close": 5,
+   "near": 39,
+   "match": 15
+  },
+  "tabactive": {
+   "match": 53,
+   "differ": 21,
+   "close": 2,
+   "near": 1
+  },
+  "tabinactive": {
+   "differ": 4,
+   "match": 73
+  },
+  "action": {
+   "match": 12,
+   "differ": 22,
+   "close": 6,
+   "near": 37
+  },
+  "alert": {
+   "close": 6,
+   "differ": 71
+  },
+  "buy": {
+   "match": 12,
+   "differ": 23,
+   "close": 6,
+   "near": 36
+  },
+  "accent": {
+   "match": 9,
+   "differ": 31,
+   "near": 34,
+   "close": 3
+  }
+ },
+ "palettes": {
+  "ios_unique_4role": 43,
+  "android_unique_4role": 52
+ },
+ "unique_hex": {
+  "ios": 59,
+  "android": 63,
+  "shared": 16,
+  "ios_only": [
+   "#003b66",
+   "#0070b8",
+   "#007538",
+   "#007739",
+   "#007dba",
+   "#0b151e",
+   "#0f73a8",
+   "#136283",
+   "#1591b7",
+   "#1875be",
+   "#33408f",
+   "#363e8a",
+   "#36408a",
+   "#3d6191",
+   "#3f50b6",
+   "#4050b6",
+   "#405278",
+   "#4052b5",
+   "#408fcc",
+   "#424a54",
+   "#4252b0",
+   "#539cc4",
+   "#546e80",
+   "#547fba",
+   "#5480ba",
+   "#5b9bc8",
+   "#5c5b59",
+   "#5d5b59",
+   "#8c0a2e",
+   "#9e0b0f",
+   "#ab4021",
+   "#b01e35",
+   "#b01f36",
+   "#b04f0f",
+   "#ba2112",
+   "#bd3b0f",
+   "#c75c14",
+   "#cccccc",
+   "#d80000",
+   "#f7a430",
+   "#ff0000",
+   "#ff6900",
+   "#ffeb00"
+  ],
+  "android_only": [
+   "#007639",
+   "#007cba",
+   "#00919e",
+   "#013a67",
+   "#040404",
+   "#0b151d",
+   "#0d0d0e",
+   "#149ce5",
+   "#152c4f",
+   "#1591b5",
+   "#1b6bad",
+   "#1e4d82",
+   "#1f4d83",
+   "#255e97",
+   "#2c47a0",
+   "#2e6c90",
+   "#32408f",
+   "#353f8a",
+   "#357dad",
+   "#3c6292",
+   "#3e8e75",
+   "#3f5177",
+   "#3f51b5",
+   "#408fcb",
+   "#434953",
+   "#4351af",
+   "#4891b3",
+   "#4e5dca",
+   "#536e7f",
+   "#557fba",
+   "#5ab1c3",
+   "#779dcf",
+   "#807c7c",
+   "#8d092d",
+   "#97b8ed",
+   "#9fbfef",
+   "#a6371e",
+   "#ab4022",
+   "#ac4e0f",
+   "#b11e35",
+   "#b92111",
+   "#bc3b10",
+   "#c00030",
+   "#c75d14",
+   "#cf000e",
+   "#da4725",
+   "#f5f5f5"
+  ],
+  "android_near_ios": [
+   [
+    "#ab4022",
+    "#ab4021",
+    0.0008
+   ],
+   [
+    "#557fba",
+    "#547fba",
+    0.0011
+   ],
+   [
+    "#32408f",
+    "#33408f",
+    0.0013
+   ],
+   [
+    "#408fcb",
+    "#408fcc",
+    0.0015
+   ],
+   [
+    "#bc3b10",
+    "#bd3b0f",
+    0.002
+   ],
+   [
+    "#0b151d",
+    "#0b151e",
+    0.0021
+   ],
+   [
+    "#b11e35",
+    "#b01e35",
+    0.0021
+   ],
+   [
+    "#536e7f",
+    "#546e80",
+    0.0022
+   ],
+   [
+    "#b11e35",
+    "#b01f36",
+    0.0022
+   ],
+   [
+    "#b92111",
+    "#ba2112",
+    0.0022
+   ],
+   [
+    "#c75d14",
+    "#c75c14",
+    0.0022
+   ],
+   [
+    "#8d092d",
+    "#8c0a2e",
+    0.0025
+   ],
+   [
+    "#353f8a",
+    "#363e8a",
+    0.0028
+   ],
+   [
+    "#007cba",
+    "#007dba",
+    0.0029
+   ],
+   [
+    "#4351af",
+    "#4252b0",
+    0.0029
+   ],
+   [
+    "#557fba",
+    "#5480ba",
+    0.0029
+   ],
+   [
+    "#3c6292",
+    "#3d6191",
+    0.003
+   ],
+   [
+    "#3f51b5",
+    "#3f50b6",
+    0.003
+   ],
+   [
+    "#3f51b5",
+    "#4052b5",
+    0.003
+   ],
+   [
+    "#007639",
+    "#007538",
+    0.0031
+   ],
+   [
+    "#1591b5",
+    "#1591b7",
+    0.0031
+   ],
+   [
+    "#3f51b5",
+    "#4050b6",
+    0.0031
+   ],
+   [
+    "#007639",
+    "#007739",
+    0.0032
+   ],
+   [
+    "#353f8a",
+    "#36408a",
+    0.0032
+   ],
+   [
+    "#434953",
+    "#424a54",
+    0.0032
+   ],
+   [
+    "#3f5177",
+    "#405278",
+    0.0036
+   ],
+   [
+    "#013a67",
+    "#003b66",
+    0.0038
+   ],
+   [
+    "#00919e",
+    "#15919d",
+    0.004
+   ],
+   [
+    "#ac4e0f",
+    "#b04f0f",
+    0.0084
+   ],
+   [
+    "#353f8a",
+    "#33408f",
+    0.0087
+   ],
+   [
+    "#3f51b5",
+    "#4252b0",
+    0.0094
+   ],
+   [
+    "#32408f",
+    "#36408a",
+    0.0097
+   ],
+   [
+    "#4351af",
+    "#4052b5",
+    0.0101
+   ],
+   [
+    "#32408f",
+    "#363e8a",
+    0.0103
+   ]
+  ]
+ },
+ "android_contrast_fails": {
+  "button label": 19,
+  "selected tab": 25,
+  "nav title": 9
+ },
+ "markets_fully_matching_shared": [],
+ "markets": [
+  {
+   "code": "BS",
+   "name": "Baltimore Sun",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 1.0
+    },
+    "tabactive": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#ffffff",
+     "bucket": "differ",
+     "dE": 1.0
+    },
+    "action": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#779dcf"
+   },
+   "shared_match": 4,
+   "shared_total": 7
+  },
+  {
+   "code": "TBAN",
+   "name": "Bay Area News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "bucket": "differ",
+     "dE": 0.1301
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "bucket": "differ",
+     "dE": 0.1301
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#9fbfef",
+     "bucket": "differ",
+     "dE": 0.8018
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "bucket": "differ",
+     "dE": 0.1301
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "bucket": "differ",
+     "dE": 0.1301
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#152c4f",
+    "continue": "#152c4f"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TBH",
+   "name": "Boston Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#255e97",
+     "bucket": "differ",
+     "dE": 0.0582
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#255e97",
+     "bucket": "differ",
+     "dE": 0.0582
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.8403
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#255e97",
+     "bucket": "differ",
+     "dE": 0.3657
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#9dd1f5",
+     "android": "#255e97",
+     "bucket": "differ",
+     "dE": 0.3657
+    },
+    "accent": {
+     "ios": "#9dd1f5",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.8403
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#255e97",
+    "continue": "#255e97"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TBHS",
+   "name": "Boston Herald Sports",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#c00030",
+     "bucket": "close",
+     "dE": 0.0322
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#c00030",
+     "bucket": "close",
+     "dE": 0.0322
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.4315
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#b01e35",
+     "android": "#c00030",
+     "bucket": "close",
+     "dE": 0.032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#b01e35",
+     "android": "#c00030",
+     "bucket": "close",
+     "dE": 0.032
+    },
+    "accent": {
+     "ios": "#b01e35",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.5244
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#c00030",
+    "continue": "#c00030"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TBCP",
+   "name": "Boulder County Preps",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "accent": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "bucket": "near",
+     "dE": 0.003
+    }
+   },
+   "ios_only": {
+    "header": "#4052b5"
+   },
+   "android_only": {
+    "statusbar": "#3f51b5",
+    "continue": "#3f51b5"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TBE",
+   "name": "Broomfield Enterprise News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "bucket": "differ",
+     "dE": 0.0851
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "bucket": "differ",
+     "dE": 0.0851
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "bucket": "differ",
+     "dE": 0.0851
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "bucket": "differ",
+     "dE": 0.0851
+    },
+    "accent": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "bucket": "differ",
+     "dE": 0.0851
+    }
+   },
+   "ios_only": {
+    "header": "#0070b8"
+   },
+   "android_only": {
+    "statusbar": "#4351af",
+    "continue": "#4351af"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TB",
+   "name": "Buffzone",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "accent": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "bucket": "near",
+     "dE": 0.0029
+    }
+   },
+   "ios_only": {
+    "header": "#4252b0"
+   },
+   "android_only": {
+    "statusbar": "#4351af",
+    "continue": "#4351af"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TCCDR",
+   "name": "Canon City Daily Record",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#36408a"
+   },
+   "android_only": {
+    "statusbar": "#353f8a",
+    "continue": "#353f8a"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "CT",
+   "name": "Chicago Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#9dd1f5",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#9dd1f5",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#9dd1f5",
+     "android": "#004e87",
+     "bucket": "differ",
+     "dE": 0.4235
+    },
+    "accent": {
+     "ios": "#9dd1f5",
+     "android": "#9dd1f5",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#004e87",
+    "continue": "#1e4d82"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TCE",
+   "name": "Chico Enterprise Record",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#1f4d83",
+    "continue": "#1f4d83"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TCHW",
+   "name": "Colorado Hometown Weekly",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#363e8a"
+   },
+   "android_only": {
+    "statusbar": "#353f8a",
+    "continue": "#353f8a"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TDB",
+   "name": "Daily Breeze",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2e6c90",
+     "bucket": "differ",
+     "dE": 0.0981
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#2e6c90",
+     "bucket": "differ",
+     "dE": 0.0981
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#6bd1e6",
+     "bucket": "differ",
+     "dE": 0.0551
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#2e6c90",
+     "bucket": "differ",
+     "dE": 0.3301
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#9dd1f5",
+     "android": "#2e6c90",
+     "bucket": "differ",
+     "dE": 0.3301
+    },
+    "accent": {
+     "ios": "#9dd1f5",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.2325
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#2e6c90",
+    "continue": "#2e6c90"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TDF",
+   "name": "Daily Freeman",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1b6bad",
+     "bucket": "differ",
+     "dE": 0.1006
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#1b6bad",
+     "bucket": "differ",
+     "dE": 0.1006
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.8403
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#1b6bad",
+     "bucket": "differ",
+     "dE": 0.3263
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#9dd1f5",
+     "android": "#1b6bad",
+     "bucket": "differ",
+     "dE": 0.3263
+    },
+    "accent": {
+     "ios": "#9dd1f5",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.2325
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#1b6bad",
+    "continue": "#1b6bad"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TDLW",
+   "name": "Daily Local Weschester",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "accent": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "bucket": "near",
+     "dE": 0.0031
+    }
+   },
+   "ios_only": {
+    "header": "#1591b7"
+   },
+   "android_only": {
+    "statusbar": "#1591b5",
+    "continue": "#1591b5"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "DP",
+   "name": "Daily Press",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#005f7e",
+     "android": "#4fa8d1",
+     "bucket": "differ",
+     "dE": 0.2401
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#005f7e",
+     "android": "#4fa8d1",
+     "bucket": "differ",
+     "dE": 0.2401
+    }
+   },
+   "ios_only": {
+    "header": "#4050b6"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#4fa8d1"
+   },
+   "shared_match": 5,
+   "shared_total": 7
+  },
+  {
+   "code": "TDCD",
+   "name": "Delaware County Daily Times",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "bucket": "close",
+     "dE": 0.0444
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "bucket": "close",
+     "dE": 0.0444
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "bucket": "close",
+     "dE": 0.0444
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "bucket": "close",
+     "dE": 0.0444
+    },
+    "accent": {
+     "ios": "#5b9bc8",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.6714
+    }
+   },
+   "ios_only": {
+    "header": "#5b9bc8"
+   },
+   "android_only": {
+    "statusbar": "#4891b3",
+    "continue": "#4891b3"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TDPS",
+   "name": "Denver Post Sports",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "accent": {
+     "ios": "#c75c14",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.1804
+    }
+   },
+   "ios_only": {
+    "header": "#c75c14"
+   },
+   "android_only": {
+    "statusbar": "#c75d14",
+    "continue": "#c75d14"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TEPTG",
+   "name": "Estes Park Trail Gazette",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "bucket": "differ",
+     "dE": 0.251
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "bucket": "differ",
+     "dE": 0.251
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "bucket": "differ",
+     "dE": 0.251
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "bucket": "differ",
+     "dE": 0.251
+    },
+    "accent": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "bucket": "differ",
+     "dE": 0.251
+    }
+   },
+   "ios_only": {
+    "header": "#33408f"
+   },
+   "android_only": {
+    "statusbar": "#3e8e75",
+    "continue": "#3e8e75"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TETS",
+   "name": "Eureka Times Standard",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#36408a"
+   },
+   "android_only": {
+    "statusbar": "#353f8a",
+    "continue": "#353f8a"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TFMT",
+   "name": "Fort Morgan Times",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "bucket": "near",
+     "dE": 0.0013
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "bucket": "near",
+     "dE": 0.0013
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "bucket": "near",
+     "dE": 0.0013
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "bucket": "near",
+     "dE": 0.0013
+    },
+    "accent": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "bucket": "near",
+     "dE": 0.0013
+    }
+   },
+   "ios_only": {
+    "header": "#33408f"
+   },
+   "android_only": {
+    "statusbar": "#32408f",
+    "continue": "#32408f"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TGT",
+   "name": "Greeley Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "accent": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "bucket": "near",
+     "dE": 0.0022
+    }
+   },
+   "ios_only": {
+    "header": "#546e80"
+   },
+   "android_only": {
+    "statusbar": "#536e7f",
+    "continue": "#536e7f"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "HC",
+   "name": "Hartford Courant",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#4fa8d1"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TIVDB",
+   "name": "Inland Valley Daily Bulletin",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#cccccc",
+     "android": "#ffffff",
+     "bucket": "differ",
+     "dE": 0.1548
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#807c7c",
+     "bucket": "differ",
+     "dE": 0.5898
+    },
+    "tabinactive": {
+     "ios": "#cccccc",
+     "android": "#ffffff",
+     "bucket": "differ",
+     "dE": 0.1548
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#004e87",
+    "continue": "#004e87"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TJA",
+   "name": "Journal Advocate",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#36408a"
+   },
+   "android_only": {
+    "statusbar": "#353f8a",
+    "continue": "#353f8a"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TLBPT",
+   "name": "Long Beach Press-Telegram",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#97b8ed",
+     "bucket": "differ",
+     "dE": 0.7822
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#2c47a0",
+    "continue": "#2c47a0"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TLTC",
+   "name": "Longmont Times-Call for Mobile",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "accent": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    }
+   },
+   "ios_only": {
+    "header": "#007dba"
+   },
+   "android_only": {
+    "statusbar": "#007cba",
+    "continue": "#007cba"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TLADN",
+   "name": "Los Angeles Daily News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "accent": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    }
+   },
+   "ios_only": {
+    "header": "#ab4021"
+   },
+   "android_only": {
+    "statusbar": "#ab4022",
+    "continue": "#ab4022"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TLR",
+   "name": "Loveland Reporter Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "bucket": "differ",
+     "dE": 0.2781
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "bucket": "differ",
+     "dE": 0.2781
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "bucket": "differ",
+     "dE": 0.2781
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "bucket": "differ",
+     "dE": 0.2781
+    },
+    "accent": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "bucket": "differ",
+     "dE": 0.2781
+    }
+   },
+   "ios_only": {
+    "header": "#ab4021"
+   },
+   "android_only": {
+    "statusbar": "#4e5dca",
+    "continue": "#4e5dca"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TLS",
+   "name": "Lowell Sun News for Mobile",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "accent": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    }
+   },
+   "ios_only": {
+    "header": "#ab4021"
+   },
+   "android_only": {
+    "statusbar": "#ab4022",
+    "continue": "#ab4022"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TMD",
+   "name": "Macomb Daily",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "accent": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    }
+   },
+   "ios_only": {
+    "header": "#405278"
+   },
+   "android_only": {
+    "statusbar": "#3f5177",
+    "continue": "#3f5177"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TMI",
+   "name": "Marin Independent Journal News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "bucket": "close",
+     "dE": 0.0156
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#1f4d83",
+    "continue": "#1f4d83"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TMCH",
+   "name": "Monterey County Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "bucket": "near",
+     "dE": 0.003
+    },
+    "accent": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "bucket": "near",
+     "dE": 0.003
+    }
+   },
+   "ios_only": {
+    "header": "#3d6191"
+   },
+   "android_only": {
+    "statusbar": "#3c6292",
+    "continue": "#3c6292"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "MC",
+   "name": "Morning Call",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "bucket": "close",
+     "dE": 0.0341
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "bucket": "close",
+     "dE": 0.0341
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "bucket": "close",
+     "dE": 0.0341
+    },
+    "accent": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "bucket": "close",
+     "dE": 0.0341
+    }
+   },
+   "ios_only": {
+    "header": "#5c5b59"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#4fa8d1"
+   },
+   "shared_match": 4,
+   "shared_total": 7
+  },
+  {
+   "code": "NYDN",
+   "name": "New York Daily News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#333333",
+     "android": "#333333",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#333333",
+     "android": "#333333",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#4050b6"
+   },
+   "android_only": {
+    "statusbar": "#333333",
+    "continue": "#4591e0"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TOD",
+   "name": "Oneida Daily Dispatch",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "accent": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "bucket": "near",
+     "dE": 0.0022
+    }
+   },
+   "ios_only": {
+    "header": "#ba2112"
+   },
+   "android_only": {
+    "statusbar": "#b92111",
+    "continue": "#b92111"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "OCR",
+   "name": "Orange County Register",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "bucket": "near",
+     "dE": 0.0084
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "bucket": "near",
+     "dE": 0.0084
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "bucket": "near",
+     "dE": 0.0084
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "bucket": "near",
+     "dE": 0.0084
+    },
+    "accent": {
+     "ios": "#b04f0f",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.2277
+    }
+   },
+   "ios_only": {
+    "header": "#b04f0f"
+   },
+   "android_only": {
+    "statusbar": "#ac4e0f",
+    "continue": "#ac4e0f"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "OS",
+   "name": "Orlando Sentinel",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#333333",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.3211
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#15919d",
+     "android": "#00919e",
+     "bucket": "near",
+     "dE": 0.004
+    },
+    "tabinactive": {
+     "ios": "#333333",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.3211
+    },
+    "action": {
+     "ios": "#15919d",
+     "android": "#00919e",
+     "bucket": "near",
+     "dE": 0.004
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#15919d",
+     "android": "#15919d",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#15919d",
+     "android": "#ffffff",
+     "bucket": "differ",
+     "dE": 0.4111
+    }
+   },
+   "ios_only": {
+    "header": "#1875be"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#15919d"
+   },
+   "shared_match": 4,
+   "shared_total": 7
+  },
+  {
+   "code": "PSN",
+   "name": "Pasadena Star News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.7282
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "accent": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.139
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#a6371e",
+    "continue": "#a6371e"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "PAC",
+   "name": "Petaluma Argus-Courier",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#ffea00",
+     "android": "#ffea00",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#a06318",
+     "android": "#ffea00",
+     "bucket": "differ",
+     "dE": 0.3903
+    }
+   },
+   "ios_only": {
+    "header": "#a06318"
+   },
+   "android_only": {
+    "statusbar": "#a06318",
+    "continue": "#a06318"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TRE",
+   "name": "Reading Eagle",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#004e87"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TRDF",
+   "name": "Redlands Daily Facts",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.0547
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#97b8ed",
+     "bucket": "differ",
+     "dE": 0.0667
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.4157
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#9dd1f5",
+     "android": "#2c47a0",
+     "bucket": "differ",
+     "dE": 0.4157
+    },
+    "accent": {
+     "ios": "#9dd1f5",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.2325
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#2c47a0",
+    "continue": "#2c47a0"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TRH",
+   "name": "Republican-Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#424a54"
+   },
+   "android_only": {
+    "statusbar": "#434953",
+    "continue": "#434953"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TROT",
+   "name": "Royal Oak Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "bucket": "near",
+     "dE": 0.0038
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "bucket": "near",
+     "dE": 0.0038
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "bucket": "near",
+     "dE": 0.0038
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "bucket": "near",
+     "dE": 0.0038
+    },
+    "accent": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "bucket": "near",
+     "dE": 0.0038
+    }
+   },
+   "ios_only": {
+    "header": "#003b66"
+   },
+   "android_only": {
+    "statusbar": "#013a67",
+    "continue": "#013a67"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "SGVT",
+   "name": "San Gabriel Valley Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#b11e35",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#b11e35",
+     "bucket": "near",
+     "dE": 0.0022
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.139
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#b11e35",
+     "bucket": "differ",
+     "dE": 0.2219
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ff6900",
+     "android": "#b11e35",
+     "bucket": "differ",
+     "dE": 0.2219
+    },
+    "accent": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.139
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#b11e35",
+    "continue": "#b11e35"
+   },
+   "shared_match": 4,
+   "shared_total": 7
+  },
+  {
+   "code": "TSCS",
+   "name": "Santa Cruz Sentinel",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#36408a"
+   },
+   "android_only": {
+    "statusbar": "#353f8a",
+    "continue": "#353f8a"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TSAR",
+   "name": "Saratogian",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#f5f5f5",
+     "bucket": "close",
+     "dE": 0.0298
+    },
+    "navtext": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#f5f5f5",
+     "bucket": "close",
+     "dE": 0.0298
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#00919e",
+     "bucket": "differ",
+     "dE": 0.2008
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#00919e",
+     "bucket": "differ",
+     "dE": 0.2008
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#15919d",
+     "bucket": "differ",
+     "dE": 0.2021
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#f5f5f5",
+     "bucket": "differ",
+     "dE": 0.5661
+    }
+   },
+   "ios_only": {
+    "header": "#5d5b59"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#000000"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TSEB",
+   "name": "Sentinel and Enterprise",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "accent": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    }
+   },
+   "ios_only": {
+    "header": "#bd3b0f"
+   },
+   "android_only": {
+    "statusbar": "#bc3b10",
+    "continue": "#bc3b10"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TSV",
+   "name": "Silicon Valley",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.6004
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.6004
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#6bd1e6",
+     "bucket": "differ",
+     "dE": 0.3972
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#557fba",
+    "continue": "#557fba"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "SIT",
+   "name": "Sonoma Index Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "bucket": "near",
+     "dE": 0.0016
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "bucket": "near",
+     "dE": 0.0016
+    },
+    "tabactive": {
+     "ios": "#ffeb00",
+     "android": "#149ce5",
+     "bucket": "differ",
+     "dE": 0.4169
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "bucket": "near",
+     "dE": 0.0016
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "bucket": "near",
+     "dE": 0.0016
+    },
+    "accent": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "bucket": "near",
+     "dE": 0.0016
+    }
+   },
+   "ios_only": {
+    "header": "#0f73a9"
+   },
+   "android_only": {
+    "statusbar": "#0f73a9",
+    "continue": "#0f73a9"
+   },
+   "shared_match": 5,
+   "shared_total": 7
+  },
+  {
+   "code": "TSPPP",
+   "name": "St. Paul Pioneer Press",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#6bd1e6",
+     "bucket": "differ",
+     "dE": 0.8132
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.1769
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#557fba",
+    "continue": "#557fba"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "SS",
+   "name": "Sun Sentinel",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#761113",
+     "android": "#761113",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#761113",
+     "android": "#761113",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#761113",
+     "android": "#761113",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#761113",
+     "android": "#761113",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#136283"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#761113"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TCV",
+   "name": "The Citizens' Voice",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#424a54"
+   },
+   "android_only": {
+    "statusbar": "#434953",
+    "continue": "#434953"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TDC",
+   "name": "The Daily Camera",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#007538",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#007538",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#007538",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#007538",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0031
+    },
+    "accent": {
+     "ios": "#007538",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0031
+    }
+   },
+   "ios_only": {
+    "header": "#007538"
+   },
+   "android_only": {
+    "statusbar": "#007639",
+    "continue": "#007639"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TDP",
+   "name": "The Denver Post",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "bucket": "close",
+     "dE": 0.0498
+    },
+    "tabinactive": {
+     "ios": "#999999",
+     "android": "#ffffff",
+     "bucket": "differ",
+     "dE": 0.317
+    },
+    "action": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "bucket": "close",
+     "dE": 0.0498
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "bucket": "close",
+     "dE": 0.0498
+    },
+    "accent": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "bucket": "close",
+     "dE": 0.0498
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#000000"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TEBT",
+   "name": "The East Bay Times",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#5480ba",
+     "android": "#557fba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#5480ba",
+     "android": "#557fba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "tabactive": {
+     "ios": "#6bd1e6",
+     "android": "#6bd1e6",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#6bd1e6",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.2285
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#6bd1e6",
+     "android": "#557fba",
+     "bucket": "differ",
+     "dE": 0.2285
+    },
+    "accent": {
+     "ios": "#6bd1e6",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.2299
+    }
+   },
+   "ios_only": {
+    "header": "#547fba"
+   },
+   "android_only": {
+    "statusbar": "#557fba",
+    "continue": "#557fba"
+   },
+   "shared_match": 5,
+   "shared_total": 7
+  },
+  {
+   "code": "TMN",
+   "name": "The Mercury News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#6bd1e6",
+     "bucket": "differ",
+     "dE": 0.8132
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#004e87",
+    "continue": "#004e87"
+   },
+   "shared_match": 5,
+   "shared_total": 7
+  },
+  {
+   "code": "TMJ",
+   "name": "The Morning Journal",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "accent": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    }
+   },
+   "ios_only": {
+    "header": "#bd3b0f"
+   },
+   "android_only": {
+    "statusbar": "#bc3b10",
+    "continue": "#bc3b10"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TMS",
+   "name": "The Morning Sun",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    },
+    "accent": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "bucket": "near",
+     "dE": 0.0036
+    }
+   },
+   "ios_only": {
+    "header": "#405278"
+   },
+   "android_only": {
+    "statusbar": "#3f5177",
+    "continue": "#3f5177"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TNH",
+   "name": "The News Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    },
+    "accent": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "bucket": "near",
+     "dE": 0.0008
+    }
+   },
+   "ios_only": {
+    "header": "#ab4021"
+   },
+   "android_only": {
+    "statusbar": "#ab4022",
+    "continue": "#ab4022"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TOP",
+   "name": "The Oakland Press",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#0b151e",
+     "android": "#0b151d",
+     "bucket": "near",
+     "dE": 0.0021
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#0b151e",
+     "android": "#0b151d",
+     "bucket": "near",
+     "dE": 0.0021
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "bucket": "differ",
+     "dE": 0.3051
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "bucket": "differ",
+     "dE": 0.3051
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "bucket": "differ",
+     "dE": 0.3051
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "bucket": "differ",
+     "dE": 0.3051
+    }
+   },
+   "ios_only": {
+    "header": "#0b151e"
+   },
+   "android_only": {
+    "statusbar": "#0b151d",
+    "continue": "#5ab1c3"
+   },
+   "shared_match": 4,
+   "shared_total": 7
+  },
+  {
+   "code": "TPM",
+   "name": "The Pottstown Mercury",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "accent": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    }
+   },
+   "ios_only": {
+    "header": "#bd3b0f"
+   },
+   "android_only": {
+    "statusbar": "#bc3b10",
+    "continue": "#bc3b10"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TPD",
+   "name": "The Press Democrat",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#999999",
+     "android": "#999999",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#000000",
+     "android": "#999999",
+     "bucket": "differ",
+     "dE": 0.683
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#000000",
+     "android": "#999999",
+     "bucket": "differ",
+     "dE": 0.683
+    },
+    "accent": {
+     "ios": "#000000",
+     "android": "#999999",
+     "bucket": "differ",
+     "dE": 0.683
+    }
+   },
+   "ios_only": {
+    "header": "#9e0b0f"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#000000"
+   },
+   "shared_match": 5,
+   "shared_total": 7
+  },
+  {
+   "code": "TPE",
+   "name": "The Press-Enterprise",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.7282
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "accent": {
+     "ios": "#ff6900",
+     "android": "#da4725",
+     "bucket": "differ",
+     "dE": 0.1048
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#a6371e",
+    "continue": "#a6371e"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TR",
+   "name": "The Reporter for Mobile",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    },
+    "accent": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "bucket": "near",
+     "dE": 0.0029
+    }
+   },
+   "ios_only": {
+    "header": "#007dba"
+   },
+   "android_only": {
+    "statusbar": "#007cba",
+    "continue": "#007cba"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TSBS",
+   "name": "The San Bernardino Sun",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "bucket": "differ",
+     "dE": 0.7282
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "accent": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.139
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#a6371e",
+    "continue": "#a6371e"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "SDUT",
+   "name": "The San Diego Union-Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#000000"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#000000"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TSS",
+   "name": "The Standard-Speaker",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#424a54"
+   },
+   "android_only": {
+    "statusbar": "#434953",
+    "continue": "#434953"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TTH",
+   "name": "The Times Herald",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "accent": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    }
+   },
+   "ios_only": {
+    "header": "#bd3b0f"
+   },
+   "android_only": {
+    "statusbar": "#bc3b10",
+    "continue": "#bc3b10"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TT",
+   "name": "The Trentonian",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "bucket": "differ",
+     "dE": 0.1513
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "bucket": "differ",
+     "dE": 0.1513
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#0d0d0e",
+     "bucket": "differ",
+     "dE": 0.1595
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "bucket": "differ",
+     "dE": 0.1513
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "bucket": "differ",
+     "dE": 0.1513
+    },
+    "accent": {
+     "ios": "#004e87",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.4245
+    }
+   },
+   "ios_only": {
+    "header": "#004e87"
+   },
+   "android_only": {
+    "statusbar": "#357dad",
+    "continue": "#357dad"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TRR",
+   "name": "The Troy Record",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    },
+    "accent": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "bucket": "near",
+     "dE": 0.002
+    }
+   },
+   "ios_only": {
+    "header": "#bd3b0f"
+   },
+   "android_only": {
+    "statusbar": "#bc3b10",
+    "continue": "#bc3b10"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TTT",
+   "name": "Times-Tribune",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#424a54"
+   },
+   "android_only": {
+    "statusbar": "#434953",
+    "continue": "#434953"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TUDJ",
+   "name": "Ukiah Daily Journal",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "bucket": "differ",
+     "dE": 0.2295
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "bucket": "differ",
+     "dE": 0.2295
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "bucket": "differ",
+     "dE": 0.2295
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "bucket": "differ",
+     "dE": 0.2295
+    },
+    "accent": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "bucket": "differ",
+     "dE": 0.2295
+    }
+   },
+   "ios_only": {
+    "header": "#408fcc"
+   },
+   "android_only": {
+    "statusbar": "#32408f",
+    "continue": "#32408f"
+   },
+   "shared_match": 3,
+   "shared_total": 7
+  },
+  {
+   "code": "TVR",
+   "name": "Vacaville Reporter",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "bucket": "near",
+     "dE": 0.0015
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "bucket": "near",
+     "dE": 0.0015
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "bucket": "near",
+     "dE": 0.0015
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "bucket": "near",
+     "dE": 0.0015
+    },
+    "accent": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "bucket": "near",
+     "dE": 0.0015
+    }
+   },
+   "ios_only": {
+    "header": "#408fcc"
+   },
+   "android_only": {
+    "statusbar": "#408fcb",
+    "continue": "#408fcb"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TVTH",
+   "name": "Vallejo Times Herald News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "bucket": "near",
+     "dE": 0.0025
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "bucket": "near",
+     "dE": 0.0025
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "bucket": "near",
+     "dE": 0.0025
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "bucket": "near",
+     "dE": 0.0025
+    },
+    "accent": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "bucket": "near",
+     "dE": 0.0025
+    }
+   },
+   "ios_only": {
+    "header": "#8c0a2e"
+   },
+   "android_only": {
+    "statusbar": "#8d092d",
+    "continue": "#8d092d"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "VP",
+   "name": "Virginian Pilot",
+   "template": "legacy",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "navtext": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabactive": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "alert": {
+     "ios": "#d80000",
+     "android": "#cf000e",
+     "bucket": "close",
+     "dE": 0.0193
+    },
+    "buy": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "accent": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "bucket": "match",
+     "dE": 0.0
+    }
+   },
+   "ios_only": {
+    "header": "#3f50b6"
+   },
+   "android_only": {
+    "statusbar": "#000000",
+    "continue": "#005f7e"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  },
+  {
+   "code": "TWDN",
+   "name": "Whittier Daily News",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.0506
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#040404",
+     "bucket": "differ",
+     "dE": 0.6264
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "bucket": "differ",
+     "dE": 0.2131
+    },
+    "accent": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "bucket": "differ",
+     "dE": 0.139
+    }
+   },
+   "ios_only": {
+    "header": "#b01f36"
+   },
+   "android_only": {
+    "statusbar": "#a6371e",
+    "continue": "#a6371e"
+   },
+   "shared_match": 2,
+   "shared_total": 7
+  },
+  {
+   "code": "TWDD",
+   "name": "Woodland Daily Democrat",
+   "template": "standard",
+   "roles": {
+    "navbar": {
+     "ios": "#007739",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "navtext": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabbar": {
+     "ios": "#007739",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "tabinactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "bucket": "match",
+     "dE": 0.0
+    },
+    "action": {
+     "ios": "#007739",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "alert": {
+     "ios": "#ff0000",
+     "android": "#cf000e",
+     "bucket": "differ",
+     "dE": 0.0987
+    },
+    "buy": {
+     "ios": "#007739",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0032
+    },
+    "accent": {
+     "ios": "#007739",
+     "android": "#007639",
+     "bucket": "near",
+     "dE": 0.0032
+    }
+   },
+   "ios_only": {
+    "header": "#007739"
+   },
+   "android_only": {
+    "statusbar": "#007639",
+    "continue": "#007639"
+   },
+   "shared_match": 6,
+   "shared_total": 7
+  }
+ ]
+}

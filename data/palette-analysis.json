@@ -1,0 +1,7058 @@
+{
+ "source": "ios-tronckit @ e30ad2585, extracted 2026-10-08",
+ "roles": [
+  "navbar",
+  "navtext",
+  "tabbar",
+  "tabactive",
+  "action",
+  "header",
+  "alert"
+ ],
+ "summary": {
+  "nav": 6,
+  "tab": 34,
+  "tabun": 0,
+  "action": 22,
+  "header": 6,
+  "alert": 70
+ },
+ "palettes": [
+  {
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TBAN",
+    "TCE",
+    "TLBPT",
+    "TMI",
+    "TSPPP",
+    "TMN",
+    "TT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TBH",
+    "CT",
+    "TDB",
+    "TDF",
+    "TRDF"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "PSN",
+    "SGVT",
+    "TPE",
+    "TSBS",
+    "TWDN"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TSEB",
+    "TMJ",
+    "TPM",
+    "TTH",
+    "TRR"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#36408a",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TCCDR",
+    "TETS",
+    "TJA",
+    "TSCS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ab4021",
+    "navtext": "#ffffff",
+    "tabbar": "#ab4021",
+    "tabactive": "#000000",
+    "action": "#ab4021",
+    "header": "#ab4021",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TLADN",
+    "TLR",
+    "TLS",
+    "TNH"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#424a54",
+    "navtext": "#ffffff",
+    "tabbar": "#424a54",
+    "tabactive": "#000000",
+    "action": "#424a54",
+    "header": "#424a54",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TRH",
+    "TCV",
+    "TSS",
+    "TTT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#33408f",
+    "navtext": "#ffffff",
+    "tabbar": "#33408f",
+    "tabactive": "#000000",
+    "action": "#33408f",
+    "header": "#33408f",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TEPTG",
+    "TFMT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#007dba",
+    "navtext": "#ffffff",
+    "tabbar": "#007dba",
+    "tabactive": "#000000",
+    "action": "#007dba",
+    "header": "#007dba",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TLTC",
+    "TR"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#405278",
+    "navtext": "#ffffff",
+    "tabbar": "#405278",
+    "tabactive": "#000000",
+    "action": "#405278",
+    "header": "#405278",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TMD",
+    "TMS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TRE",
+    "TSV"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#408fcc",
+    "navtext": "#ffffff",
+    "tabbar": "#408fcc",
+    "tabactive": "#000000",
+    "action": "#408fcc",
+    "header": "#408fcc",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TUDJ",
+    "TVR"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#ffffff",
+    "tabactive": "#daa520",
+    "action": "#daa520",
+    "header": "#000000",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "BS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#004e87",
+    "action": "#b01e35",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TBHS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#4052b5",
+    "navtext": "#ffffff",
+    "tabbar": "#4052b5",
+    "tabactive": "#000000",
+    "action": "#4052b5",
+    "header": "#4052b5",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TBCP"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#0070b8",
+    "navtext": "#ffffff",
+    "tabbar": "#0070b8",
+    "tabactive": "#000000",
+    "action": "#0070b8",
+    "header": "#0070b8",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TBE"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#4252b0",
+    "navtext": "#ffffff",
+    "tabbar": "#4252b0",
+    "tabactive": "#000000",
+    "action": "#4252b0",
+    "header": "#4252b0",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TB"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#363e8a",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TCHW"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#1591b7",
+    "navtext": "#ffffff",
+    "tabbar": "#1591b7",
+    "tabactive": "#000000",
+    "action": "#1591b7",
+    "header": "#1591b7",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TDLW"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#005f7e",
+    "action": "#005f7e",
+    "header": "#4050b6",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "DP"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#5b9bc8",
+    "navtext": "#ffffff",
+    "tabbar": "#5b9bc8",
+    "tabactive": "#000000",
+    "action": "#5b9bc8",
+    "header": "#5b9bc8",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TDCD"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#c75c14",
+    "navtext": "#ffffff",
+    "tabbar": "#c75c14",
+    "tabactive": "#000000",
+    "action": "#c75c14",
+    "header": "#c75c14",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TDPS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#546e80",
+    "navtext": "#ffffff",
+    "tabbar": "#546e80",
+    "tabactive": "#000000",
+    "action": "#546e80",
+    "header": "#546e80",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TGT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#4fa8d1",
+    "action": "#4fa8d1",
+    "header": "#000000",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "HC"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#cccccc",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TIVDB"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#3d6191",
+    "navtext": "#ffffff",
+    "tabbar": "#3d6191",
+    "tabactive": "#000000",
+    "action": "#3d6191",
+    "header": "#3d6191",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TMCH"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#539cc4",
+    "action": "#539cc4",
+    "header": "#5c5b59",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "MC"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#333333",
+    "tabbar": "#ffffff",
+    "tabactive": "#4591e0",
+    "action": "#4591e0",
+    "header": "#4050b6",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "NYDN"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ba2112",
+    "navtext": "#ffffff",
+    "tabbar": "#ba2112",
+    "tabactive": "#000000",
+    "action": "#ba2112",
+    "header": "#ba2112",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TOD"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#b04f0f",
+    "navtext": "#ffffff",
+    "tabbar": "#b04f0f",
+    "tabactive": "#000000",
+    "action": "#b04f0f",
+    "header": "#b04f0f",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "OCR"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#333333",
+    "tabbar": "#ffffff",
+    "tabactive": "#15919d",
+    "action": "#15919d",
+    "header": "#1875be",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "OS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#a06318",
+    "navtext": "#ffffff",
+    "tabbar": "#a06318",
+    "tabactive": "#ffea00",
+    "action": "#a06318",
+    "header": "#a06318",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "PAC"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#003b66",
+    "navtext": "#ffffff",
+    "tabbar": "#003b66",
+    "tabactive": "#000000",
+    "action": "#003b66",
+    "header": "#003b66",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TROT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#5d5b59",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TSAR"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#0f73a8",
+    "navtext": "#ffffff",
+    "tabbar": "#0f73a8",
+    "tabactive": "#ffeb00",
+    "action": "#0f73a8",
+    "header": "#0f73a9",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "SIT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#761113",
+    "action": "#761113",
+    "header": "#136283",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "SS"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#007538",
+    "navtext": "#ffffff",
+    "tabbar": "#007538",
+    "tabactive": "#000000",
+    "action": "#007538",
+    "header": "#007538",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TDC"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#f7a430",
+    "action": "#f7a430",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TDP"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#5480ba",
+    "navtext": "#ffffff",
+    "tabbar": "#5480ba",
+    "tabactive": "#6bd1e6",
+    "action": "#6bd1e6",
+    "header": "#547fba",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TEBT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#0b151e",
+    "navtext": "#ffffff",
+    "tabbar": "#0b151e",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#0b151e",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TOP"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#999999",
+    "action": "#000000",
+    "header": "#9e0b0f",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TPD"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#ffffff",
+    "action": "#000000",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "SDUT"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#8c0a2e",
+    "navtext": "#ffffff",
+    "tabbar": "#8c0a2e",
+    "tabactive": "#000000",
+    "action": "#8c0a2e",
+    "header": "#8c0a2e",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TVTH"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#005f7e",
+    "action": "#005f7e",
+    "header": "#3f50b6",
+    "alert": "#d80000"
+   },
+   "markets": [
+    "VP"
+   ]
+  },
+  {
+   "core": {
+    "navbar": "#007739",
+    "navtext": "#ffffff",
+    "tabbar": "#007739",
+    "tabactive": "#000000",
+    "action": "#007739",
+    "header": "#007739",
+    "alert": "#ff0000"
+   },
+   "markets": [
+    "TWDD"
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "code": "BS",
+   "name": "Baltimore Sun",
+   "template": "legacy",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#ffffff",
+    "tabactive": "#daa520",
+    "action": "#daa520",
+    "header": "#000000",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#daa520",
+     "bg": "#ffffff",
+     "ratio": 2.24,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#daa520",
+      "to": "#ba8c13",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#daa520",
+     "ratio": 2.24,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#daa520",
+      "to": "#966f09",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TBAN",
+   "name": "Bay Area News",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TBH",
+   "name": "Boston Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#9dd1f5",
+     "bg": "#004e87",
+     "ratio": 5.28,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#9dd1f5",
+     "ratio": 1.63,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#9dd1f5",
+      "to": "#4a7b9c",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TBHS",
+   "name": "Boston Herald Sports",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#004e87",
+    "action": "#b01e35",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#004e87",
+     "bg": "#b01f36",
+     "ratio": 1.27,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#004e87",
+      "to": "#000000",
+      "ratio": 3.1
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#b01e35",
+     "ratio": 6.81,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TBCP",
+   "name": "Boulder County Preps",
+   "template": "standard",
+   "core": {
+    "navbar": "#4052b5",
+    "navtext": "#ffffff",
+    "tabbar": "#4052b5",
+    "tabactive": "#000000",
+    "action": "#4052b5",
+    "header": "#4052b5",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#4052b5",
+     "ratio": 6.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#4052b5",
+     "ratio": 3.09,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#4052b5",
+     "ratio": 6.79,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#4052b5",
+     "ratio": 6.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#4052b5",
+     "ratio": 6.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TBE",
+   "name": "Broomfield Enterprise News",
+   "template": "standard",
+   "core": {
+    "navbar": "#0070b8",
+    "navtext": "#ffffff",
+    "tabbar": "#0070b8",
+    "tabactive": "#000000",
+    "action": "#0070b8",
+    "header": "#0070b8",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#0070b8",
+     "ratio": 5.24,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#0070b8",
+     "ratio": 4.01,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#0070b8",
+     "ratio": 5.24,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#0070b8",
+     "ratio": 5.24,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#0070b8",
+     "ratio": 5.24,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TB",
+   "name": "Buffzone",
+   "template": "standard",
+   "core": {
+    "navbar": "#4252b0",
+    "navtext": "#ffffff",
+    "tabbar": "#4252b0",
+    "tabactive": "#000000",
+    "action": "#4252b0",
+    "header": "#4252b0",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#4252b0",
+     "ratio": 6.85,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#4252b0",
+     "ratio": 3.07,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#4252b0",
+     "ratio": 6.85,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#4252b0",
+     "ratio": 6.85,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#4252b0",
+     "ratio": 6.85,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TCCDR",
+   "name": "Canon City Daily Record",
+   "template": "standard",
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#36408a",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#36408a",
+     "ratio": 2.26,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.3,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8c92bc",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "CT",
+   "name": "Chicago Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#9dd1f5",
+     "bg": "#004e87",
+     "ratio": 5.28,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#9dd1f5",
+     "ratio": 1.63,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#9dd1f5",
+      "to": "#4a7b9c",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TCE",
+   "name": "Chico Enterprise Record",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TCHW",
+   "name": "Colorado Hometown Weekly",
+   "template": "standard",
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#363e8a",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#36408a",
+     "ratio": 2.26,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.3,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8c92bc",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#363e8a",
+     "ratio": 9.49,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDB",
+   "name": "Daily Breeze",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#9dd1f5",
+     "bg": "#004e87",
+     "ratio": 5.28,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#9dd1f5",
+     "ratio": 1.63,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#9dd1f5",
+      "to": "#4a7b9c",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDF",
+   "name": "Daily Freeman",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#9dd1f5",
+     "bg": "#004e87",
+     "ratio": 5.28,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#9dd1f5",
+     "ratio": 1.63,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#9dd1f5",
+      "to": "#4a7b9c",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDLW",
+   "name": "Daily Local Weschester",
+   "template": "standard",
+   "core": {
+    "navbar": "#1591b7",
+    "navtext": "#ffffff",
+    "tabbar": "#1591b7",
+    "tabactive": "#000000",
+    "action": "#1591b7",
+    "header": "#1591b7",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#1591b7",
+     "ratio": 3.64,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#1591b7",
+      "to": "#147fa1",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#1591b7",
+     "ratio": 5.77,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#1591b7",
+     "ratio": 3.64,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#1591b7",
+     "ratio": 3.64,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#1591b7",
+      "to": "#147fa1",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#1591b7",
+     "ratio": 3.64,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#1591b7",
+      "to": "#147fa1",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "DP",
+   "name": "Daily Press",
+   "template": "legacy",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#005f7e",
+    "action": "#005f7e",
+    "header": "#4050b6",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#005f7e",
+     "bg": "#ffffff",
+     "ratio": 7.15,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#005f7e",
+     "ratio": 7.15,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#4050b6",
+     "ratio": 6.91,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TDCD",
+   "name": "Delaware County Daily Times",
+   "template": "standard",
+   "core": {
+    "navbar": "#5b9bc8",
+    "navtext": "#ffffff",
+    "tabbar": "#5b9bc8",
+    "tabactive": "#000000",
+    "action": "#5b9bc8",
+    "header": "#5b9bc8",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#5b9bc8",
+     "ratio": 3.01,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#5b9bc8",
+      "to": "#3b7ba6",
+      "ratio": 4.6
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#5b9bc8",
+     "ratio": 6.97,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#5b9bc8",
+     "ratio": 3.01,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#5b9bc8",
+     "ratio": 3.01,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#5b9bc8",
+      "to": "#3b7ba6",
+      "ratio": 4.6
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#5b9bc8",
+     "ratio": 3.01,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#5b9bc8",
+      "to": "#3b7ba6",
+      "ratio": 4.6
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDPS",
+   "name": "Denver Post Sports",
+   "template": "standard",
+   "core": {
+    "navbar": "#c75c14",
+    "navtext": "#ffffff",
+    "tabbar": "#c75c14",
+    "tabactive": "#000000",
+    "action": "#c75c14",
+    "header": "#c75c14",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#c75c14",
+     "ratio": 4.23,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#c75c14",
+      "to": "#c05606",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#c75c14",
+     "ratio": 4.97,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#c75c14",
+     "ratio": 4.23,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#c75c14",
+     "ratio": 4.23,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#c75c14",
+      "to": "#c05606",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#c75c14",
+     "ratio": 4.23,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#c75c14",
+      "to": "#c05606",
+      "ratio": 4.59
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TEPTG",
+   "name": "Estes Park Trail Gazette",
+   "template": "standard",
+   "core": {
+    "navbar": "#33408f",
+    "navtext": "#ffffff",
+    "tabbar": "#33408f",
+    "tabactive": "#000000",
+    "action": "#33408f",
+    "header": "#33408f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#33408f",
+     "ratio": 2.27,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.25,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8b92bf",
+       "ratio": 3.07
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TETS",
+   "name": "Eureka Times Standard",
+   "template": "standard",
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#36408a",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#36408a",
+     "ratio": 2.26,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.3,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8c92bc",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TFMT",
+   "name": "Fort Morgan Times",
+   "template": "standard",
+   "core": {
+    "navbar": "#33408f",
+    "navtext": "#ffffff",
+    "tabbar": "#33408f",
+    "tabactive": "#000000",
+    "action": "#33408f",
+    "header": "#33408f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#33408f",
+     "ratio": 2.27,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.25,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8b92bf",
+       "ratio": 3.07
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#33408f",
+     "ratio": 9.25,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TGT",
+   "name": "Greeley Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#546e80",
+    "navtext": "#ffffff",
+    "tabbar": "#546e80",
+    "tabactive": "#000000",
+    "action": "#546e80",
+    "header": "#546e80",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#546e80",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#546e80",
+     "ratio": 3.92,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#546e80",
+     "ratio": 5.36,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#546e80",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#546e80",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "HC",
+   "name": "Hartford Courant",
+   "template": "legacy",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#4fa8d1",
+    "action": "#4fa8d1",
+    "header": "#000000",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#4fa8d1",
+     "bg": "#000000",
+     "ratio": 7.85,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#4fa8d1",
+     "ratio": 2.67,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#4fa8d1",
+      "to": "#1c7ea6",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TIVDB",
+   "name": "Inland Valley Daily Bulletin",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#cccccc",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#cccccc",
+     "bg": "#004e87",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#9a9a9a",
+      "ratio": 3.06
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#cccccc",
+     "bg": "#004e87",
+     "ratio": 5.36,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#000000",
+     "bg": "#ff0000",
+     "ratio": 5.25,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TJA",
+   "name": "Journal Advocate",
+   "template": "standard",
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#36408a",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#36408a",
+     "ratio": 2.26,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.3,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8c92bc",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TLBPT",
+   "name": "Long Beach Press-Telegram",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TLTC",
+   "name": "Longmont Times-Call for Mobile",
+   "template": "standard",
+   "core": {
+    "navbar": "#007dba",
+    "navtext": "#ffffff",
+    "tabbar": "#007dba",
+    "tabactive": "#000000",
+    "action": "#007dba",
+    "header": "#007dba",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#007dba",
+     "ratio": 4.64,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TLADN",
+   "name": "Los Angeles Daily News",
+   "template": "standard",
+   "core": {
+    "navbar": "#ab4021",
+    "navtext": "#ffffff",
+    "tabbar": "#ab4021",
+    "tabactive": "#000000",
+    "action": "#ab4021",
+    "header": "#ab4021",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ab4021",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TLR",
+   "name": "Loveland Reporter Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#ab4021",
+    "navtext": "#ffffff",
+    "tabbar": "#ab4021",
+    "tabactive": "#000000",
+    "action": "#ab4021",
+    "header": "#ab4021",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ab4021",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TLS",
+   "name": "Lowell Sun News for Mobile",
+   "template": "standard",
+   "core": {
+    "navbar": "#ab4021",
+    "navtext": "#ffffff",
+    "tabbar": "#ab4021",
+    "tabactive": "#000000",
+    "action": "#ab4021",
+    "header": "#ab4021",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ab4021",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMD",
+   "name": "Macomb Daily",
+   "template": "standard",
+   "core": {
+    "navbar": "#405278",
+    "navtext": "#ffffff",
+    "tabbar": "#405278",
+    "tabactive": "#000000",
+    "action": "#405278",
+    "header": "#405278",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#405278",
+     "ratio": 2.7,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 7.79,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#9aa3b7",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMI",
+   "name": "Marin Independent Journal News",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMCH",
+   "name": "Monterey County Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#3d6191",
+    "navtext": "#ffffff",
+    "tabbar": "#3d6191",
+    "tabactive": "#000000",
+    "action": "#3d6191",
+    "header": "#3d6191",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#3d6191",
+     "ratio": 6.33,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#3d6191",
+     "ratio": 3.32,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#3d6191",
+     "ratio": 6.33,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#3d6191",
+     "ratio": 6.33,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#3d6191",
+     "ratio": 6.33,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "MC",
+   "name": "Morning Call",
+   "template": "legacy",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#539cc4",
+    "action": "#539cc4",
+    "header": "#5c5b59",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#539cc4",
+     "bg": "#ffffff",
+     "ratio": 3.03,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#539cc4",
+     "ratio": 3.03,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#539cc4",
+      "to": "#337da4",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#5c5b59",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "NYDN",
+   "name": "New York Daily News",
+   "template": "standard",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#333333",
+    "tabbar": "#ffffff",
+    "tabactive": "#4591e0",
+    "action": "#4591e0",
+    "header": "#4050b6",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#333333",
+     "bg": "#ffffff",
+     "ratio": 12.63,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#4591e0",
+     "bg": "#ffffff",
+     "ratio": 3.29,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#333333",
+     "bg": "#ffffff",
+     "ratio": 12.63,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#4591e0",
+     "ratio": 3.29,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#4591e0",
+      "to": "#2a78c5",
+      "ratio": 4.57
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#4050b6",
+     "ratio": 6.91,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TOD",
+   "name": "Oneida Daily Dispatch",
+   "template": "standard",
+   "core": {
+    "navbar": "#ba2112",
+    "navtext": "#ffffff",
+    "tabbar": "#ba2112",
+    "tabactive": "#000000",
+    "action": "#ba2112",
+    "header": "#ba2112",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#ba2112",
+     "ratio": 6.34,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ba2112",
+     "ratio": 3.31,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#ba2112",
+     "ratio": 6.34,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ba2112",
+     "ratio": 6.34,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#ba2112",
+     "ratio": 6.34,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "OCR",
+   "name": "Orange County Register",
+   "template": "standard",
+   "core": {
+    "navbar": "#b04f0f",
+    "navtext": "#ffffff",
+    "tabbar": "#b04f0f",
+    "tabactive": "#000000",
+    "action": "#b04f0f",
+    "header": "#b04f0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b04f0f",
+     "ratio": 5.29,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#b04f0f",
+     "ratio": 3.97,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b04f0f",
+     "ratio": 5.29,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#b04f0f",
+     "ratio": 5.29,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b04f0f",
+     "ratio": 5.29,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "OS",
+   "name": "Orlando Sentinel",
+   "template": "legacy",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#333333",
+    "tabbar": "#ffffff",
+    "tabactive": "#15919d",
+    "action": "#15919d",
+    "header": "#1875be",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#333333",
+     "bg": "#ffffff",
+     "ratio": 12.63,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#15919d",
+     "bg": "#ffffff",
+     "ratio": 3.77,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#333333",
+     "bg": "#ffffff",
+     "ratio": 12.63,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#15919d",
+     "ratio": 3.77,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#15919d",
+      "to": "#01818c",
+      "ratio": 4.65
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#1875be",
+     "ratio": 4.85,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "PSN",
+   "name": "Pasadena Star News",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ff6900",
+     "bg": "#b01f36",
+     "ratio": 2.35,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#ff6900",
+      "to": "#fc9364",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ff6900",
+     "ratio": 2.89,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#ff6900",
+      "to": "#c65107",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "PAC",
+   "name": "Petaluma Argus-Courier",
+   "template": "standard",
+   "core": {
+    "navbar": "#a06318",
+    "navtext": "#ffffff",
+    "tabbar": "#a06318",
+    "tabactive": "#ffea00",
+    "action": "#a06318",
+    "header": "#a06318",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#a06318",
+     "ratio": 4.89,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ffea00",
+     "bg": "#a06318",
+     "ratio": 3.97,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#a06318",
+     "ratio": 4.89,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#a06318",
+     "ratio": 4.89,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#a06318",
+     "ratio": 4.89,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TRE",
+   "name": "Reading Eagle",
+   "template": "standard",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#004e87",
+     "bg": "#000000",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#004e87",
+      "to": "#1a5e98",
+      "ratio": 3.1
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TRDF",
+   "name": "Redlands Daily Facts",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#9dd1f5",
+    "action": "#9dd1f5",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#9dd1f5",
+     "bg": "#004e87",
+     "ratio": 5.28,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#9dd1f5",
+     "ratio": 1.63,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#9dd1f5",
+      "to": "#4a7b9c",
+      "ratio": 4.56
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TRH",
+   "name": "Republican-Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#424a54",
+    "navtext": "#ffffff",
+    "tabbar": "#424a54",
+    "tabactive": "#000000",
+    "action": "#424a54",
+    "header": "#424a54",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#424a54",
+     "ratio": 2.34,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.98,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#93989e",
+       "ratio": 3.09
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TROT",
+   "name": "Royal Oak Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#003b66",
+    "navtext": "#ffffff",
+    "tabbar": "#003b66",
+    "tabactive": "#000000",
+    "action": "#003b66",
+    "header": "#003b66",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#003b66",
+     "ratio": 11.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#003b66",
+     "ratio": 1.82,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 11.55,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#6689a3",
+       "ratio": 3.12
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#003b66",
+     "ratio": 11.55,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#003b66",
+     "ratio": 11.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#003b66",
+     "ratio": 11.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "SGVT",
+   "name": "San Gabriel Valley Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ff6900",
+     "bg": "#b01f36",
+     "ratio": 2.35,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#ff6900",
+      "to": "#fc9364",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ff6900",
+     "ratio": 2.89,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#ff6900",
+      "to": "#c65107",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSCS",
+   "name": "Santa Cruz Sentinel",
+   "template": "standard",
+   "core": {
+    "navbar": "#36408a",
+    "navtext": "#ffffff",
+    "tabbar": "#36408a",
+    "tabactive": "#000000",
+    "action": "#36408a",
+    "header": "#36408a",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#36408a",
+     "ratio": 2.26,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.3,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#8c92bc",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#36408a",
+     "ratio": 9.3,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSAR",
+   "name": "Saratogian",
+   "template": "standard",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#5d5b59",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#004e87",
+     "bg": "#ffffff",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#5d5b59",
+     "ratio": 6.76,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSEB",
+   "name": "Sentinel and Enterprise",
+   "template": "standard",
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#bd3b0f",
+     "ratio": 3.8,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSV",
+   "name": "Silicon Valley",
+   "template": "standard",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#004e87",
+     "bg": "#000000",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#004e87",
+      "to": "#1a5e98",
+      "ratio": 3.1
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "SIT",
+   "name": "Sonoma Index Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#0f73a8",
+    "navtext": "#ffffff",
+    "tabbar": "#0f73a8",
+    "tabactive": "#ffeb00",
+    "action": "#0f73a8",
+    "header": "#0f73a9",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#0f73a8",
+     "ratio": 5.2,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ffeb00",
+     "bg": "#0f73a8",
+     "ratio": 4.24,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#0f73a8",
+     "ratio": 5.2,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#0f73a8",
+     "ratio": 5.2,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#0f73a9",
+     "ratio": 5.19,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSPPP",
+   "name": "St. Paul Pioneer Press",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "SS",
+   "name": "Sun Sentinel",
+   "template": "legacy",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#761113",
+    "action": "#761113",
+    "header": "#136283",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#761113",
+     "bg": "#ffffff",
+     "ratio": 11.29,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#761113",
+     "ratio": 11.29,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#136283",
+     "ratio": 6.77,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TCV",
+   "name": "The Citizens' Voice",
+   "template": "standard",
+   "core": {
+    "navbar": "#424a54",
+    "navtext": "#ffffff",
+    "tabbar": "#424a54",
+    "tabactive": "#000000",
+    "action": "#424a54",
+    "header": "#424a54",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#424a54",
+     "ratio": 2.34,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.98,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#93989e",
+       "ratio": 3.09
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDC",
+   "name": "The Daily Camera",
+   "template": "standard",
+   "core": {
+    "navbar": "#007538",
+    "navtext": "#ffffff",
+    "tabbar": "#007538",
+    "tabactive": "#000000",
+    "action": "#007538",
+    "header": "#007538",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#007538",
+     "ratio": 5.83,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#007538",
+     "ratio": 3.6,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#007538",
+     "ratio": 5.83,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#007538",
+     "ratio": 5.83,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#007538",
+     "ratio": 5.83,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TDP",
+   "name": "The Denver Post",
+   "template": "standard",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#f7a430",
+    "action": "#f7a430",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#f7a430",
+     "bg": "#000000",
+     "ratio": 10.31,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#999999",
+     "bg": "#000000",
+     "ratio": 7.37,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#f7a430",
+     "ratio": 2.04,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#f7a430",
+      "to": "#a3680a",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TEBT",
+   "name": "The East Bay Times",
+   "template": "standard",
+   "core": {
+    "navbar": "#5480ba",
+    "navtext": "#ffffff",
+    "tabbar": "#5480ba",
+    "tabactive": "#6bd1e6",
+    "action": "#6bd1e6",
+    "header": "#547fba",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#5480ba",
+     "ratio": 4.06,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#5480ba",
+      "to": "#4b77b0",
+      "ratio": 4.6
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#6bd1e6",
+     "bg": "#5480ba",
+     "ratio": 2.3,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#6bd1e6",
+      "to": "#98edff",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#5480ba",
+     "ratio": 4.06,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#6bd1e6",
+     "ratio": 1.77,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#6bd1e6",
+      "to": "#0c8093",
+      "ratio": 4.64
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#547fba",
+     "ratio": 4.1,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#547fba",
+      "to": "#4d77b2",
+      "ratio": 4.57
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMN",
+   "name": "The Mercury News",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMJ",
+   "name": "The Morning Journal",
+   "template": "standard",
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#bd3b0f",
+     "ratio": 3.8,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TMS",
+   "name": "The Morning Sun",
+   "template": "standard",
+   "core": {
+    "navbar": "#405278",
+    "navtext": "#ffffff",
+    "tabbar": "#405278",
+    "tabactive": "#000000",
+    "action": "#405278",
+    "header": "#405278",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#405278",
+     "ratio": 2.7,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 7.79,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#9aa3b7",
+       "ratio": 3.08
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#405278",
+     "ratio": 7.79,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TNH",
+   "name": "The News Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#ab4021",
+    "navtext": "#ffffff",
+    "tabbar": "#ab4021",
+    "tabactive": "#000000",
+    "action": "#ab4021",
+    "header": "#ab4021",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ab4021",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#ab4021",
+     "ratio": 6.02,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TOP",
+   "name": "The Oakland Press",
+   "template": "standard",
+   "core": {
+    "navbar": "#0b151e",
+    "navtext": "#ffffff",
+    "tabbar": "#0b151e",
+    "tabactive": "#004e87",
+    "action": "#004e87",
+    "header": "#0b151e",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#0b151e",
+     "ratio": 18.42,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#004e87",
+     "bg": "#0b151e",
+     "ratio": 2.14,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#004e87",
+      "to": "#2467a2",
+      "ratio": 3.1
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#0b151e",
+     "ratio": 18.42,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#0b151e",
+     "ratio": 18.42,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TPM",
+   "name": "The Pottstown Mercury",
+   "template": "standard",
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#bd3b0f",
+     "ratio": 3.8,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TPD",
+   "name": "The Press Democrat",
+   "template": "standard",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#999999",
+    "action": "#000000",
+    "header": "#9e0b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#999999",
+     "bg": "#000000",
+     "ratio": 7.37,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#9e0b0f",
+     "ratio": 8.37,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TPE",
+   "name": "The Press-Enterprise",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ff6900",
+     "bg": "#b01f36",
+     "ratio": 2.35,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#ff6900",
+      "to": "#fc9364",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ff6900",
+     "ratio": 2.89,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#ff6900",
+      "to": "#c65107",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "name": "The Reporter for Mobile",
+   "template": "standard",
+   "core": {
+    "navbar": "#007dba",
+    "navtext": "#ffffff",
+    "tabbar": "#007dba",
+    "tabactive": "#000000",
+    "action": "#007dba",
+    "header": "#007dba",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#007dba",
+     "ratio": 4.64,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#007dba",
+     "ratio": 4.52,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSBS",
+   "name": "The San Bernardino Sun",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ff6900",
+     "bg": "#b01f36",
+     "ratio": 2.35,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#ff6900",
+      "to": "#fc9364",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ff6900",
+     "ratio": 2.89,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#ff6900",
+      "to": "#c65107",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "SDUT",
+   "name": "The San Diego Union-Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#000000",
+    "navtext": "#ffffff",
+    "tabbar": "#000000",
+    "tabactive": "#ffffff",
+    "action": "#000000",
+    "header": "#000000",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#000000",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TSS",
+   "name": "The Standard-Speaker",
+   "template": "standard",
+   "core": {
+    "navbar": "#424a54",
+    "navtext": "#ffffff",
+    "tabbar": "#424a54",
+    "tabactive": "#000000",
+    "action": "#424a54",
+    "header": "#424a54",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#424a54",
+     "ratio": 2.34,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.98,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#93989e",
+       "ratio": 3.09
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TTH",
+   "name": "The Times Herald",
+   "template": "standard",
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#bd3b0f",
+     "ratio": 3.8,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TT",
+   "name": "The Trentonian",
+   "template": "standard",
+   "core": {
+    "navbar": "#004e87",
+    "navtext": "#ffffff",
+    "tabbar": "#004e87",
+    "tabactive": "#000000",
+    "action": "#004e87",
+    "header": "#004e87",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#004e87",
+     "ratio": 2.44,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.61,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#759fbe",
+       "ratio": 3.06
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#004e87",
+     "ratio": 8.61,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TRR",
+   "name": "The Troy Record",
+   "template": "standard",
+   "core": {
+    "navbar": "#bd3b0f",
+    "navtext": "#ffffff",
+    "tabbar": "#bd3b0f",
+    "tabactive": "#000000",
+    "action": "#bd3b0f",
+    "header": "#bd3b0f",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#bd3b0f",
+     "ratio": 3.8,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#bd3b0f",
+     "ratio": 5.53,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TTT",
+   "name": "Times-Tribune",
+   "template": "standard",
+   "core": {
+    "navbar": "#424a54",
+    "navtext": "#ffffff",
+    "tabbar": "#424a54",
+    "tabactive": "#000000",
+    "action": "#424a54",
+    "header": "#424a54",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#424a54",
+     "ratio": 2.34,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 8.98,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#93989e",
+       "ratio": 3.09
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#424a54",
+     "ratio": 8.98,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TUDJ",
+   "name": "Ukiah Daily Journal",
+   "template": "standard",
+   "core": {
+    "navbar": "#408fcc",
+    "navtext": "#ffffff",
+    "tabbar": "#408fcc",
+    "tabactive": "#000000",
+    "action": "#408fcc",
+    "header": "#408fcc",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#408fcc",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TVR",
+   "name": "Vacaville Reporter",
+   "template": "standard",
+   "core": {
+    "navbar": "#408fcc",
+    "navtext": "#ffffff",
+    "tabbar": "#408fcc",
+    "tabactive": "#000000",
+    "action": "#408fcc",
+    "header": "#408fcc",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "navbar",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#408fcc",
+     "ratio": 6.02,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#408fcc",
+     "ratio": 3.49,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "header",
+      "from": "#408fcc",
+      "to": "#287ab5",
+      "ratio": 4.62
+     }
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TVTH",
+   "name": "Vallejo Times Herald News",
+   "template": "standard",
+   "core": {
+    "navbar": "#8c0a2e",
+    "navtext": "#ffffff",
+    "tabbar": "#8c0a2e",
+    "tabactive": "#000000",
+    "action": "#8c0a2e",
+    "header": "#8c0a2e",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#8c0a2e",
+     "ratio": 9.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#8c0a2e",
+     "ratio": 2.2,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#000000",
+      "to": "#ffffff",
+      "ratio": 9.55,
+      "also": {
+       "role": "tabBarUnselectedTintColor",
+       "from": "#ffffff",
+       "to": "#c38092",
+       "ratio": 3.1
+      },
+      "note": "Selected tab is darker than unselected; swap so selected = white, unselected = dimmed white."
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#8c0a2e",
+     "ratio": 9.55,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#8c0a2e",
+     "ratio": 9.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#8c0a2e",
+     "ratio": 9.55,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "VP",
+   "name": "Virginian Pilot",
+   "template": "legacy",
+   "core": {
+    "navbar": "#ffffff",
+    "navtext": "#000000",
+    "tabbar": "#ffffff",
+    "tabactive": "#005f7e",
+    "action": "#005f7e",
+    "header": "#3f50b6",
+    "alert": "#d80000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#005f7e",
+     "bg": "#ffffff",
+     "ratio": 7.15,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#ffffff",
+     "ratio": 21.0,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#005f7e",
+     "ratio": 7.15,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#3f50b6",
+     "ratio": 6.92,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#d80000",
+     "ratio": 5.36,
+     "target": 4.5,
+     "pass": true
+    }
+   ]
+  },
+  {
+   "code": "TWDN",
+   "name": "Whittier Daily News",
+   "template": "standard",
+   "core": {
+    "navbar": "#b01f36",
+    "navtext": "#ffffff",
+    "tabbar": "#b01f36",
+    "tabactive": "#ff6900",
+    "action": "#ff6900",
+    "header": "#b01f36",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#ff6900",
+     "bg": "#b01f36",
+     "ratio": 2.35,
+     "target": 3.0,
+     "pass": false,
+     "suggest": {
+      "role": "tabactive",
+      "from": "#ff6900",
+      "to": "#fc9364",
+      "ratio": 3.07
+     }
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#ff6900",
+     "ratio": 2.89,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "action",
+      "from": "#ff6900",
+      "to": "#c65107",
+      "ratio": 4.58
+     }
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#b01f36",
+     "ratio": 6.78,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  },
+  {
+   "code": "TWDD",
+   "name": "Woodland Daily Democrat",
+   "template": "standard",
+   "core": {
+    "navbar": "#007739",
+    "navtext": "#ffffff",
+    "tabbar": "#007739",
+    "tabactive": "#000000",
+    "action": "#007739",
+    "header": "#007739",
+    "alert": "#ff0000"
+   },
+   "checks": [
+    {
+     "id": "nav",
+     "label": "Nav title on nav bar",
+     "fg": "#ffffff",
+     "bg": "#007739",
+     "ratio": 5.68,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "tab",
+     "label": "Selected tab on tab bar",
+     "fg": "#000000",
+     "bg": "#007739",
+     "ratio": 3.7,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "tabun",
+     "label": "Unselected tab on tab bar",
+     "fg": "#ffffff",
+     "bg": "#007739",
+     "ratio": 5.68,
+     "target": 3.0,
+     "pass": true
+    },
+    {
+     "id": "action",
+     "label": "White label on primary button",
+     "fg": "#ffffff",
+     "bg": "#007739",
+     "ratio": 5.68,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "header",
+     "label": "Header text on header band",
+     "fg": "#ffffff",
+     "bg": "#007739",
+     "ratio": 5.68,
+     "target": 4.5,
+     "pass": true
+    },
+    {
+     "id": "alert",
+     "label": "Banner text on breaking-news",
+     "fg": "#ffffff",
+     "bg": "#ff0000",
+     "ratio": 4.0,
+     "target": 4.5,
+     "pass": false,
+     "suggest": {
+      "role": "alert",
+      "from": "#ff0000",
+      "to": "#e81b12",
+      "ratio": 4.57
+     }
+    }
+   ]
+  }
+ ]
+}

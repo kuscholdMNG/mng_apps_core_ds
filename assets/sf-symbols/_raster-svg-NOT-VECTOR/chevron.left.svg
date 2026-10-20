@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30pt" height="39pt" viewBox="0 0 30 39" version="1.2">
+<defs>
+<image id="image9" width="21" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAhCAAAAAATl7/xAAAAAmJLR0QA/4ePzL8AAAEGSURBVCiRbdIvSBxwFAfw353HieEUV0SYaRoUmwibsDgsCqty6RCsis0FuxbhBJvgmoLFZccWtBhkQcWgCC4p6IF/TjjFj/n38MUPj++DLy+lMMN/T6vR0tcGzbaA359wEnDmBWefclyEw57MimuwW8mwfRs2yxl2/YF6IcPef7CQ3xm4wHMtx9FrNCdyHH/AzZccqy1cDuY4/4qjj5kVlmGvO99cgZ2OHNMdjksB0wasx0ZLP+FXjCgswf6HGDL3iuO+yFMt/B+K/O0et2ORR67QnIzcf46X6cg9h/AjcmUXVouBy5uwVQ5crMPvzpiy8M6bpJRqzziImiYeacUGU/p80phNb35jpx7NjFSOAAAAAElFTkSuQmCC"/>
+<mask id="mask0">
+<use xlink:href="#image9"/>
+</mask>
+<image id="image8" width="21" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAhCAIAAAC5nnd6AAAABmJLR0QA/wD/AP+gvaeTAAAAGUlEQVRIiWNgGAWjYBSMglEwCkbBKCANAAAIQAABsHGyIAAAAABJRU5ErkJggg=="/>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="21" height="33"/>
+</clipPath>
+<g id="surface12" clip-path="url(#clip2)">
+<use xlink:href="#image8" mask="url(#mask0)" transform="matrix(1,0,0,1,0,0.000000000000007105)"/>
+<rect x="0" y="0" width="21" height="33" style="fill:rgb(0%,0%,0%);fill-opacity:1;stroke:none;"/>
+</g>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="21" height="33"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip1)">
+<use xlink:href="#surface12"/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface14" transform="matrix(1,0,0,1,2,3)"/>
+</g>
+</svg>

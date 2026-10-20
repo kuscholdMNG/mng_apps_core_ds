@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49pt" height="47pt" viewBox="0 0 49 47" version="1.2">
+<defs>
+<image id="image9" width="43" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAApCAAAAACJ/o8XAAAAAmJLR0QA/4ePzL8AAANFSURBVDiNhZRtaJV1GIevna2dYjnfSls4tzbJNGmSrXzBF2YQRQ0jl9mswIZBkdYHpSjCWAyxpMjshawhVLYJQX4oKmZB9MJsm87CnGK52GQvurWtvXh2dvXhOefsTDt5fzn3776v5/zv5/e/edK4OBY+XZgOI8272i5pXRy3DRlE6/TLsrXGY+vl0NB5LS8uLt6hX6VicmoH2quyoUjbAfK1PwPyqnu7Xw1PRAv/VD37WNpm3Q/AaS2+avug6rdXJ6Pz2mIzNnXpEwB8oC1nYtWfpiShnTq8blVD0JkLwIZAfDa/Um3KTrDN2r8aQo936InKoDb9w249VgI8M6Z742iuugKA7BeWj5+WufHJdACe08S9ZA3oQ//j4279OSFe0Y5pKdElUS1NqPBx3ZcKzfxNP03SS6N6V1zkVLxevbNsUly+rJ3XJD/8vX4cZJPfvaBq7/PBi3Fadya4uZv2nVLvACC3JbE7X18JwBaNHtmzPgeYcSjoNAaTN6vfPFW2rVn9KDhoWNXR9zM5oOrve1cCsFUj6wDSqtRVADxaG2zANvq0ujQx+0l9MZYe1E/i5fzyOq1DnZ0Y/XodnRrLVyfdFqzV+tAEL2dCV08sPwEzxzsCE9lemBrf7BzomdAkNAqLM+KqtZvw2li+ARoTWNYiGKVJHfyu6t5gzDe18yYA7ovoIwDkrt/dEFHfo2Qw8LcOgBnntO+lW3KWvhPVwyGAcG8A/JUHBdvr+tVo4MbKwcS9teYCUKba+fmW2CKmLzyibwV50bEY+kXgQtovun8OABkA0bZZ0B2wR4tK1yyY3HW45seYWech73SSGzX6ayb/HfkD+uy4XKPR21OgsFkH58RF6KTuSokS+iH+fQGuUxcE6bJJSVDB/OB3k56J19I79cQsoPCgPXtWB8UrHqyJRN6YAizv0y8Tf/BAVP8oyKoaVh27FoB7VO2sCN35j/49b/y08oie61AjahkAr2l0TD11QbsXJc9//4iqB2ZX6tsANOrdi+tVbb954suWnNWjJbBCjwNMixrJIm1jmzYUXOxMeFkRQHhIbwAejn2XMpbcmpbSzUMaHRkZUXekZBKexNds6MbLslS0RNWR+pJLOv8CSXoeBDktYiYAAAAASUVORK5CYII="/>
+<mask id="mask0">
+<use xlink:href="#image9"/>
+</mask>
+<image id="image8" width="43" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAApCAIAAAAj90ecAAAABmJLR0QA/wD/AP+gvaeTAAAAHElEQVRYhe3BAQ0AAADCoPdPbQ43oAAAAAAAXgwU0gABp12n6AAAAABJRU5ErkJggg=="/>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="43" height="41"/>
+</clipPath>
+<g id="surface12" clip-path="url(#clip2)">
+<use xlink:href="#image8" mask="url(#mask0)"/>
+<rect x="0" y="0" width="43" height="41" style="fill:rgb(0%,0%,0%);fill-opacity:1;stroke:none;"/>
+</g>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="43" height="41"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip1)">
+<use xlink:href="#surface12"/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface14" transform="matrix(1,0,0,1,3,3)"/>
+</g>
+</svg>

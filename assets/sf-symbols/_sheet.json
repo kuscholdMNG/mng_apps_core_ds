@@ -1,0 +1,335 @@
+{
+  "cell" : 72,
+  "cols" : 8,
+  "height" : 432,
+  "macOS" : "Version 15.5 (Build 24F74)",
+  "missing" : [
+
+  ],
+  "rows" : 6,
+  "symbols" : [
+    {
+      "h" : 72,
+      "name" : "magnifyingglass",
+      "w" : 72,
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "gearshape",
+      "w" : 72,
+      "x" : 72,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "square.and.arrow.up",
+      "w" : 72,
+      "x" : 144,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "bookmark",
+      "w" : 72,
+      "x" : 216,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "bookmark.fill",
+      "w" : 72,
+      "x" : 288,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "house",
+      "w" : 72,
+      "x" : 360,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "line.3.horizontal",
+      "w" : 72,
+      "x" : 432,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "bell",
+      "w" : 72,
+      "x" : 504,
+      "y" : 0
+    },
+    {
+      "h" : 72,
+      "name" : "newspaper",
+      "w" : 72,
+      "x" : 0,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "gamecontroller.fill",
+      "w" : 72,
+      "x" : 72,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "chevron.up",
+      "w" : 72,
+      "x" : 144,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "chevron.down",
+      "w" : 72,
+      "x" : 216,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "chevron.left",
+      "w" : 72,
+      "x" : 288,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "chevron.right",
+      "w" : 72,
+      "x" : 360,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "xmark",
+      "w" : 72,
+      "x" : 432,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "xmark.circle.fill",
+      "w" : 72,
+      "x" : 504,
+      "y" : 72
+    },
+    {
+      "h" : 72,
+      "name" : "person.circle.fill",
+      "w" : 72,
+      "x" : 0,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "exclamationmark.triangle.fill",
+      "w" : 72,
+      "x" : 72,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "envelope.fill",
+      "w" : 72,
+      "x" : 144,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.clockwise",
+      "w" : 72,
+      "x" : 216,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "line.3.horizontal.decrease",
+      "w" : 72,
+      "x" : 288,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "textformat.size.smaller",
+      "w" : 72,
+      "x" : 360,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "textformat.size.larger",
+      "w" : 72,
+      "x" : 432,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "plus.circle",
+      "w" : 72,
+      "x" : 504,
+      "y" : 144
+    },
+    {
+      "h" : 72,
+      "name" : "minus.circle",
+      "w" : 72,
+      "x" : 0,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "checkmark.circle.fill",
+      "w" : 72,
+      "x" : 72,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "circle",
+      "w" : 72,
+      "x" : 144,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.right.circle.fill",
+      "w" : 72,
+      "x" : 216,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.up.left.and.arrow.down.right",
+      "w" : 72,
+      "x" : 288,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.down.right.and.arrow.up.left",
+      "w" : 72,
+      "x" : 360,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.left",
+      "w" : 72,
+      "x" : 432,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.right",
+      "w" : 72,
+      "x" : 504,
+      "y" : 216
+    },
+    {
+      "h" : 72,
+      "name" : "play.fill",
+      "w" : 72,
+      "x" : 0,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "pause.fill",
+      "w" : 72,
+      "x" : 72,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "gobackward.15",
+      "w" : 72,
+      "x" : 144,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "goforward.15",
+      "w" : 72,
+      "x" : 216,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "backward.fill",
+      "w" : 72,
+      "x" : 288,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "forward.fill",
+      "w" : 72,
+      "x" : 360,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "cube",
+      "w" : 72,
+      "x" : 432,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "star",
+      "w" : 72,
+      "x" : 504,
+      "y" : 288
+    },
+    {
+      "h" : 72,
+      "name" : "star.leadinghalf.filled",
+      "w" : 72,
+      "x" : 0,
+      "y" : 360
+    },
+    {
+      "h" : 72,
+      "name" : "star.fill",
+      "w" : 72,
+      "x" : 72,
+      "y" : 360
+    },
+    {
+      "h" : 72,
+      "name" : "heart",
+      "w" : 72,
+      "x" : 144,
+      "y" : 360
+    },
+    {
+      "h" : 72,
+      "name" : "arrow.2.squarepath",
+      "w" : 72,
+      "x" : 216,
+      "y" : 360
+    },
+    {
+      "h" : 72,
+      "name" : "checkmark.seal.fill",
+      "w" : 72,
+      "x" : 288,
+      "y" : 360
+    },
+    {
+      "h" : 72,
+      "name" : "apple.logo",
+      "w" : 72,
+      "x" : 360,
+      "y" : 360
+    }
+  ],
+  "width" : 576
+}

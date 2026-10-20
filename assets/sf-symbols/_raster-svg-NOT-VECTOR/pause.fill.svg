@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34pt" height="38pt" viewBox="0 0 34 38" version="1.2">
+<defs>
+<image id="image9" width="24" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAAAAAAtNefkAAAAAmJLR0QA/4ePzL8AAACGSURBVCiR7YkxDoJAAATnrtHC2gJtrCys+IMdP+ErPMM/aPiCNoY3mFgZQsIZgZi1gDsSW1q22MxkDLvDAqhuFQDreAW870/SryRJrz3A0fX2SXhoWAZw9pbbDcMigNGsJ0w4ADOGv81hDlNC56kNB9DawmMRrof42khSeVoCRJdakly+/QG170CmBgRqagAAAABJRU5ErkJggg=="/>
+<mask id="mask0">
+<use xlink:href="#image9"/>
+</mask>
+<image id="image8" width="24" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAIAAACHPC9vAAAABmJLR0QA/wD/AP+gvaeTAAAAGUlEQVRIie3BMQEAAADCoPVP7WsIoAAAeAMJIAABfSnXXAAAAABJRU5ErkJggg=="/>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="24" height="32"/>
+</clipPath>
+<g id="surface12" clip-path="url(#clip2)">
+<use xlink:href="#image8" mask="url(#mask0)"/>
+<rect x="0" y="0" width="24" height="32" style="fill:rgb(0%,0%,0%);fill-opacity:1;stroke:none;"/>
+</g>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="24" height="32"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip1)">
+<use xlink:href="#surface12"/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface14" transform="matrix(1,0,0,1,5,3)"/>
+</g>
+</svg>

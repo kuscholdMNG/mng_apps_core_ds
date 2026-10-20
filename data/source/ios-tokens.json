@@ -1,0 +1,3577 @@
+{
+ "name": "MNG iOS Style Guide",
+ "version": 1,
+ "meta": {
+  "source": "code",
+  "repo": "ios-tronckit",
+  "ref": "e30ad2585",
+  "synced": "2026-10-08"
+ },
+ "color": {
+  "themes": [
+   {
+    "id": "light",
+    "name": "Light"
+   }
+  ],
+  "note": "Seven brand colors per market, named <market code>-<role>. Every app is light-only. All 124 themed colors per market are in the Market palette component and assets/Data/markets.json.",
+  "tokens": [
+   {
+    "name": "bs-navbar",
+    "value": "#000000",
+    "usage": "Baltimore Sun (BS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "bs-navtext",
+    "value": "#ffffff",
+    "usage": "Baltimore Sun (BS): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on bs-navbar."
+   },
+   {
+    "name": "bs-tabbar",
+    "value": "#ffffff",
+    "usage": "Baltimore Sun (BS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "bs-tabactive",
+    "value": "#daa520",
+    "usage": "Baltimore Sun (BS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.2:1 on bs-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "bs-action",
+    "value": "#daa520",
+    "usage": "Baltimore Sun (BS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.2:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "bs-header",
+    "value": "#000000",
+    "usage": "Baltimore Sun (BS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "bs-alert",
+    "value": "#d80000",
+    "usage": "Baltimore Sun (BS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "ct-navbar",
+    "value": "#004e87",
+    "usage": "Chicago Tribune (CT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "ct-navtext",
+    "value": "#ffffff",
+    "usage": "Chicago Tribune (CT): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on ct-navbar."
+   },
+   {
+    "name": "ct-tabbar",
+    "value": "#004e87",
+    "usage": "Chicago Tribune (CT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "ct-tabactive",
+    "value": "#9dd1f5",
+    "usage": "Chicago Tribune (CT): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.3:1 on ct-tabbar."
+   },
+   {
+    "name": "ct-action",
+    "value": "#9dd1f5",
+    "usage": "Chicago Tribune (CT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "ct-header",
+    "value": "#004e87",
+    "usage": "Chicago Tribune (CT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "ct-alert",
+    "value": "#ff0000",
+    "usage": "Chicago Tribune (CT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "dp-navbar",
+    "value": "#ffffff",
+    "usage": "Daily Press (DP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "dp-navtext",
+    "value": "#000000",
+    "usage": "Daily Press (DP): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on dp-navbar."
+   },
+   {
+    "name": "dp-tabbar",
+    "value": "#ffffff",
+    "usage": "Daily Press (DP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "dp-tabactive",
+    "value": "#005f7e",
+    "usage": "Daily Press (DP): Selected tab icon and label. From `tabBarSelectedTintColor`. 7.1:1 on dp-tabbar."
+   },
+   {
+    "name": "dp-action",
+    "value": "#005f7e",
+    "usage": "Daily Press (DP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 7.1:1."
+   },
+   {
+    "name": "dp-header",
+    "value": "#4050b6",
+    "usage": "Daily Press (DP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "dp-alert",
+    "value": "#d80000",
+    "usage": "Daily Press (DP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "hc-navbar",
+    "value": "#000000",
+    "usage": "Hartford Courant (HC): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "hc-navtext",
+    "value": "#ffffff",
+    "usage": "Hartford Courant (HC): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on hc-navbar."
+   },
+   {
+    "name": "hc-tabbar",
+    "value": "#000000",
+    "usage": "Hartford Courant (HC): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "hc-tabactive",
+    "value": "#4fa8d1",
+    "usage": "Hartford Courant (HC): Selected tab icon and label. From `tabBarSelectedTintColor`. 7.9:1 on hc-tabbar."
+   },
+   {
+    "name": "hc-action",
+    "value": "#4fa8d1",
+    "usage": "Hartford Courant (HC): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.7:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "hc-header",
+    "value": "#000000",
+    "usage": "Hartford Courant (HC): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "hc-alert",
+    "value": "#d80000",
+    "usage": "Hartford Courant (HC): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "mc-navbar",
+    "value": "#ffffff",
+    "usage": "Morning Call (MC): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "mc-navtext",
+    "value": "#000000",
+    "usage": "Morning Call (MC): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on mc-navbar."
+   },
+   {
+    "name": "mc-tabbar",
+    "value": "#ffffff",
+    "usage": "Morning Call (MC): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "mc-tabactive",
+    "value": "#539cc4",
+    "usage": "Morning Call (MC): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.0:1 on mc-tabbar."
+   },
+   {
+    "name": "mc-action",
+    "value": "#539cc4",
+    "usage": "Morning Call (MC): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.0:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "mc-header",
+    "value": "#5c5b59",
+    "usage": "Morning Call (MC): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "mc-alert",
+    "value": "#d80000",
+    "usage": "Morning Call (MC): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "nydn-navbar",
+    "value": "#ffffff",
+    "usage": "New York Daily News (NYDN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "nydn-navtext",
+    "value": "#333333",
+    "usage": "New York Daily News (NYDN): Navigation bar title and buttons. From `navigationBarTitleColor`. 12.6:1 on nydn-navbar."
+   },
+   {
+    "name": "nydn-tabbar",
+    "value": "#ffffff",
+    "usage": "New York Daily News (NYDN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "nydn-tabactive",
+    "value": "#4591e0",
+    "usage": "New York Daily News (NYDN): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.3:1 on nydn-tabbar."
+   },
+   {
+    "name": "nydn-action",
+    "value": "#4591e0",
+    "usage": "New York Daily News (NYDN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.3:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "nydn-header",
+    "value": "#4050b6",
+    "usage": "New York Daily News (NYDN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "nydn-alert",
+    "value": "#ff0000",
+    "usage": "New York Daily News (NYDN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "ocr-navbar",
+    "value": "#b04f0f",
+    "usage": "Orange County Register (OCR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "ocr-navtext",
+    "value": "#ffffff",
+    "usage": "Orange County Register (OCR): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.3:1 on ocr-navbar."
+   },
+   {
+    "name": "ocr-tabbar",
+    "value": "#b04f0f",
+    "usage": "Orange County Register (OCR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "ocr-tabactive",
+    "value": "#000000",
+    "usage": "Orange County Register (OCR): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.0:1 on ocr-tabbar."
+   },
+   {
+    "name": "ocr-action",
+    "value": "#b04f0f",
+    "usage": "Orange County Register (OCR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.3:1."
+   },
+   {
+    "name": "ocr-header",
+    "value": "#b04f0f",
+    "usage": "Orange County Register (OCR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "ocr-alert",
+    "value": "#ff0000",
+    "usage": "Orange County Register (OCR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "os-navbar",
+    "value": "#ffffff",
+    "usage": "Orlando Sentinel (OS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "os-navtext",
+    "value": "#333333",
+    "usage": "Orlando Sentinel (OS): Navigation bar title and buttons. From `navigationBarTitleColor`. 12.6:1 on os-navbar."
+   },
+   {
+    "name": "os-tabbar",
+    "value": "#ffffff",
+    "usage": "Orlando Sentinel (OS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "os-tabactive",
+    "value": "#15919d",
+    "usage": "Orlando Sentinel (OS): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on os-tabbar."
+   },
+   {
+    "name": "os-action",
+    "value": "#15919d",
+    "usage": "Orlando Sentinel (OS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.8:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "os-header",
+    "value": "#1875be",
+    "usage": "Orlando Sentinel (OS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "os-alert",
+    "value": "#ff0000",
+    "usage": "Orlando Sentinel (OS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "pac-navbar",
+    "value": "#a06318",
+    "usage": "Petaluma Argus-Courier (PAC): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "pac-navtext",
+    "value": "#ffffff",
+    "usage": "Petaluma Argus-Courier (PAC): Navigation bar title and buttons. From `navigationBarTitleColor`. 4.9:1 on pac-navbar."
+   },
+   {
+    "name": "pac-tabbar",
+    "value": "#a06318",
+    "usage": "Petaluma Argus-Courier (PAC): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "pac-tabactive",
+    "value": "#ffea00",
+    "usage": "Petaluma Argus-Courier (PAC): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.0:1 on pac-tabbar."
+   },
+   {
+    "name": "pac-action",
+    "value": "#a06318",
+    "usage": "Petaluma Argus-Courier (PAC): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 4.9:1."
+   },
+   {
+    "name": "pac-header",
+    "value": "#a06318",
+    "usage": "Petaluma Argus-Courier (PAC): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "pac-alert",
+    "value": "#ff0000",
+    "usage": "Petaluma Argus-Courier (PAC): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "psn-navbar",
+    "value": "#b01f36",
+    "usage": "Pasadena Star News (PSN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "psn-navtext",
+    "value": "#ffffff",
+    "usage": "Pasadena Star News (PSN): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on psn-navbar."
+   },
+   {
+    "name": "psn-tabbar",
+    "value": "#b01f36",
+    "usage": "Pasadena Star News (PSN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "psn-tabactive",
+    "value": "#ff6900",
+    "usage": "Pasadena Star News (PSN): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on psn-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "psn-action",
+    "value": "#ff6900",
+    "usage": "Pasadena Star News (PSN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.9:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "psn-header",
+    "value": "#b01f36",
+    "usage": "Pasadena Star News (PSN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "psn-alert",
+    "value": "#ff0000",
+    "usage": "Pasadena Star News (PSN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "sdut-navbar",
+    "value": "#000000",
+    "usage": "The San Diego Union-Tribune (SDUT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "sdut-navtext",
+    "value": "#ffffff",
+    "usage": "The San Diego Union-Tribune (SDUT): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on sdut-navbar."
+   },
+   {
+    "name": "sdut-tabbar",
+    "value": "#000000",
+    "usage": "The San Diego Union-Tribune (SDUT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "sdut-tabactive",
+    "value": "#ffffff",
+    "usage": "The San Diego Union-Tribune (SDUT): Selected tab icon and label. From `tabBarSelectedTintColor`. 21.0:1 on sdut-tabbar."
+   },
+   {
+    "name": "sdut-action",
+    "value": "#000000",
+    "usage": "The San Diego Union-Tribune (SDUT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 21.0:1."
+   },
+   {
+    "name": "sdut-header",
+    "value": "#000000",
+    "usage": "The San Diego Union-Tribune (SDUT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "sdut-alert",
+    "value": "#ff0000",
+    "usage": "The San Diego Union-Tribune (SDUT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "sgvt-navbar",
+    "value": "#b01f36",
+    "usage": "San Gabriel Valley Tribune (SGVT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "sgvt-navtext",
+    "value": "#ffffff",
+    "usage": "San Gabriel Valley Tribune (SGVT): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on sgvt-navbar."
+   },
+   {
+    "name": "sgvt-tabbar",
+    "value": "#b01f36",
+    "usage": "San Gabriel Valley Tribune (SGVT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "sgvt-tabactive",
+    "value": "#ff6900",
+    "usage": "San Gabriel Valley Tribune (SGVT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on sgvt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "sgvt-action",
+    "value": "#ff6900",
+    "usage": "San Gabriel Valley Tribune (SGVT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.9:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "sgvt-header",
+    "value": "#b01f36",
+    "usage": "San Gabriel Valley Tribune (SGVT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "sgvt-alert",
+    "value": "#ff0000",
+    "usage": "San Gabriel Valley Tribune (SGVT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "sit-navbar",
+    "value": "#0f73a8",
+    "usage": "Sonoma Index Tribune (SIT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "sit-navtext",
+    "value": "#ffffff",
+    "usage": "Sonoma Index Tribune (SIT): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.2:1 on sit-navbar."
+   },
+   {
+    "name": "sit-tabbar",
+    "value": "#0f73a8",
+    "usage": "Sonoma Index Tribune (SIT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "sit-tabactive",
+    "value": "#ffeb00",
+    "usage": "Sonoma Index Tribune (SIT): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.2:1 on sit-tabbar."
+   },
+   {
+    "name": "sit-action",
+    "value": "#0f73a8",
+    "usage": "Sonoma Index Tribune (SIT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.2:1."
+   },
+   {
+    "name": "sit-header",
+    "value": "#0f73a9",
+    "usage": "Sonoma Index Tribune (SIT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "sit-alert",
+    "value": "#ff0000",
+    "usage": "Sonoma Index Tribune (SIT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "ss-navbar",
+    "value": "#ffffff",
+    "usage": "Sun Sentinel (SS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "ss-navtext",
+    "value": "#000000",
+    "usage": "Sun Sentinel (SS): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on ss-navbar."
+   },
+   {
+    "name": "ss-tabbar",
+    "value": "#ffffff",
+    "usage": "Sun Sentinel (SS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "ss-tabactive",
+    "value": "#761113",
+    "usage": "Sun Sentinel (SS): Selected tab icon and label. From `tabBarSelectedTintColor`. 11.3:1 on ss-tabbar."
+   },
+   {
+    "name": "ss-action",
+    "value": "#761113",
+    "usage": "Sun Sentinel (SS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 11.3:1."
+   },
+   {
+    "name": "ss-header",
+    "value": "#136283",
+    "usage": "Sun Sentinel (SS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "ss-alert",
+    "value": "#d80000",
+    "usage": "Sun Sentinel (SS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tb-navbar",
+    "value": "#4252b0",
+    "usage": "Buffzone (TB): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tb-navtext",
+    "value": "#ffffff",
+    "usage": "Buffzone (TB): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.9:1 on tb-navbar."
+   },
+   {
+    "name": "tb-tabbar",
+    "value": "#4252b0",
+    "usage": "Buffzone (TB): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tb-tabactive",
+    "value": "#000000",
+    "usage": "Buffzone (TB): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.1:1 on tb-tabbar."
+   },
+   {
+    "name": "tb-action",
+    "value": "#4252b0",
+    "usage": "Buffzone (TB): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.9:1."
+   },
+   {
+    "name": "tb-header",
+    "value": "#4252b0",
+    "usage": "Buffzone (TB): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tb-alert",
+    "value": "#ff0000",
+    "usage": "Buffzone (TB): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tban-navbar",
+    "value": "#004e87",
+    "usage": "Bay Area News (TBAN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tban-navtext",
+    "value": "#ffffff",
+    "usage": "Bay Area News (TBAN): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tban-navbar."
+   },
+   {
+    "name": "tban-tabbar",
+    "value": "#004e87",
+    "usage": "Bay Area News (TBAN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tban-tabactive",
+    "value": "#000000",
+    "usage": "Bay Area News (TBAN): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tban-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tban-action",
+    "value": "#004e87",
+    "usage": "Bay Area News (TBAN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tban-header",
+    "value": "#004e87",
+    "usage": "Bay Area News (TBAN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tban-alert",
+    "value": "#ff0000",
+    "usage": "Bay Area News (TBAN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tbcp-navbar",
+    "value": "#4052b5",
+    "usage": "Boulder County Preps (TBCP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tbcp-navtext",
+    "value": "#ffffff",
+    "usage": "Boulder County Preps (TBCP): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on tbcp-navbar."
+   },
+   {
+    "name": "tbcp-tabbar",
+    "value": "#4052b5",
+    "usage": "Boulder County Preps (TBCP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tbcp-tabactive",
+    "value": "#000000",
+    "usage": "Boulder County Preps (TBCP): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.1:1 on tbcp-tabbar."
+   },
+   {
+    "name": "tbcp-action",
+    "value": "#4052b5",
+    "usage": "Boulder County Preps (TBCP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.8:1."
+   },
+   {
+    "name": "tbcp-header",
+    "value": "#4052b5",
+    "usage": "Boulder County Preps (TBCP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tbcp-alert",
+    "value": "#ff0000",
+    "usage": "Boulder County Preps (TBCP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tbe-navbar",
+    "value": "#0070b8",
+    "usage": "Broomfield Enterprise News (TBE): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tbe-navtext",
+    "value": "#ffffff",
+    "usage": "Broomfield Enterprise News (TBE): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.2:1 on tbe-navbar."
+   },
+   {
+    "name": "tbe-tabbar",
+    "value": "#0070b8",
+    "usage": "Broomfield Enterprise News (TBE): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tbe-tabactive",
+    "value": "#000000",
+    "usage": "Broomfield Enterprise News (TBE): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.0:1 on tbe-tabbar."
+   },
+   {
+    "name": "tbe-action",
+    "value": "#0070b8",
+    "usage": "Broomfield Enterprise News (TBE): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.2:1."
+   },
+   {
+    "name": "tbe-header",
+    "value": "#0070b8",
+    "usage": "Broomfield Enterprise News (TBE): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tbe-alert",
+    "value": "#ff0000",
+    "usage": "Broomfield Enterprise News (TBE): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tbh-navbar",
+    "value": "#004e87",
+    "usage": "Boston Herald (TBH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tbh-navtext",
+    "value": "#ffffff",
+    "usage": "Boston Herald (TBH): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tbh-navbar."
+   },
+   {
+    "name": "tbh-tabbar",
+    "value": "#004e87",
+    "usage": "Boston Herald (TBH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tbh-tabactive",
+    "value": "#9dd1f5",
+    "usage": "Boston Herald (TBH): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.3:1 on tbh-tabbar."
+   },
+   {
+    "name": "tbh-action",
+    "value": "#9dd1f5",
+    "usage": "Boston Herald (TBH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tbh-header",
+    "value": "#004e87",
+    "usage": "Boston Herald (TBH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tbh-alert",
+    "value": "#ff0000",
+    "usage": "Boston Herald (TBH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tbhs-navbar",
+    "value": "#b01f36",
+    "usage": "Boston Herald Sports (TBHS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tbhs-navtext",
+    "value": "#ffffff",
+    "usage": "Boston Herald Sports (TBHS): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on tbhs-navbar."
+   },
+   {
+    "name": "tbhs-tabbar",
+    "value": "#b01f36",
+    "usage": "Boston Herald Sports (TBHS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tbhs-tabactive",
+    "value": "#004e87",
+    "usage": "Boston Herald Sports (TBHS): Selected tab icon and label. From `tabBarSelectedTintColor`. 1.3:1 on tbhs-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tbhs-action",
+    "value": "#b01e35",
+    "usage": "Boston Herald Sports (TBHS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.8:1."
+   },
+   {
+    "name": "tbhs-header",
+    "value": "#b01f36",
+    "usage": "Boston Herald Sports (TBHS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tbhs-alert",
+    "value": "#ff0000",
+    "usage": "Boston Herald Sports (TBHS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tccdr-navbar",
+    "value": "#36408a",
+    "usage": "Canon City Daily Record (TCCDR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tccdr-navtext",
+    "value": "#ffffff",
+    "usage": "Canon City Daily Record (TCCDR): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.3:1 on tccdr-navbar."
+   },
+   {
+    "name": "tccdr-tabbar",
+    "value": "#36408a",
+    "usage": "Canon City Daily Record (TCCDR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tccdr-tabactive",
+    "value": "#000000",
+    "usage": "Canon City Daily Record (TCCDR): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tccdr-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tccdr-action",
+    "value": "#36408a",
+    "usage": "Canon City Daily Record (TCCDR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.3:1."
+   },
+   {
+    "name": "tccdr-header",
+    "value": "#36408a",
+    "usage": "Canon City Daily Record (TCCDR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tccdr-alert",
+    "value": "#ff0000",
+    "usage": "Canon City Daily Record (TCCDR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tce-navbar",
+    "value": "#004e87",
+    "usage": "Chico Enterprise Record (TCE): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tce-navtext",
+    "value": "#ffffff",
+    "usage": "Chico Enterprise Record (TCE): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tce-navbar."
+   },
+   {
+    "name": "tce-tabbar",
+    "value": "#004e87",
+    "usage": "Chico Enterprise Record (TCE): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tce-tabactive",
+    "value": "#000000",
+    "usage": "Chico Enterprise Record (TCE): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tce-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tce-action",
+    "value": "#004e87",
+    "usage": "Chico Enterprise Record (TCE): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tce-header",
+    "value": "#004e87",
+    "usage": "Chico Enterprise Record (TCE): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tce-alert",
+    "value": "#ff0000",
+    "usage": "Chico Enterprise Record (TCE): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tchw-navbar",
+    "value": "#36408a",
+    "usage": "Colorado Hometown Weekly (TCHW): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tchw-navtext",
+    "value": "#ffffff",
+    "usage": "Colorado Hometown Weekly (TCHW): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.3:1 on tchw-navbar."
+   },
+   {
+    "name": "tchw-tabbar",
+    "value": "#36408a",
+    "usage": "Colorado Hometown Weekly (TCHW): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tchw-tabactive",
+    "value": "#000000",
+    "usage": "Colorado Hometown Weekly (TCHW): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tchw-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tchw-action",
+    "value": "#36408a",
+    "usage": "Colorado Hometown Weekly (TCHW): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.3:1."
+   },
+   {
+    "name": "tchw-header",
+    "value": "#363e8a",
+    "usage": "Colorado Hometown Weekly (TCHW): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tchw-alert",
+    "value": "#ff0000",
+    "usage": "Colorado Hometown Weekly (TCHW): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tcv-navbar",
+    "value": "#424a54",
+    "usage": "The Citizens' Voice (TCV): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tcv-navtext",
+    "value": "#ffffff",
+    "usage": "The Citizens' Voice (TCV): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.0:1 on tcv-navbar."
+   },
+   {
+    "name": "tcv-tabbar",
+    "value": "#424a54",
+    "usage": "The Citizens' Voice (TCV): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tcv-tabactive",
+    "value": "#000000",
+    "usage": "The Citizens' Voice (TCV): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tcv-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tcv-action",
+    "value": "#424a54",
+    "usage": "The Citizens' Voice (TCV): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.0:1."
+   },
+   {
+    "name": "tcv-header",
+    "value": "#424a54",
+    "usage": "The Citizens' Voice (TCV): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tcv-alert",
+    "value": "#ff0000",
+    "usage": "The Citizens' Voice (TCV): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdb-navbar",
+    "value": "#004e87",
+    "usage": "Daily Breeze (TDB): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdb-navtext",
+    "value": "#ffffff",
+    "usage": "Daily Breeze (TDB): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tdb-navbar."
+   },
+   {
+    "name": "tdb-tabbar",
+    "value": "#004e87",
+    "usage": "Daily Breeze (TDB): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdb-tabactive",
+    "value": "#9dd1f5",
+    "usage": "Daily Breeze (TDB): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.3:1 on tdb-tabbar."
+   },
+   {
+    "name": "tdb-action",
+    "value": "#9dd1f5",
+    "usage": "Daily Breeze (TDB): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdb-header",
+    "value": "#004e87",
+    "usage": "Daily Breeze (TDB): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdb-alert",
+    "value": "#ff0000",
+    "usage": "Daily Breeze (TDB): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdc-navbar",
+    "value": "#007538",
+    "usage": "The Daily Camera (TDC): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdc-navtext",
+    "value": "#ffffff",
+    "usage": "The Daily Camera (TDC): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.8:1 on tdc-navbar."
+   },
+   {
+    "name": "tdc-tabbar",
+    "value": "#007538",
+    "usage": "The Daily Camera (TDC): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdc-tabactive",
+    "value": "#000000",
+    "usage": "The Daily Camera (TDC): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.6:1 on tdc-tabbar."
+   },
+   {
+    "name": "tdc-action",
+    "value": "#007538",
+    "usage": "The Daily Camera (TDC): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.8:1."
+   },
+   {
+    "name": "tdc-header",
+    "value": "#007538",
+    "usage": "The Daily Camera (TDC): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdc-alert",
+    "value": "#ff0000",
+    "usage": "The Daily Camera (TDC): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdcd-navbar",
+    "value": "#5b9bc8",
+    "usage": "Delaware County Daily Times (TDCD): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdcd-navtext",
+    "value": "#ffffff",
+    "usage": "Delaware County Daily Times (TDCD): Navigation bar title and buttons. From `navigationBarTitleColor`. 3.0:1 on tdcd-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdcd-tabbar",
+    "value": "#5b9bc8",
+    "usage": "Delaware County Daily Times (TDCD): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdcd-tabactive",
+    "value": "#000000",
+    "usage": "Delaware County Daily Times (TDCD): Selected tab icon and label. From `tabBarSelectedTintColor`. 7.0:1 on tdcd-tabbar."
+   },
+   {
+    "name": "tdcd-action",
+    "value": "#5b9bc8",
+    "usage": "Delaware County Daily Times (TDCD): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.0:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdcd-header",
+    "value": "#5b9bc8",
+    "usage": "Delaware County Daily Times (TDCD): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdcd-alert",
+    "value": "#ff0000",
+    "usage": "Delaware County Daily Times (TDCD): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdf-navbar",
+    "value": "#004e87",
+    "usage": "Daily Freeman (TDF): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdf-navtext",
+    "value": "#ffffff",
+    "usage": "Daily Freeman (TDF): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tdf-navbar."
+   },
+   {
+    "name": "tdf-tabbar",
+    "value": "#004e87",
+    "usage": "Daily Freeman (TDF): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdf-tabactive",
+    "value": "#9dd1f5",
+    "usage": "Daily Freeman (TDF): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.3:1 on tdf-tabbar."
+   },
+   {
+    "name": "tdf-action",
+    "value": "#9dd1f5",
+    "usage": "Daily Freeman (TDF): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdf-header",
+    "value": "#004e87",
+    "usage": "Daily Freeman (TDF): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdf-alert",
+    "value": "#ff0000",
+    "usage": "Daily Freeman (TDF): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdlw-navbar",
+    "value": "#1591b7",
+    "usage": "Daily Local Weschester (TDLW): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdlw-navtext",
+    "value": "#ffffff",
+    "usage": "Daily Local Weschester (TDLW): Navigation bar title and buttons. From `navigationBarTitleColor`. 3.6:1 on tdlw-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdlw-tabbar",
+    "value": "#1591b7",
+    "usage": "Daily Local Weschester (TDLW): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdlw-tabactive",
+    "value": "#000000",
+    "usage": "Daily Local Weschester (TDLW): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.8:1 on tdlw-tabbar."
+   },
+   {
+    "name": "tdlw-action",
+    "value": "#1591b7",
+    "usage": "Daily Local Weschester (TDLW): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdlw-header",
+    "value": "#1591b7",
+    "usage": "Daily Local Weschester (TDLW): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdlw-alert",
+    "value": "#ff0000",
+    "usage": "Daily Local Weschester (TDLW): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdp-navbar",
+    "value": "#000000",
+    "usage": "The Denver Post (TDP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdp-navtext",
+    "value": "#ffffff",
+    "usage": "The Denver Post (TDP): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on tdp-navbar."
+   },
+   {
+    "name": "tdp-tabbar",
+    "value": "#000000",
+    "usage": "The Denver Post (TDP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdp-tabactive",
+    "value": "#f7a430",
+    "usage": "The Denver Post (TDP): Selected tab icon and label. From `tabBarSelectedTintColor`. 10.3:1 on tdp-tabbar."
+   },
+   {
+    "name": "tdp-action",
+    "value": "#f7a430",
+    "usage": "The Denver Post (TDP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.0:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdp-header",
+    "value": "#000000",
+    "usage": "The Denver Post (TDP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdp-alert",
+    "value": "#ff0000",
+    "usage": "The Denver Post (TDP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tdps-navbar",
+    "value": "#c75c14",
+    "usage": "Denver Post Sports (TDPS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tdps-navtext",
+    "value": "#ffffff",
+    "usage": "Denver Post Sports (TDPS): Navigation bar title and buttons. From `navigationBarTitleColor`. 4.2:1 on tdps-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdps-tabbar",
+    "value": "#c75c14",
+    "usage": "Denver Post Sports (TDPS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tdps-tabactive",
+    "value": "#000000",
+    "usage": "Denver Post Sports (TDPS): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.0:1 on tdps-tabbar."
+   },
+   {
+    "name": "tdps-action",
+    "value": "#c75c14",
+    "usage": "Denver Post Sports (TDPS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 4.2:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tdps-header",
+    "value": "#c75c14",
+    "usage": "Denver Post Sports (TDPS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tdps-alert",
+    "value": "#ff0000",
+    "usage": "Denver Post Sports (TDPS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tebt-navbar",
+    "value": "#5480ba",
+    "usage": "The East Bay Times (TEBT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tebt-navtext",
+    "value": "#ffffff",
+    "usage": "The East Bay Times (TEBT): Navigation bar title and buttons. From `navigationBarTitleColor`. 4.1:1 on tebt-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tebt-tabbar",
+    "value": "#5480ba",
+    "usage": "The East Bay Times (TEBT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tebt-tabactive",
+    "value": "#6bd1e6",
+    "usage": "The East Bay Times (TEBT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tebt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tebt-action",
+    "value": "#6bd1e6",
+    "usage": "The East Bay Times (TEBT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.8:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tebt-header",
+    "value": "#547fba",
+    "usage": "The East Bay Times (TEBT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tebt-alert",
+    "value": "#ff0000",
+    "usage": "The East Bay Times (TEBT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "teptg-navbar",
+    "value": "#33408f",
+    "usage": "Estes Park Trail Gazette (TEPTG): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "teptg-navtext",
+    "value": "#ffffff",
+    "usage": "Estes Park Trail Gazette (TEPTG): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.2:1 on teptg-navbar."
+   },
+   {
+    "name": "teptg-tabbar",
+    "value": "#33408f",
+    "usage": "Estes Park Trail Gazette (TEPTG): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "teptg-tabactive",
+    "value": "#000000",
+    "usage": "Estes Park Trail Gazette (TEPTG): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on teptg-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "teptg-action",
+    "value": "#33408f",
+    "usage": "Estes Park Trail Gazette (TEPTG): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.2:1."
+   },
+   {
+    "name": "teptg-header",
+    "value": "#33408f",
+    "usage": "Estes Park Trail Gazette (TEPTG): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "teptg-alert",
+    "value": "#ff0000",
+    "usage": "Estes Park Trail Gazette (TEPTG): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tets-navbar",
+    "value": "#36408a",
+    "usage": "Eureka Times Standard (TETS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tets-navtext",
+    "value": "#ffffff",
+    "usage": "Eureka Times Standard (TETS): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.3:1 on tets-navbar."
+   },
+   {
+    "name": "tets-tabbar",
+    "value": "#36408a",
+    "usage": "Eureka Times Standard (TETS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tets-tabactive",
+    "value": "#000000",
+    "usage": "Eureka Times Standard (TETS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tets-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tets-action",
+    "value": "#36408a",
+    "usage": "Eureka Times Standard (TETS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.3:1."
+   },
+   {
+    "name": "tets-header",
+    "value": "#36408a",
+    "usage": "Eureka Times Standard (TETS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tets-alert",
+    "value": "#ff0000",
+    "usage": "Eureka Times Standard (TETS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tfmt-navbar",
+    "value": "#33408f",
+    "usage": "Fort Morgan Times (TFMT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tfmt-navtext",
+    "value": "#ffffff",
+    "usage": "Fort Morgan Times (TFMT): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.2:1 on tfmt-navbar."
+   },
+   {
+    "name": "tfmt-tabbar",
+    "value": "#33408f",
+    "usage": "Fort Morgan Times (TFMT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tfmt-tabactive",
+    "value": "#000000",
+    "usage": "Fort Morgan Times (TFMT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tfmt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tfmt-action",
+    "value": "#33408f",
+    "usage": "Fort Morgan Times (TFMT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.2:1."
+   },
+   {
+    "name": "tfmt-header",
+    "value": "#33408f",
+    "usage": "Fort Morgan Times (TFMT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tfmt-alert",
+    "value": "#ff0000",
+    "usage": "Fort Morgan Times (TFMT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tgt-navbar",
+    "value": "#546e80",
+    "usage": "Greeley Tribune (TGT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tgt-navtext",
+    "value": "#ffffff",
+    "usage": "Greeley Tribune (TGT): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.4:1 on tgt-navbar."
+   },
+   {
+    "name": "tgt-tabbar",
+    "value": "#546e80",
+    "usage": "Greeley Tribune (TGT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tgt-tabactive",
+    "value": "#000000",
+    "usage": "Greeley Tribune (TGT): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.9:1 on tgt-tabbar."
+   },
+   {
+    "name": "tgt-action",
+    "value": "#546e80",
+    "usage": "Greeley Tribune (TGT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.4:1."
+   },
+   {
+    "name": "tgt-header",
+    "value": "#546e80",
+    "usage": "Greeley Tribune (TGT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tgt-alert",
+    "value": "#ff0000",
+    "usage": "Greeley Tribune (TGT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tivdb-navbar",
+    "value": "#004e87",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tivdb-navtext",
+    "value": "#cccccc",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.4:1 on tivdb-navbar."
+   },
+   {
+    "name": "tivdb-tabbar",
+    "value": "#004e87",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tivdb-tabactive",
+    "value": "#000000",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tivdb-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tivdb-action",
+    "value": "#004e87",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tivdb-header",
+    "value": "#004e87",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tivdb-alert",
+    "value": "#ff0000",
+    "usage": "Inland Valley Daily Bulletin (TIVDB): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tja-navbar",
+    "value": "#36408a",
+    "usage": "Journal Advocate (TJA): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tja-navtext",
+    "value": "#ffffff",
+    "usage": "Journal Advocate (TJA): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.3:1 on tja-navbar."
+   },
+   {
+    "name": "tja-tabbar",
+    "value": "#36408a",
+    "usage": "Journal Advocate (TJA): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tja-tabactive",
+    "value": "#000000",
+    "usage": "Journal Advocate (TJA): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tja-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tja-action",
+    "value": "#36408a",
+    "usage": "Journal Advocate (TJA): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.3:1."
+   },
+   {
+    "name": "tja-header",
+    "value": "#36408a",
+    "usage": "Journal Advocate (TJA): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tja-alert",
+    "value": "#ff0000",
+    "usage": "Journal Advocate (TJA): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tladn-navbar",
+    "value": "#ab4021",
+    "usage": "Los Angeles Daily News (TLADN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tladn-navtext",
+    "value": "#ffffff",
+    "usage": "Los Angeles Daily News (TLADN): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.0:1 on tladn-navbar."
+   },
+   {
+    "name": "tladn-tabbar",
+    "value": "#ab4021",
+    "usage": "Los Angeles Daily News (TLADN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tladn-tabactive",
+    "value": "#000000",
+    "usage": "Los Angeles Daily News (TLADN): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.5:1 on tladn-tabbar."
+   },
+   {
+    "name": "tladn-action",
+    "value": "#ab4021",
+    "usage": "Los Angeles Daily News (TLADN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.0:1."
+   },
+   {
+    "name": "tladn-header",
+    "value": "#ab4021",
+    "usage": "Los Angeles Daily News (TLADN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tladn-alert",
+    "value": "#ff0000",
+    "usage": "Los Angeles Daily News (TLADN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tlbpt-navbar",
+    "value": "#004e87",
+    "usage": "Long Beach Press-Telegram (TLBPT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tlbpt-navtext",
+    "value": "#ffffff",
+    "usage": "Long Beach Press-Telegram (TLBPT): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tlbpt-navbar."
+   },
+   {
+    "name": "tlbpt-tabbar",
+    "value": "#004e87",
+    "usage": "Long Beach Press-Telegram (TLBPT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tlbpt-tabactive",
+    "value": "#000000",
+    "usage": "Long Beach Press-Telegram (TLBPT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tlbpt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tlbpt-action",
+    "value": "#004e87",
+    "usage": "Long Beach Press-Telegram (TLBPT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tlbpt-header",
+    "value": "#004e87",
+    "usage": "Long Beach Press-Telegram (TLBPT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tlbpt-alert",
+    "value": "#ff0000",
+    "usage": "Long Beach Press-Telegram (TLBPT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tlr-navbar",
+    "value": "#ab4021",
+    "usage": "Loveland Reporter Herald (TLR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tlr-navtext",
+    "value": "#ffffff",
+    "usage": "Loveland Reporter Herald (TLR): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.0:1 on tlr-navbar."
+   },
+   {
+    "name": "tlr-tabbar",
+    "value": "#ab4021",
+    "usage": "Loveland Reporter Herald (TLR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tlr-tabactive",
+    "value": "#000000",
+    "usage": "Loveland Reporter Herald (TLR): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.5:1 on tlr-tabbar."
+   },
+   {
+    "name": "tlr-action",
+    "value": "#ab4021",
+    "usage": "Loveland Reporter Herald (TLR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.0:1."
+   },
+   {
+    "name": "tlr-header",
+    "value": "#ab4021",
+    "usage": "Loveland Reporter Herald (TLR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tlr-alert",
+    "value": "#ff0000",
+    "usage": "Loveland Reporter Herald (TLR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tls-navbar",
+    "value": "#ab4021",
+    "usage": "Lowell Sun News for Mobile (TLS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tls-navtext",
+    "value": "#ffffff",
+    "usage": "Lowell Sun News for Mobile (TLS): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.0:1 on tls-navbar."
+   },
+   {
+    "name": "tls-tabbar",
+    "value": "#ab4021",
+    "usage": "Lowell Sun News for Mobile (TLS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tls-tabactive",
+    "value": "#000000",
+    "usage": "Lowell Sun News for Mobile (TLS): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.5:1 on tls-tabbar."
+   },
+   {
+    "name": "tls-action",
+    "value": "#ab4021",
+    "usage": "Lowell Sun News for Mobile (TLS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.0:1."
+   },
+   {
+    "name": "tls-header",
+    "value": "#ab4021",
+    "usage": "Lowell Sun News for Mobile (TLS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tls-alert",
+    "value": "#ff0000",
+    "usage": "Lowell Sun News for Mobile (TLS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tltc-navbar",
+    "value": "#007dba",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tltc-navtext",
+    "value": "#ffffff",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Navigation bar title and buttons. From `navigationBarTitleColor`. 4.5:1 on tltc-navbar."
+   },
+   {
+    "name": "tltc-tabbar",
+    "value": "#007dba",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tltc-tabactive",
+    "value": "#000000",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.6:1 on tltc-tabbar."
+   },
+   {
+    "name": "tltc-action",
+    "value": "#007dba",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 4.5:1."
+   },
+   {
+    "name": "tltc-header",
+    "value": "#007dba",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tltc-alert",
+    "value": "#ff0000",
+    "usage": "Longmont Times-Call for Mobile (TLTC): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tmch-navbar",
+    "value": "#3d6191",
+    "usage": "Monterey County Herald (TMCH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tmch-navtext",
+    "value": "#ffffff",
+    "usage": "Monterey County Herald (TMCH): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.3:1 on tmch-navbar."
+   },
+   {
+    "name": "tmch-tabbar",
+    "value": "#3d6191",
+    "usage": "Monterey County Herald (TMCH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tmch-tabactive",
+    "value": "#000000",
+    "usage": "Monterey County Herald (TMCH): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.3:1 on tmch-tabbar."
+   },
+   {
+    "name": "tmch-action",
+    "value": "#3d6191",
+    "usage": "Monterey County Herald (TMCH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.3:1."
+   },
+   {
+    "name": "tmch-header",
+    "value": "#3d6191",
+    "usage": "Monterey County Herald (TMCH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tmch-alert",
+    "value": "#ff0000",
+    "usage": "Monterey County Herald (TMCH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tmd-navbar",
+    "value": "#405278",
+    "usage": "Macomb Daily (TMD): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tmd-navtext",
+    "value": "#ffffff",
+    "usage": "Macomb Daily (TMD): Navigation bar title and buttons. From `navigationBarTitleColor`. 7.8:1 on tmd-navbar."
+   },
+   {
+    "name": "tmd-tabbar",
+    "value": "#405278",
+    "usage": "Macomb Daily (TMD): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tmd-tabactive",
+    "value": "#000000",
+    "usage": "Macomb Daily (TMD): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.7:1 on tmd-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tmd-action",
+    "value": "#405278",
+    "usage": "Macomb Daily (TMD): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 7.8:1."
+   },
+   {
+    "name": "tmd-header",
+    "value": "#405278",
+    "usage": "Macomb Daily (TMD): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tmd-alert",
+    "value": "#ff0000",
+    "usage": "Macomb Daily (TMD): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tmi-navbar",
+    "value": "#004e87",
+    "usage": "Marin Independent Journal News (TMI): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tmi-navtext",
+    "value": "#ffffff",
+    "usage": "Marin Independent Journal News (TMI): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tmi-navbar."
+   },
+   {
+    "name": "tmi-tabbar",
+    "value": "#004e87",
+    "usage": "Marin Independent Journal News (TMI): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tmi-tabactive",
+    "value": "#000000",
+    "usage": "Marin Independent Journal News (TMI): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tmi-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tmi-action",
+    "value": "#004e87",
+    "usage": "Marin Independent Journal News (TMI): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tmi-header",
+    "value": "#004e87",
+    "usage": "Marin Independent Journal News (TMI): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tmi-alert",
+    "value": "#ff0000",
+    "usage": "Marin Independent Journal News (TMI): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tmj-navbar",
+    "value": "#bd3b0f",
+    "usage": "The Morning Journal (TMJ): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tmj-navtext",
+    "value": "#ffffff",
+    "usage": "The Morning Journal (TMJ): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.5:1 on tmj-navbar."
+   },
+   {
+    "name": "tmj-tabbar",
+    "value": "#bd3b0f",
+    "usage": "The Morning Journal (TMJ): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tmj-tabactive",
+    "value": "#000000",
+    "usage": "The Morning Journal (TMJ): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on tmj-tabbar."
+   },
+   {
+    "name": "tmj-action",
+    "value": "#bd3b0f",
+    "usage": "The Morning Journal (TMJ): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.5:1."
+   },
+   {
+    "name": "tmj-header",
+    "value": "#bd3b0f",
+    "usage": "The Morning Journal (TMJ): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tmj-alert",
+    "value": "#ff0000",
+    "usage": "The Morning Journal (TMJ): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tmn-navbar",
+    "value": "#004e87",
+    "usage": "The Mercury News (TMN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tmn-navtext",
+    "value": "#ffffff",
+    "usage": "The Mercury News (TMN): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tmn-navbar."
+   },
+   {
+    "name": "tmn-tabbar",
+    "value": "#004e87",
+    "usage": "The Mercury News (TMN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tmn-tabactive",
+    "value": "#000000",
+    "usage": "The Mercury News (TMN): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tmn-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tmn-action",
+    "value": "#004e87",
+    "usage": "The Mercury News (TMN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tmn-header",
+    "value": "#004e87",
+    "usage": "The Mercury News (TMN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tmn-alert",
+    "value": "#ff0000",
+    "usage": "The Mercury News (TMN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tms-navbar",
+    "value": "#405278",
+    "usage": "The Morning Sun (TMS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tms-navtext",
+    "value": "#ffffff",
+    "usage": "The Morning Sun (TMS): Navigation bar title and buttons. From `navigationBarTitleColor`. 7.8:1 on tms-navbar."
+   },
+   {
+    "name": "tms-tabbar",
+    "value": "#405278",
+    "usage": "The Morning Sun (TMS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tms-tabactive",
+    "value": "#000000",
+    "usage": "The Morning Sun (TMS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.7:1 on tms-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tms-action",
+    "value": "#405278",
+    "usage": "The Morning Sun (TMS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 7.8:1."
+   },
+   {
+    "name": "tms-header",
+    "value": "#405278",
+    "usage": "The Morning Sun (TMS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tms-alert",
+    "value": "#ff0000",
+    "usage": "The Morning Sun (TMS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tnh-navbar",
+    "value": "#ab4021",
+    "usage": "The News Herald (TNH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tnh-navtext",
+    "value": "#ffffff",
+    "usage": "The News Herald (TNH): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.0:1 on tnh-navbar."
+   },
+   {
+    "name": "tnh-tabbar",
+    "value": "#ab4021",
+    "usage": "The News Herald (TNH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tnh-tabactive",
+    "value": "#000000",
+    "usage": "The News Herald (TNH): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.5:1 on tnh-tabbar."
+   },
+   {
+    "name": "tnh-action",
+    "value": "#ab4021",
+    "usage": "The News Herald (TNH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.0:1."
+   },
+   {
+    "name": "tnh-header",
+    "value": "#ab4021",
+    "usage": "The News Herald (TNH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tnh-alert",
+    "value": "#ff0000",
+    "usage": "The News Herald (TNH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tod-navbar",
+    "value": "#ba2112",
+    "usage": "Oneida Daily Dispatch (TOD): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tod-navtext",
+    "value": "#ffffff",
+    "usage": "Oneida Daily Dispatch (TOD): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.3:1 on tod-navbar."
+   },
+   {
+    "name": "tod-tabbar",
+    "value": "#ba2112",
+    "usage": "Oneida Daily Dispatch (TOD): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tod-tabactive",
+    "value": "#000000",
+    "usage": "Oneida Daily Dispatch (TOD): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.3:1 on tod-tabbar."
+   },
+   {
+    "name": "tod-action",
+    "value": "#ba2112",
+    "usage": "Oneida Daily Dispatch (TOD): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 6.3:1."
+   },
+   {
+    "name": "tod-header",
+    "value": "#ba2112",
+    "usage": "Oneida Daily Dispatch (TOD): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tod-alert",
+    "value": "#ff0000",
+    "usage": "Oneida Daily Dispatch (TOD): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "top-navbar",
+    "value": "#0b151e",
+    "usage": "The Oakland Press (TOP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "top-navtext",
+    "value": "#ffffff",
+    "usage": "The Oakland Press (TOP): Navigation bar title and buttons. From `navigationBarTitleColor`. 18.4:1 on top-navbar."
+   },
+   {
+    "name": "top-tabbar",
+    "value": "#0b151e",
+    "usage": "The Oakland Press (TOP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "top-tabactive",
+    "value": "#004e87",
+    "usage": "The Oakland Press (TOP): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.1:1 on top-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "top-action",
+    "value": "#004e87",
+    "usage": "The Oakland Press (TOP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "top-header",
+    "value": "#0b151e",
+    "usage": "The Oakland Press (TOP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "top-alert",
+    "value": "#ff0000",
+    "usage": "The Oakland Press (TOP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tpd-navbar",
+    "value": "#000000",
+    "usage": "The Press Democrat (TPD): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tpd-navtext",
+    "value": "#ffffff",
+    "usage": "The Press Democrat (TPD): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on tpd-navbar."
+   },
+   {
+    "name": "tpd-tabbar",
+    "value": "#000000",
+    "usage": "The Press Democrat (TPD): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tpd-tabactive",
+    "value": "#999999",
+    "usage": "The Press Democrat (TPD): Selected tab icon and label. From `tabBarSelectedTintColor`. 7.4:1 on tpd-tabbar."
+   },
+   {
+    "name": "tpd-action",
+    "value": "#000000",
+    "usage": "The Press Democrat (TPD): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 21.0:1."
+   },
+   {
+    "name": "tpd-header",
+    "value": "#9e0b0f",
+    "usage": "The Press Democrat (TPD): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tpd-alert",
+    "value": "#ff0000",
+    "usage": "The Press Democrat (TPD): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tpe-navbar",
+    "value": "#b01f36",
+    "usage": "The Press-Enterprise (TPE): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tpe-navtext",
+    "value": "#ffffff",
+    "usage": "The Press-Enterprise (TPE): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on tpe-navbar."
+   },
+   {
+    "name": "tpe-tabbar",
+    "value": "#b01f36",
+    "usage": "The Press-Enterprise (TPE): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tpe-tabactive",
+    "value": "#ff6900",
+    "usage": "The Press-Enterprise (TPE): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tpe-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tpe-action",
+    "value": "#ff6900",
+    "usage": "The Press-Enterprise (TPE): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.9:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tpe-header",
+    "value": "#b01f36",
+    "usage": "The Press-Enterprise (TPE): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tpe-alert",
+    "value": "#ff0000",
+    "usage": "The Press-Enterprise (TPE): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tpm-navbar",
+    "value": "#bd3b0f",
+    "usage": "The Pottstown Mercury (TPM): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tpm-navtext",
+    "value": "#ffffff",
+    "usage": "The Pottstown Mercury (TPM): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.5:1 on tpm-navbar."
+   },
+   {
+    "name": "tpm-tabbar",
+    "value": "#bd3b0f",
+    "usage": "The Pottstown Mercury (TPM): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tpm-tabactive",
+    "value": "#000000",
+    "usage": "The Pottstown Mercury (TPM): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on tpm-tabbar."
+   },
+   {
+    "name": "tpm-action",
+    "value": "#bd3b0f",
+    "usage": "The Pottstown Mercury (TPM): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.5:1."
+   },
+   {
+    "name": "tpm-header",
+    "value": "#bd3b0f",
+    "usage": "The Pottstown Mercury (TPM): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tpm-alert",
+    "value": "#ff0000",
+    "usage": "The Pottstown Mercury (TPM): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tr-navbar",
+    "value": "#007dba",
+    "usage": "The Reporter for Mobile (TR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tr-navtext",
+    "value": "#ffffff",
+    "usage": "The Reporter for Mobile (TR): Navigation bar title and buttons. From `navigationBarTitleColor`. 4.5:1 on tr-navbar."
+   },
+   {
+    "name": "tr-tabbar",
+    "value": "#007dba",
+    "usage": "The Reporter for Mobile (TR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tr-tabactive",
+    "value": "#000000",
+    "usage": "The Reporter for Mobile (TR): Selected tab icon and label. From `tabBarSelectedTintColor`. 4.6:1 on tr-tabbar."
+   },
+   {
+    "name": "tr-action",
+    "value": "#007dba",
+    "usage": "The Reporter for Mobile (TR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 4.5:1."
+   },
+   {
+    "name": "tr-header",
+    "value": "#007dba",
+    "usage": "The Reporter for Mobile (TR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tr-alert",
+    "value": "#ff0000",
+    "usage": "The Reporter for Mobile (TR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "trdf-navbar",
+    "value": "#004e87",
+    "usage": "Redlands Daily Facts (TRDF): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "trdf-navtext",
+    "value": "#ffffff",
+    "usage": "Redlands Daily Facts (TRDF): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on trdf-navbar."
+   },
+   {
+    "name": "trdf-tabbar",
+    "value": "#004e87",
+    "usage": "Redlands Daily Facts (TRDF): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "trdf-tabactive",
+    "value": "#9dd1f5",
+    "usage": "Redlands Daily Facts (TRDF): Selected tab icon and label. From `tabBarSelectedTintColor`. 5.3:1 on trdf-tabbar."
+   },
+   {
+    "name": "trdf-action",
+    "value": "#9dd1f5",
+    "usage": "Redlands Daily Facts (TRDF): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 1.6:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "trdf-header",
+    "value": "#004e87",
+    "usage": "Redlands Daily Facts (TRDF): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "trdf-alert",
+    "value": "#ff0000",
+    "usage": "Redlands Daily Facts (TRDF): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tre-navbar",
+    "value": "#000000",
+    "usage": "Reading Eagle (TRE): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tre-navtext",
+    "value": "#ffffff",
+    "usage": "Reading Eagle (TRE): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on tre-navbar."
+   },
+   {
+    "name": "tre-tabbar",
+    "value": "#000000",
+    "usage": "Reading Eagle (TRE): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tre-tabactive",
+    "value": "#004e87",
+    "usage": "Reading Eagle (TRE): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tre-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tre-action",
+    "value": "#004e87",
+    "usage": "Reading Eagle (TRE): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tre-header",
+    "value": "#000000",
+    "usage": "Reading Eagle (TRE): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tre-alert",
+    "value": "#ff0000",
+    "usage": "Reading Eagle (TRE): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "trh-navbar",
+    "value": "#424a54",
+    "usage": "Republican-Herald (TRH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "trh-navtext",
+    "value": "#ffffff",
+    "usage": "Republican-Herald (TRH): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.0:1 on trh-navbar."
+   },
+   {
+    "name": "trh-tabbar",
+    "value": "#424a54",
+    "usage": "Republican-Herald (TRH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "trh-tabactive",
+    "value": "#000000",
+    "usage": "Republican-Herald (TRH): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on trh-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "trh-action",
+    "value": "#424a54",
+    "usage": "Republican-Herald (TRH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.0:1."
+   },
+   {
+    "name": "trh-header",
+    "value": "#424a54",
+    "usage": "Republican-Herald (TRH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "trh-alert",
+    "value": "#ff0000",
+    "usage": "Republican-Herald (TRH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "trot-navbar",
+    "value": "#003b66",
+    "usage": "Royal Oak Tribune (TROT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "trot-navtext",
+    "value": "#ffffff",
+    "usage": "Royal Oak Tribune (TROT): Navigation bar title and buttons. From `navigationBarTitleColor`. 11.6:1 on trot-navbar."
+   },
+   {
+    "name": "trot-tabbar",
+    "value": "#003b66",
+    "usage": "Royal Oak Tribune (TROT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "trot-tabactive",
+    "value": "#000000",
+    "usage": "Royal Oak Tribune (TROT): Selected tab icon and label. From `tabBarSelectedTintColor`. 1.8:1 on trot-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "trot-action",
+    "value": "#003b66",
+    "usage": "Royal Oak Tribune (TROT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 11.6:1."
+   },
+   {
+    "name": "trot-header",
+    "value": "#003b66",
+    "usage": "Royal Oak Tribune (TROT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "trot-alert",
+    "value": "#ff0000",
+    "usage": "Royal Oak Tribune (TROT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "trr-navbar",
+    "value": "#bd3b0f",
+    "usage": "The Troy Record (TRR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "trr-navtext",
+    "value": "#ffffff",
+    "usage": "The Troy Record (TRR): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.5:1 on trr-navbar."
+   },
+   {
+    "name": "trr-tabbar",
+    "value": "#bd3b0f",
+    "usage": "The Troy Record (TRR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "trr-tabactive",
+    "value": "#000000",
+    "usage": "The Troy Record (TRR): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on trr-tabbar."
+   },
+   {
+    "name": "trr-action",
+    "value": "#bd3b0f",
+    "usage": "The Troy Record (TRR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.5:1."
+   },
+   {
+    "name": "trr-header",
+    "value": "#bd3b0f",
+    "usage": "The Troy Record (TRR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "trr-alert",
+    "value": "#ff0000",
+    "usage": "The Troy Record (TRR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tsar-navbar",
+    "value": "#ffffff",
+    "usage": "Saratogian (TSAR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tsar-navtext",
+    "value": "#000000",
+    "usage": "Saratogian (TSAR): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on tsar-navbar."
+   },
+   {
+    "name": "tsar-tabbar",
+    "value": "#ffffff",
+    "usage": "Saratogian (TSAR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tsar-tabactive",
+    "value": "#004e87",
+    "usage": "Saratogian (TSAR): Selected tab icon and label. From `tabBarSelectedTintColor`. 8.6:1 on tsar-tabbar."
+   },
+   {
+    "name": "tsar-action",
+    "value": "#004e87",
+    "usage": "Saratogian (TSAR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tsar-header",
+    "value": "#5d5b59",
+    "usage": "Saratogian (TSAR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tsar-alert",
+    "value": "#ff0000",
+    "usage": "Saratogian (TSAR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tsbs-navbar",
+    "value": "#b01f36",
+    "usage": "The San Bernardino Sun (TSBS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tsbs-navtext",
+    "value": "#ffffff",
+    "usage": "The San Bernardino Sun (TSBS): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on tsbs-navbar."
+   },
+   {
+    "name": "tsbs-tabbar",
+    "value": "#b01f36",
+    "usage": "The San Bernardino Sun (TSBS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tsbs-tabactive",
+    "value": "#ff6900",
+    "usage": "The San Bernardino Sun (TSBS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tsbs-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tsbs-action",
+    "value": "#ff6900",
+    "usage": "The San Bernardino Sun (TSBS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.9:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tsbs-header",
+    "value": "#b01f36",
+    "usage": "The San Bernardino Sun (TSBS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tsbs-alert",
+    "value": "#ff0000",
+    "usage": "The San Bernardino Sun (TSBS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tscs-navbar",
+    "value": "#36408a",
+    "usage": "Santa Cruz Sentinel (TSCS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tscs-navtext",
+    "value": "#ffffff",
+    "usage": "Santa Cruz Sentinel (TSCS): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.3:1 on tscs-navbar."
+   },
+   {
+    "name": "tscs-tabbar",
+    "value": "#36408a",
+    "usage": "Santa Cruz Sentinel (TSCS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tscs-tabactive",
+    "value": "#000000",
+    "usage": "Santa Cruz Sentinel (TSCS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tscs-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tscs-action",
+    "value": "#36408a",
+    "usage": "Santa Cruz Sentinel (TSCS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.3:1."
+   },
+   {
+    "name": "tscs-header",
+    "value": "#36408a",
+    "usage": "Santa Cruz Sentinel (TSCS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tscs-alert",
+    "value": "#ff0000",
+    "usage": "Santa Cruz Sentinel (TSCS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tseb-navbar",
+    "value": "#bd3b0f",
+    "usage": "Sentinel and Enterprise (TSEB): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tseb-navtext",
+    "value": "#ffffff",
+    "usage": "Sentinel and Enterprise (TSEB): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.5:1 on tseb-navbar."
+   },
+   {
+    "name": "tseb-tabbar",
+    "value": "#bd3b0f",
+    "usage": "Sentinel and Enterprise (TSEB): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tseb-tabactive",
+    "value": "#000000",
+    "usage": "Sentinel and Enterprise (TSEB): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on tseb-tabbar."
+   },
+   {
+    "name": "tseb-action",
+    "value": "#bd3b0f",
+    "usage": "Sentinel and Enterprise (TSEB): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.5:1."
+   },
+   {
+    "name": "tseb-header",
+    "value": "#bd3b0f",
+    "usage": "Sentinel and Enterprise (TSEB): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tseb-alert",
+    "value": "#ff0000",
+    "usage": "Sentinel and Enterprise (TSEB): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tsppp-navbar",
+    "value": "#004e87",
+    "usage": "St. Paul Pioneer Press (TSPPP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tsppp-navtext",
+    "value": "#ffffff",
+    "usage": "St. Paul Pioneer Press (TSPPP): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tsppp-navbar."
+   },
+   {
+    "name": "tsppp-tabbar",
+    "value": "#004e87",
+    "usage": "St. Paul Pioneer Press (TSPPP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tsppp-tabactive",
+    "value": "#000000",
+    "usage": "St. Paul Pioneer Press (TSPPP): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tsppp-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tsppp-action",
+    "value": "#004e87",
+    "usage": "St. Paul Pioneer Press (TSPPP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tsppp-header",
+    "value": "#004e87",
+    "usage": "St. Paul Pioneer Press (TSPPP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tsppp-alert",
+    "value": "#ff0000",
+    "usage": "St. Paul Pioneer Press (TSPPP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tss-navbar",
+    "value": "#424a54",
+    "usage": "The Standard-Speaker (TSS): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tss-navtext",
+    "value": "#ffffff",
+    "usage": "The Standard-Speaker (TSS): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.0:1 on tss-navbar."
+   },
+   {
+    "name": "tss-tabbar",
+    "value": "#424a54",
+    "usage": "The Standard-Speaker (TSS): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tss-tabactive",
+    "value": "#000000",
+    "usage": "The Standard-Speaker (TSS): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on tss-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tss-action",
+    "value": "#424a54",
+    "usage": "The Standard-Speaker (TSS): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.0:1."
+   },
+   {
+    "name": "tss-header",
+    "value": "#424a54",
+    "usage": "The Standard-Speaker (TSS): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tss-alert",
+    "value": "#ff0000",
+    "usage": "The Standard-Speaker (TSS): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tsv-navbar",
+    "value": "#000000",
+    "usage": "Silicon Valley (TSV): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tsv-navtext",
+    "value": "#ffffff",
+    "usage": "Silicon Valley (TSV): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on tsv-navbar."
+   },
+   {
+    "name": "tsv-tabbar",
+    "value": "#000000",
+    "usage": "Silicon Valley (TSV): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tsv-tabactive",
+    "value": "#004e87",
+    "usage": "Silicon Valley (TSV): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tsv-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tsv-action",
+    "value": "#004e87",
+    "usage": "Silicon Valley (TSV): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tsv-header",
+    "value": "#000000",
+    "usage": "Silicon Valley (TSV): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tsv-alert",
+    "value": "#ff0000",
+    "usage": "Silicon Valley (TSV): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tt-navbar",
+    "value": "#004e87",
+    "usage": "The Trentonian (TT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tt-navtext",
+    "value": "#ffffff",
+    "usage": "The Trentonian (TT): Navigation bar title and buttons. From `navigationBarTitleColor`. 8.6:1 on tt-navbar."
+   },
+   {
+    "name": "tt-tabbar",
+    "value": "#004e87",
+    "usage": "The Trentonian (TT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tt-tabactive",
+    "value": "#000000",
+    "usage": "The Trentonian (TT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.4:1 on tt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tt-action",
+    "value": "#004e87",
+    "usage": "The Trentonian (TT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 8.6:1."
+   },
+   {
+    "name": "tt-header",
+    "value": "#004e87",
+    "usage": "The Trentonian (TT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tt-alert",
+    "value": "#ff0000",
+    "usage": "The Trentonian (TT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tth-navbar",
+    "value": "#bd3b0f",
+    "usage": "The Times Herald (TTH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tth-navtext",
+    "value": "#ffffff",
+    "usage": "The Times Herald (TTH): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.5:1 on tth-navbar."
+   },
+   {
+    "name": "tth-tabbar",
+    "value": "#bd3b0f",
+    "usage": "The Times Herald (TTH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tth-tabactive",
+    "value": "#000000",
+    "usage": "The Times Herald (TTH): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.8:1 on tth-tabbar."
+   },
+   {
+    "name": "tth-action",
+    "value": "#bd3b0f",
+    "usage": "The Times Herald (TTH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.5:1."
+   },
+   {
+    "name": "tth-header",
+    "value": "#bd3b0f",
+    "usage": "The Times Herald (TTH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tth-alert",
+    "value": "#ff0000",
+    "usage": "The Times Herald (TTH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "ttt-navbar",
+    "value": "#424a54",
+    "usage": "Times-Tribune (TTT): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "ttt-navtext",
+    "value": "#ffffff",
+    "usage": "Times-Tribune (TTT): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.0:1 on ttt-navbar."
+   },
+   {
+    "name": "ttt-tabbar",
+    "value": "#424a54",
+    "usage": "Times-Tribune (TTT): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "ttt-tabactive",
+    "value": "#000000",
+    "usage": "Times-Tribune (TTT): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on ttt-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "ttt-action",
+    "value": "#424a54",
+    "usage": "Times-Tribune (TTT): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.0:1."
+   },
+   {
+    "name": "ttt-header",
+    "value": "#424a54",
+    "usage": "Times-Tribune (TTT): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "ttt-alert",
+    "value": "#ff0000",
+    "usage": "Times-Tribune (TTT): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tudj-navbar",
+    "value": "#408fcc",
+    "usage": "Ukiah Daily Journal (TUDJ): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tudj-navtext",
+    "value": "#ffffff",
+    "usage": "Ukiah Daily Journal (TUDJ): Navigation bar title and buttons. From `navigationBarTitleColor`. 3.5:1 on tudj-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tudj-tabbar",
+    "value": "#408fcc",
+    "usage": "Ukiah Daily Journal (TUDJ): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tudj-tabactive",
+    "value": "#000000",
+    "usage": "Ukiah Daily Journal (TUDJ): Selected tab icon and label. From `tabBarSelectedTintColor`. 6.0:1 on tudj-tabbar."
+   },
+   {
+    "name": "tudj-action",
+    "value": "#408fcc",
+    "usage": "Ukiah Daily Journal (TUDJ): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.5:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tudj-header",
+    "value": "#408fcc",
+    "usage": "Ukiah Daily Journal (TUDJ): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tudj-alert",
+    "value": "#ff0000",
+    "usage": "Ukiah Daily Journal (TUDJ): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tvr-navbar",
+    "value": "#408fcc",
+    "usage": "Vacaville Reporter (TVR): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tvr-navtext",
+    "value": "#ffffff",
+    "usage": "Vacaville Reporter (TVR): Navigation bar title and buttons. From `navigationBarTitleColor`. 3.5:1 on tvr-navbar. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tvr-tabbar",
+    "value": "#408fcc",
+    "usage": "Vacaville Reporter (TVR): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tvr-tabactive",
+    "value": "#000000",
+    "usage": "Vacaville Reporter (TVR): Selected tab icon and label. From `tabBarSelectedTintColor`. 6.0:1 on tvr-tabbar."
+   },
+   {
+    "name": "tvr-action",
+    "value": "#408fcc",
+    "usage": "Vacaville Reporter (TVR): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 3.5:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "tvr-header",
+    "value": "#408fcc",
+    "usage": "Vacaville Reporter (TVR): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tvr-alert",
+    "value": "#ff0000",
+    "usage": "Vacaville Reporter (TVR): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "tvth-navbar",
+    "value": "#8c0a2e",
+    "usage": "Vallejo Times Herald News (TVTH): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "tvth-navtext",
+    "value": "#ffffff",
+    "usage": "Vallejo Times Herald News (TVTH): Navigation bar title and buttons. From `navigationBarTitleColor`. 9.6:1 on tvth-navbar."
+   },
+   {
+    "name": "tvth-tabbar",
+    "value": "#8c0a2e",
+    "usage": "Vallejo Times Herald News (TVTH): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "tvth-tabactive",
+    "value": "#000000",
+    "usage": "Vallejo Times Herald News (TVTH): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.2:1 on tvth-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "tvth-action",
+    "value": "#8c0a2e",
+    "usage": "Vallejo Times Herald News (TVTH): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 9.6:1."
+   },
+   {
+    "name": "tvth-header",
+    "value": "#8c0a2e",
+    "usage": "Vallejo Times Herald News (TVTH): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "tvth-alert",
+    "value": "#ff0000",
+    "usage": "Vallejo Times Herald News (TVTH): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "twdd-navbar",
+    "value": "#007739",
+    "usage": "Woodland Daily Democrat (TWDD): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "twdd-navtext",
+    "value": "#ffffff",
+    "usage": "Woodland Daily Democrat (TWDD): Navigation bar title and buttons. From `navigationBarTitleColor`. 5.7:1 on twdd-navbar."
+   },
+   {
+    "name": "twdd-tabbar",
+    "value": "#007739",
+    "usage": "Woodland Daily Democrat (TWDD): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "twdd-tabactive",
+    "value": "#000000",
+    "usage": "Woodland Daily Democrat (TWDD): Selected tab icon and label. From `tabBarSelectedTintColor`. 3.7:1 on twdd-tabbar."
+   },
+   {
+    "name": "twdd-action",
+    "value": "#007739",
+    "usage": "Woodland Daily Democrat (TWDD): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 5.7:1."
+   },
+   {
+    "name": "twdd-header",
+    "value": "#007739",
+    "usage": "Woodland Daily Democrat (TWDD): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "twdd-alert",
+    "value": "#ff0000",
+    "usage": "Woodland Daily Democrat (TWDD): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "twdn-navbar",
+    "value": "#b01f36",
+    "usage": "Whittier Daily News (TWDN): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "twdn-navtext",
+    "value": "#ffffff",
+    "usage": "Whittier Daily News (TWDN): Navigation bar title and buttons. From `navigationBarTitleColor`. 6.8:1 on twdn-navbar."
+   },
+   {
+    "name": "twdn-tabbar",
+    "value": "#b01f36",
+    "usage": "Whittier Daily News (TWDN): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "twdn-tabactive",
+    "value": "#ff6900",
+    "usage": "Whittier Daily News (TWDN): Selected tab icon and label. From `tabBarSelectedTintColor`. 2.3:1 on twdn-tabbar. Below 3:1 for icons, kept as shipped."
+   },
+   {
+    "name": "twdn-action",
+    "value": "#ff6900",
+    "usage": "Whittier Daily News (TWDN): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 2.9:1. Below 4.5:1, kept as shipped."
+   },
+   {
+    "name": "twdn-header",
+    "value": "#b01f36",
+    "usage": "Whittier Daily News (TWDN): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "twdn-alert",
+    "value": "#ff0000",
+    "usage": "Whittier Daily News (TWDN): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   },
+   {
+    "name": "vp-navbar",
+    "value": "#ffffff",
+    "usage": "Virginian Pilot (VP): Navigation bar background. From `navigationBarBackgroundColor`."
+   },
+   {
+    "name": "vp-navtext",
+    "value": "#000000",
+    "usage": "Virginian Pilot (VP): Navigation bar title and buttons. From `navigationBarTitleColor`. 21.0:1 on vp-navbar."
+   },
+   {
+    "name": "vp-tabbar",
+    "value": "#ffffff",
+    "usage": "Virginian Pilot (VP): Tab bar background. From `tabBarBackgroundColor`."
+   },
+   {
+    "name": "vp-tabactive",
+    "value": "#005f7e",
+    "usage": "Virginian Pilot (VP): Selected tab icon and label. From `tabBarSelectedTintColor`. 7.1:1 on vp-tabbar."
+   },
+   {
+    "name": "vp-action",
+    "value": "#005f7e",
+    "usage": "Virginian Pilot (VP): Primary button fill (Log In, Register, Subscribe). From `paywallPrimaryActionColor`. White button text is 7.1:1."
+   },
+   {
+    "name": "vp-header",
+    "value": "#3f50b6",
+    "usage": "Virginian Pilot (VP): Section-front header band. From `cell-tertiary-headerBg` in Style.json."
+   },
+   {
+    "name": "vp-alert",
+    "value": "#d80000",
+    "usage": "Virginian Pilot (VP): Breaking-news banner. From `breakingNewsBannerBackgroundColor`."
+   }
+  ]
+ },
+ "type": {
+  "fonts": [
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-Bold.ttf",
+    "weight": "700",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-BoldItalic.ttf",
+    "weight": "700",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-ExtraBold.ttf",
+    "weight": "800",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-ExtraBoldItalic.ttf",
+    "weight": "800",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-Italic.ttf",
+    "weight": "400",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-Light.ttf",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-LightItalic.ttf",
+    "weight": "300",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-Regular.ttf",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-SemiBold.ttf",
+    "weight": "600",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans",
+    "file": "fonts/OpenSans-SemiBoldItalic.ttf",
+    "weight": "600",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans Condensed",
+    "file": "fonts/OpenSansCondensed-Bold.ttf",
+    "weight": "700",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans Condensed",
+    "file": "fonts/OpenSansCondensed-Light.ttf",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Open Sans Condensed",
+    "file": "fonts/OpenSansCondensed-LightItalic.ttf",
+    "weight": "300",
+    "style": "italic"
+   },
+   {
+    "family": "Open Sans Condensed",
+    "file": "fonts/OpenSans_Condensed-Regular.ttf",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "PT Serif",
+    "file": "fonts/PT_Serif-Web-Bold.ttf",
+    "weight": "700",
+    "style": "normal"
+   },
+   {
+    "family": "PT Serif",
+    "file": "fonts/PT_Serif-Web-BoldItalic.ttf",
+    "weight": "700",
+    "style": "italic"
+   },
+   {
+    "family": "PT Serif",
+    "file": "fonts/PT_Serif-Web-Italic.ttf",
+    "weight": "400",
+    "style": "italic"
+   },
+   {
+    "family": "PT Serif",
+    "file": "fonts/PT_Serif-Web-Regular.ttf",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-Bold.ttf",
+    "weight": "700",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-BoldItalic.ttf",
+    "weight": "700",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-ExtraBold.ttf",
+    "weight": "800",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-ExtraBoldItalic.ttf",
+    "weight": "800",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-ExtraLight.ttf",
+    "weight": "200",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-ExtraLightItalic.ttf",
+    "weight": "200",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-Italic.ttf",
+    "weight": "400",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-Light.ttf",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-LightItalic.ttf",
+    "weight": "300",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-Medium.ttf",
+    "weight": "500",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-MediumItalic.ttf",
+    "weight": "500",
+    "style": "italic"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-Regular.ttf",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-SemiBold.ttf",
+    "weight": "600",
+    "style": "normal"
+   },
+   {
+    "family": "Spectral",
+    "file": "fonts/Spectral-SemiBoldItalic.ttf",
+    "weight": "600",
+    "style": "italic"
+   }
+  ],
+  "families": {
+   "sans": "\"Open Sans\", system-ui, sans-serif",
+   "condensed": "\"Open Sans Condensed\", \"Open Sans\", sans-serif",
+   "serif": "\"PT Serif\", Georgia, serif",
+   "display": "\"Spectral\", Georgia, serif"
+  },
+  "groups": [
+   {
+    "name": "Shared app styles",
+    "family": "sans",
+    "note": "The five fonts every market defines in <Market>+TroncAppThemeable.swift (or <Market>+Font.swift). The closest thing the app has to global Header / Body / Caption styles.",
+    "styles": [
+     {
+      "name": "headline",
+      "family": "display",
+      "fontSize": "31px",
+      "fontWeight": 500,
+      "usage": "`headlineNormalFont` (TroncAppThemeable). Spectral-Medium 31 in 75 of 77 markets. Exceptions: OpenSansCondensed-Light 31 (NYDN); OpenSans-Regular 30 (VP).",
+      "sample": "Storm closes mountain passes"
+     },
+     {
+      "name": "body",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "usage": "`bodyNormalFont` (TroncAppThemeable). OpenSans-Regular 14 in 77 of 77 markets.",
+      "sample": "Crews worked through the night to reopen the highway."
+     },
+     {
+      "name": "body-bold",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "`bodyBoldFont` (TroncAppThemeable). OpenSans-Bold 14 in 77 of 77 markets.",
+      "sample": "Read the full story"
+     },
+     {
+      "name": "caption",
+      "family": "sans",
+      "fontSize": "11px",
+      "fontWeight": 400,
+      "usage": "`captionNormalFont` (TroncAppThemeable). OpenSans-Regular 11 in 75 of 77 markets. Exceptions: OpenSans-Regular 12 (NYDN, VP).",
+      "sample": "Updated 6:42 a.m."
+     },
+     {
+      "name": "caption-bold",
+      "family": "sans",
+      "fontSize": "11px",
+      "fontWeight": 700,
+      "usage": "`captionBoldFont` (TroncAppThemeable). OpenSans-Bold 11 in 75 of 77 markets. Exceptions: OpenSans-Bold 12 (NYDN, VP).",
+      "sample": "BREAKING"
+     }
+    ]
+   },
+   {
+    "name": "Navigation & menus",
+    "family": "sans",
+    "styles": [
+     {
+      "name": "nav-title",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "usage": "Style.json `nav-title`. OpenSans-Bold 16 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-Bold 14.",
+      "sample": "Sections"
+     },
+     {
+      "name": "tab-item",
+      "family": "sans",
+      "fontSize": "10px",
+      "fontWeight": 700,
+      "usage": "Style.json `tab-item`. OpenSans-Bold 10 in 70 of 70 standard-template markets.",
+      "sample": "Home"
+     },
+     {
+      "name": "section-list-header",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `section-list-header`. OpenSans-Bold 14 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-SemiBold 14.",
+      "sample": "NEWS"
+     },
+     {
+      "name": "menu-header",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `menu-header`. OpenSans-Bold 14 in 70 of 70 standard-template markets.",
+      "sample": "Local News"
+     },
+     {
+      "name": "menu-text",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 300,
+      "usage": "Style.json `menu-text`. OpenSans-Light 16 in 70 of 70 standard-template markets.",
+      "sample": "Local News"
+     }
+    ]
+   },
+   {
+    "name": "Paywall",
+    "family": "sans",
+    "styles": [
+     {
+      "name": "blocker-buy",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `blocker-buy`. OpenSans-Bold 14 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-buy-regular",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "usage": "Style.json `blocker-buy-regular`. OpenSans-Bold 16 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-description",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 300,
+      "usage": "Style.json `blocker-description`. OpenSans-Light 14 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-store-policy-header",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 300,
+      "usage": "Style.json `blocker-store-policy-header`. OpenSans-Light 16 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-header",
+      "family": "display",
+      "fontSize": "35px",
+      "fontWeight": 700,
+      "usage": "Style.json `blocker-header`. Spectral-Bold 35 in 69 of 70 standard-template markets. Other values: PTSerif-Bold 35 (1).",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-header-regular",
+      "family": "display",
+      "fontSize": "60px",
+      "fontWeight": 700,
+      "usage": "Style.json `blocker-header-regular`. Spectral-Bold 60 in 69 of 70 standard-template markets. Other values: PTSerif-Bold 60 (1).",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-login",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 300,
+      "usage": "Style.json `blocker-login`. OpenSans-Light 14 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-login-regular",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 300,
+      "usage": "Style.json `blocker-login-regular`. OpenSans-Light 16 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-price",
+      "family": "sans",
+      "fontSize": "24px",
+      "fontWeight": 300,
+      "usage": "Style.json `blocker-price`. OpenSans-Light 24 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     },
+     {
+      "name": "blocker-name",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `blocker-name`. OpenSans-Bold 14 in 70 of 70 standard-template markets.",
+      "sample": "Subscribe for unlimited access"
+     }
+    ]
+   },
+   {
+    "name": "Section-front cells",
+    "family": "sans",
+    "styles": [
+     {
+      "name": "cell-body",
+      "family": "display",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-body`. Spectral-Regular 16 in 69 of 70 standard-template markets. Other values: PTSerif-Regular 13 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-caption",
+      "family": "sans",
+      "fontSize": "12px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-caption`. OpenSans-Regular 12 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-deck",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-deck`. OpenSans-Bold 14 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline",
+      "family": "display",
+      "fontSize": "25px",
+      "fontWeight": 500,
+      "usage": "Style.json `cell-headline`. Spectral-Medium 25 in 69 of 70 standard-template markets. Other values: OpenSansCondensed-Bold 21 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-highlight",
+      "family": "display",
+      "fontSize": "22px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-headline-highlight`. Spectral-Bold 22 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): Spectral-Bold 24. Other values: OpenSansCondensed-Bold 16 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-thin",
+      "family": "display",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-headline-thin`. Spectral-Bold 14 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): Spectral-Bold 16. Other values: OpenSans-Bold 14 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-media-above",
+      "family": "serif",
+      "fontSize": "21px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-headline-media-above`. PTSerif-Bold 21 in 69 of 70 standard-template markets. Other values: OpenSansCondensed-Bold 21 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-media-bottom",
+      "family": "sans",
+      "fontSize": "17px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-headline-media-bottom`. Open Sans 17 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-media-left",
+      "family": "serif",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-headline-media-left`. PTSerif-Bold 16 in 69 of 70 standard-template markets. Other values: OpenSansCondensed-Bold 16 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-media-left-normalfont",
+      "family": "serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-headline-media-left-normalfont`. PTSerif-Regular 16 in 69 of 70 standard-template markets. Other values: OpenSansCondensed-Regular 16 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-headline-bullets",
+      "family": "serif",
+      "fontSize": "15px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-headline-bullets`. PTSerif-Regular 15 in 69 of 70 standard-template markets. Other values: OpenSans-Light 15 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-label-bold-large",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-label-bold-large`. OpenSans-Bold 14 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Bold 16.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-label-light-large",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 300,
+      "usage": "Style.json `cell-label-light-large`. OpenSans-Light 16 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Regular 16.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-label-bold-small",
+      "family": "sans",
+      "fontSize": "10px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-label-bold-small`. OpenSans-Bold 10 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Bold 14.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-label-light-small",
+      "family": "sans",
+      "fontSize": "10px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-label-light-small`. OpenSans-Bold 10 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Regular 14.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-score",
+      "family": "sans",
+      "fontSize": "36px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-score`. OpenSans-Bold 36 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Bold 36.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-tertiary",
+      "family": "serif",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-tertiary`. PTSerif-Bold 16 in 69 of 70 standard-template markets. Other values: OpenSansCondensed-Bold 16 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-tertiary-headertext",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-tertiary-headertext`. OpenSans-Bold 14 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-timestamp",
+      "family": "sans",
+      "fontSize": "13px",
+      "fontWeight": 600,
+      "usage": "Style.json `cell-timestamp`. OpenSans-SemiBold 13 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-timestamp-tertiary",
+      "family": "sans",
+      "fontSize": "13px",
+      "fontWeight": 600,
+      "usage": "Style.json `cell-timestamp-tertiary`. OpenSans-SemiBold 13 in 70 of 70 standard-template markets.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "ar-headline",
+      "family": "sans",
+      "fontSize": "20px",
+      "fontWeight": 700,
+      "usage": "Style.json `ar-headline`. OpenSans-Bold 20 in 70 of 70 standard-template markets.",
+      "sample": "Augmented reality story"
+     },
+     {
+      "name": "cell-headline-default",
+      "family": "display",
+      "fontSize": "20px",
+      "fontWeight": 500,
+      "usage": "Style.json `cell-headline-default`, legacy template only (BS, DP, HC, MC, OS, SS, VP). Spectral-Medium 20 in 6 of 7. Other values: OpenSans-Regular 20 (1).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-blurb",
+      "family": "serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-blurb`, legacy template only (BS, DP, HC, MC, OS, SS, VP). PTSerif-Regular 16 in 4 of 7. Other values: Spectral-Regular 16 (3).",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-card-text-default",
+      "family": "sans",
+      "fontSize": "13px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-card-text-default`, legacy template only (BS, DP, HC, MC, OS, SS, VP). OpenSans-Bold 13 in 7 of 7.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-label-default",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "usage": "Style.json `cell-label-default`, legacy template only (BS, DP, HC, MC, OS, SS, VP). OpenSans-Regular 16 in 7 of 7.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "cell-signature",
+      "family": "sans",
+      "fontSize": "12px",
+      "fontWeight": 700,
+      "usage": "Style.json `cell-signature`, legacy template only (BS, DP, HC, MC, OS, SS, VP). OpenSans-Bold 12 in 7 of 7.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "label-kicker-left",
+      "family": "sans",
+      "fontSize": "12px",
+      "fontWeight": 700,
+      "usage": "Style.json `label-kicker-left`, legacy template only (BS, DP, HC, MC, OS, SS, VP). OpenSans-Bold 12 in 7 of 7.",
+      "sample": "City council approves new transit plan"
+     },
+     {
+      "name": "label-normal-small-left",
+      "family": "sans",
+      "fontSize": "10px",
+      "fontWeight": 700,
+      "usage": "Style.json `label-normal-small-left`, legacy template only (BS, DP, HC, MC, OS, SS, VP). OpenSans-Bold 10 in 7 of 7.",
+      "sample": "City council approves new transit plan"
+     }
+    ]
+   },
+   {
+    "name": "Article page",
+    "family": "display",
+    "styles": [
+     {
+      "name": "page-bio",
+      "family": "sans",
+      "fontSize": "18px",
+      "fontWeight": 300,
+      "usage": "Style.json `page-bio`. OpenSans-Light 18 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-SemiBold 18.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-body",
+      "family": "display",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "usage": "Style.json `page-body`. Spectral-Regular 18 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Regular 18. Other values: PTSerif-Regular 18 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-body-bold",
+      "family": "display",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-body-bold`. Spectral-Bold 18 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): Spectral-Regular 31. Other values: PTSerif-Bold 18 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-body-bolditalic",
+      "family": "display",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "fontStyle": "italic",
+      "usage": "Style.json `page-body-bolditalic`. Spectral-BoldItalic 18 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-BoldItalic 18. Other values: PTSerif-BoldItalic 18 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-body-italic",
+      "family": "display",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "fontStyle": "italic",
+      "usage": "Style.json `page-body-italic`. Spectral-Italic 18 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-SemiBoldItalic 18. Other values: PTSerif-Italic 18 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-body-lightitalic",
+      "family": "display",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "fontStyle": "italic",
+      "usage": "Style.json `page-body-lightitalic`. Spectral-Italic 18 in 69 of 70 standard-template markets. Other values: PTSerif-Italic 18 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-byline",
+      "family": "sans",
+      "fontSize": "14px",
+      "fontWeight": 300,
+      "usage": "Style.json `page-byline`. OpenSans-Light 14 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-Regular 14.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-caption",
+      "family": "sans",
+      "fontSize": "12px",
+      "fontWeight": 400,
+      "usage": "Style.json `page-caption`. OpenSans-Regular 12 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-Regular 14.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-deck",
+      "family": "sans",
+      "fontSize": "18px",
+      "fontWeight": 300,
+      "usage": "Style.json `page-deck`. OpenSans-Light 18 in 70 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): OpenSans-Regular 18.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-kicker",
+      "family": "sans",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-kicker`. OpenSans-Bold 16 in 70 of 70 standard-template markets.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-gallery",
+      "family": "sans",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-gallery`. OpenSans-Bold 18 in 70 of 70 standard-template markets.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-subhead",
+      "family": "sans",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-subhead`. OpenSans-Bold 18 in 70 of 70 standard-template markets.",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-title",
+      "family": "sans",
+      "fontSize": "31px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-title`. OpenSans-Bold 31 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): Spectral-Regular 25. Other values: OpenSansCondensed-Bold 31 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-title-tablet",
+      "family": "display",
+      "fontSize": "42px",
+      "fontWeight": 700,
+      "usage": "Style.json `page-title-tablet`. Spectral-Bold 42 in 69 of 70 standard-template markets. Legacy template (BS, DP, HC, MC, OS, SS, VP): PTSerif-Bold 42. Other values: PTSerif-Bold 42 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     },
+     {
+      "name": "page-slogan",
+      "family": "display",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "fontStyle": "italic",
+      "usage": "Style.json `page-slogan`. Spectral-Italic 16 in 69 of 70 standard-template markets. Other values: PTSerif-Italic 16 (1).",
+      "sample": "The plan adds 40 miles of bus lanes by 2028."
+     }
+    ]
+   }
+  ]
+ },
+ "spacing": {
+  "note": "No shared spacing scale exists in the code. These are the values the code uses most, each with its source.",
+  "tokens": [
+   {
+    "name": "space-cell-margin",
+    "value": "16px",
+    "usage": "Section-front cell margins on all four sides (SectionFrontCell.swift:46)."
+   },
+   {
+    "name": "space-cell-padding",
+    "value": "8px",
+    "usage": "Spacing between elements inside a section-front cell (SectionFrontCell.swift:47)."
+   },
+   {
+    "name": "space-article-margin-min",
+    "value": "16px",
+    "usage": "Minimum article side margin. The margin grows with width: 0.3125 x width - 160 (NativeArticleScrollView.swift:104)."
+   },
+   {
+    "name": "space-article-top-phone",
+    "value": "20px",
+    "usage": "Article card top margin on iPhone (ArticleCardCell.swift:30)."
+   },
+   {
+    "name": "space-article-top-pad",
+    "value": "40px",
+    "usage": "Article card top margin on iPad (ArticleCardCell.swift:30)."
+   },
+   {
+    "name": "space-subscription-inset",
+    "value": "16px",
+    "usage": "Inner padding of a subscription option button (SubscriptionOptionButton.xib)."
+   }
+  ]
+ },
+ "radius": {
+  "tokens": [
+   {
+    "name": "radius-button",
+    "value": "4px",
+    "usage": "Paywall Log In / Register buttons in the 70 standard-template markets (preferredButtonCornerRadius)."
+   },
+   {
+    "name": "radius-button-legacy",
+    "value": "5px",
+    "usage": "Paywall buttons in BS, DP, HC, MC, OS, SS, VP and TroncKit defaults; push-prompt Yes / No buttons (PushNotificationOptInView.xib)."
+   },
+   {
+    "name": "radius-subscription",
+    "value": "8px",
+    "usage": "Subscription option buttons (SubscriptionOptionButton.xib)."
+   },
+   {
+    "name": "radius-google",
+    "value": "2px",
+    "usage": "Sign in with Google button (TroncKit default)."
+   }
+  ]
+ },
+ "breakpoint": {
+  "note": "Window-width classes for section fronts.",
+  "tokens": [
+   {
+    "name": "bp-front-small",
+    "value": "668px",
+    "usage": "Section front switches from x-small to small at this window width (FrontWidth.swift:26)."
+   },
+   {
+    "name": "bp-front-medium",
+    "value": "835px",
+    "usage": "Small to medium (FrontWidth.swift:27)."
+   },
+   {
+    "name": "bp-front-large",
+    "value": "1113px",
+    "usage": "Medium to large, 12.9-inch iPad landscape (FrontWidth.swift:28)."
+   },
+   {
+    "name": "bp-item-medium",
+    "value": "769px",
+    "usage": "Item width classes use a different medium step (PageItem.swift:85). Disagrees with bp-front-medium."
+   },
+   {
+    "name": "bp-item-large",
+    "value": "1025px",
+    "usage": "Item width classes use a different large step (PageItem.swift:86). Disagrees with bp-front-large."
+   },
+   {
+    "name": "grid-columns",
+    "value": "12",
+    "usage": "Section-front items are sized in twelfths of their parent (PageItem.swift:73)."
+   }
+  ]
+ },
+ "size": {
+  "tokens": [
+   {
+    "name": "size-touch-min",
+    "value": "44px",
+    "usage": "Apple's minimum touch target. Not enforced app-wide; set by hand in about 6 places."
+   },
+   {
+    "name": "size-checkbox",
+    "value": "30px",
+    "usage": "Your News topic checkbox, 30 x 30 (CollapsibleTableViewCell.swift:21). Below size-touch-min."
+   },
+   {
+    "name": "size-social-icon",
+    "value": "24px",
+    "usage": "Icon inside social login buttons (SocialLoginButton.xib). Below size-touch-min."
+   },
+   {
+    "name": "size-tab-icon",
+    "value": "26px 23px",
+    "usage": "Font Awesome tab bar icons are drawn at 26 x 23 pt (CoreKit+FontAwesome.swift:16)."
+   }
+  ]
+ }
+}

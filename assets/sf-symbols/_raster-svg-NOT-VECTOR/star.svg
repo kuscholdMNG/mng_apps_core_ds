@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52pt" height="47pt" viewBox="0 0 52 47" version="1.2">
+<defs>
+<image id="image9" width="44" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAApCAAAAABrIpRuAAAAAmJLR0QA/4ePzL8AAAJ5SURBVDiNjZRNSFRRGIbfO3PHTI0yjcwyMpUMxEVJKkRSWEYtMqyojUGgUSG0KQgJsqJaRCQMLdRFuChIKsaoMBITDDQCIeyHkgzRVJQI/yrnzjwtRm1+rjnfWdxz3vPwft93uOdINpHe6F5pp9uFowceRwvvBfwb7VxstCOSjMPRGZtj+OBNdPBueNgD66Mqo0zyNEtl0Rg7RrCS8qEjGrgI2mUM4U+NoowyySOaZRxc3NgYgExpP7QtDhfCe0mxk1irFi3jkOSR9LtFzsXr6IN8SSqHlogS488Xxvn9zI2YPRpORVLSiNN6bjjmhzHR4pab8KgL2LRHbFQ51kiSLyjXTH3geye4AJ8krTZyXyXKe+G2w3S5TNPlMs3h0VlgXaLXmh2ua2elr4VSRhfQkfm/pvM/AZ4kSTJrLJiqMhZCl1y3YLJiblnQC7RtsGe39gCdWf+EhAZg4qQN6qrxgnXJDBFLR4EXaeFsbjfQWxAupzwDfh4P0YzqP0B9gk3GM9PArmDlFDB6wL6V7GkoChYqoS/FnlUOfA/5C5O9/FoWtA7ePCrd9wfDYy2KLV3A+QtsCVWOwVN7Ng8+BmZZTQ2BWxI3wYz9E3kTqgN+4zAY6LQRKuxYox/SJS2tA8C66JBUAq128HZ4LWnzO+DtN+BliuQcxmd3eG44LZVPgu+Ga/k9YLhYqoWqSNY5wkxy/F1gYKcklY+D74pzWyBfWBTDk5wPwKPZ9jM6gfa1n/FHvqcN0DoNU5XzinnVB6OdcC6cdfwAoDs7WNzRD0BXOLwJwH8rJlRNfABgOcPgpBkYKols5cQkDEZcz32eyysiWSmttilvbv4X1B10wQMoJBUAAAAASUVORK5CYII="/>
+<mask id="mask0">
+<use xlink:href="#image9"/>
+</mask>
+<image id="image8" width="44" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAApCAIAAADBK1zlAAAABmJLR0QA/wD/AP+gvaeTAAAAHElEQVRYhe3BgQAAAADDoPlTH+ECVQEAAAAAcA0VTQABGJK93QAAAABJRU5ErkJggg=="/>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="44" height="41"/>
+</clipPath>
+<g id="surface12" clip-path="url(#clip2)">
+<use xlink:href="#image8" mask="url(#mask0)"/>
+<rect x="0" y="0" width="44" height="41" style="fill:rgb(0%,0%,0%);fill-opacity:1;stroke:none;"/>
+</g>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="44" height="41"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip1)">
+<use xlink:href="#surface12"/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface14" transform="matrix(1,0,0,1,4,3)"/>
+</g>
+</svg>
