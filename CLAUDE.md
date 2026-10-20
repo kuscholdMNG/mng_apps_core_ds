@@ -16,13 +16,17 @@ MNG Apps Core Design System   ← everything both apps share
 
 This project is **separate from the MNG Web Design System**. Don't use web tokens, the web IcoMoon set or web components here.
 
-## Figma files
+## Files and repos
 
-| File | Key | Holds |
-|------|-----|-------|
-| MNG Apps Core Design System | `qgL4Pj306km9NbIBIAubFg` | Tokens, semantic icon list, core atoms. Review pages for colors and icons. |
-| MNG iOS Design System | `uNxwBNoP4ODDUFGByi73mZ` | iOS-only items. Empty for now. |
-| MNG Android Design System | `FGUeuRYhGudxo0VQdToZT9` | Android-only items. Empty for now. |
+Each library has one Figma file and one GitHub repo. This repo (Core) is the source of truth for the instructions, the shipped-code data and every iOS vs Android comparison. The platform repos hold only what is specific to their platform, and their CLAUDE.md points back here.
+
+| Library | Figma key | GitHub | Local folder |
+|---------|-----------|--------|--------------|
+| MNG Apps Core Design System | `qgL4Pj306km9NbIBIAubFg` | [kuscholdMNG/mng_apps_core_ds](https://github.com/kuscholdMNG/mng_apps_core_ds) | `~/Github/mng_apps_core_ds` |
+| MNG iOS Design System | `uNxwBNoP4ODDUFGByi73mZ` | [kuscholdMNG/mng_apps_ios_ds](https://github.com/kuscholdMNG/mng_apps_ios_ds) | `~/Github/mng_apps_ios_ds` |
+| MNG Android Design System | `FGUeuRYhGudxo0VQdToZT9` | [kuscholdMNG/mng_apps_android_ds](https://github.com/kuscholdMNG/mng_apps_android_ds) | `~/Github/mng_apps_android_ds` |
+
+Sync rule: when a session changes a repo, it commits with a clear message and Karl pushes (GitHub Desktop → Push origin). Start every session by pulling all three. A change that touches Core and a platform goes in both repos in the same session, and each PROGRESS.md log line names the other repo.
 
 Use the figma-console Desktop Bridge. Pass `fileKey` on every call, or `figma_navigate` with `lock: true`, because other files (including the Web DS) are often open at the same time.
 
@@ -67,7 +71,7 @@ Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targe
 ## Repo layout
 
 ```
-CLAUDE.md                         this file
+CLAUDE.md                         this file (platform repos point here)
 PROGRESS.md                       phase tracker + log (start here for status)
 docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- decisions
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
