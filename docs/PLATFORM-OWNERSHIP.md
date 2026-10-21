@@ -45,7 +45,7 @@ Most iOS-only items are **features** Android doesn't have, not icon disagreement
 | ID | Decision | Recommendation | Status |
 |----|----------|----------------|--------|
 | PLAT-01 | Adopt the four buckets above as the ownership rule | Yes | PROPOSED |
-| PLAT-02 | Near-identical hexes: which value is official | Migration sheet wins when it matches an app; otherwise Android, because iOS rounds each channel to 2 decimals (explains 32 of 34 sheet-checked pairs). See DISCREPANCIES DSC-01 | APPROVED 2026-10-21 (Karl's rule) |
+| PLAT-02 | Near-identical hexes: which value is official | Migration sheet wins when it matches an app; otherwise Android, because iOS rounds each channel to 2 decimals (explains 32 of 34 sheet-checked pairs). See DISCREPANCIES DSC-01 | APPROVED 2026-10-21 → DEC-01 in docs/DECISIONS.md |
 | PLAT-03 | One Core `alert` color for both apps and all markets | #cf000e: passes 4.5:1 with white (5.74:1); iOS #ff0000 fails (4.0:1). Covers CLR-01 | PROPOSED |
 | PLAT-04 | Fold `buy` and `continue` into `action` | Yes, as aliases (removes 2 roles × 77 markets) | PROPOSED |
 | PLAT-05 | `statusbar` (Android) and `header` (iOS) default to `navbar` | Platform files only store the exceptions (7 and 11 markets) | PROPOSED |

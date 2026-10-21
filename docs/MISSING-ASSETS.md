@@ -40,7 +40,7 @@ The iOS app has no vector icon masters. Everything below is needed before the Ic
 |---|-----|--------|--------|
 | 3.1 | "Not set" theme colors | Some of the 124 themed colors are `null` in some markets (UIKit falls back to its system default). Confirm whether system default is intended or a value is missing. | OPEN |
 | 3.2 | Dark mode | Every app is light-only. Confirm there are no plans/specs for dark mode before we decide the variable mode structure. | OPEN |
-| 3.3 | Brand colors the migration sheet doesn't settle | Sheet + iOS drift rule resolved 47 of 77 brands (docs/DISCREPANCIES.md, Figma Color page section 06). Still open: (a) 10 brands with template blue #004e87 on iOS vs their own color on Android: TBAN, TBH, TCE, TDB, TDF, TLBPT, TMI, TRDF, TSPPP, TT (DSC-09); (b) SCNG group PSN, TPE, TSBS, TWDN and SGVT button (DSC-10); (c) TBHS, TDCD, OCR, TSV, TOP, TEBT, TDP (DSC-11); (d) selected-tab colors DP, TIVDB, TMN, OS, MC (DSC-12); (e) TPD and legacy OS/SS/NYDN sheet colors used by neither app (DSC-13, DSC-14). Ask for these brands' primary/secondary in the migration sheet. | OPEN |
+| 3.3 | Brand colors neither sheet settles | After DEC-01 and DEC-02 (docs/DECISIONS.md), 28 brands still have an open color. **Bar / button (16):** TBAN, TBHS, TDB, TDF, TDLW, TDCD, OCR, TSV, TSPPP, TOP, TT (bar and button); SGVT, TSAR, TDP, TEBT, TPD (button only). **Selected tab only (12):** TBH, DP, TIVDB, TLBPT, MC, OS, PSN, TRDF, TMN, TPE, TSBS, TWDN. Ask for these brands' primary/secondary in the migration sheet. | OPEN |
 
 ## 4. Typography — `OPEN`
 

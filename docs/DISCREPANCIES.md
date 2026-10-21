@@ -13,13 +13,14 @@ Fix on: `iOS` · `Android` · `both` · `?`
 
 1. **Migration sheet wins.** If the sheet's Primary / Secondary color matches either app, that is the source of truth.
 2. **iOS 2-decimal drift.** TroncKit stores each color channel as a 2-decimal fraction, so `0x22` (0.133) becomes 0.13 and comes back as `0x21`. When iOS = Android after that rounding, Android holds the authored value. This explains 32 of the 34 pairs the sheet could check.
-3. Anything else is `OPEN` until the Apps team answers.
+3. **Web alignment (DEC-02).** Where the Cluster Audit web color is close (ΔE < 0.05) to our value, the web color becomes the value. Far → keep the earlier choice. See `docs/DECISIONS.md`.
+4. Anything else is `OPEN` until the Apps team answers.
 
 ## Brand colors
 
 | ID | What differs | Should be | Fix on | Evidence | Status |
 |----|--------------|-----------|--------|----------|--------|
-| DSC-01 | iOS brand color off by 1 in a channel (2-decimal drift) in 36 markets: SGVT, SIT, TB, TBCP, TCCDR, TCHW, TCV, TDC, TDPS, TEBT, TETS, TFMT, TGT, TJA, TLADN, TLS, TLTC, TMCH, TMD, TMJ, TMS, TNH, TOD, TPM, TR, TRH, TROT, TRR, TSCS, TSEB, TSS, TTH, TTT, TVR, TVTH, TWDD | Android / sheet hex (e.g. `#ab4022`, not `#ab4021`) | iOS | Sheet matches Android in all sheet-covered markets; the rest follow the drift rule. TWDD is 1 unit off without fitting the rule; sheet confirms Android. Invisible on screen. Fix: store hex strings instead of 2-decimal floats. | KNOWN |
+| DSC-01 | iOS brand color off by 1 in a channel (2-decimal drift) in 36 markets: SGVT, SIT, TB, TBCP, TCCDR, TCHW, TCV, TDC, TDPS, TEBT, TETS, TFMT, TGT, TJA, TLADN, TLS, TLTC, TMCH, TMD, TMJ, TMS, TNH, TOD, TPM, TR, TRH, TROT, TRR, TSCS, TSEB, TSS, TTH, TTT, TVR, TVTH, TWDD | Android / sheet hex (e.g. `#ab4022`, not `#ab4021`) | iOS | Sheet matches Android in all sheet-covered markets; the rest follow the drift rule. TWDD is 1 unit off without fitting the rule; sheet confirms Android. Invisible on screen. Fix: store hex strings instead of 2-decimal floats. Where DEC-02 moved a brand to its web color, the target is now that color (DSC-18). | KNOWN |
 | DSC-02 | **TLR** Loveland: iOS uses red `#ab4021` | `#4e5dca` | iOS | Sheet = Android. iOS value is TLS Lowell Sun's red (the next market alphabetically). | KNOWN |
 | DSC-03 | **TUDJ** Ukiah: iOS uses `#408fcc` | `#32408f` | iOS | Sheet = Android. iOS value is TVR Vacaville's blue (the next market alphabetically). | KNOWN |
 | DSC-04 | **TBE** Broomfield: iOS uses `#0070b8` | `#4351af` | iOS | Sheet = Android. | KNOWN |
@@ -27,10 +28,11 @@ Fix on: `iOS` · `Android` · `both` · `?`
 | DSC-06 | **TSAR** Saratogian: iOS bar `#ffffff`, button and selected tab template blue `#004e87` | Bar `#f5f5f5`, secondary `#00919e` | iOS | Sheet = Android (sheet note: secondary matches the logo). Button color (`action`) still to confirm. | KNOWN |
 | DSC-07 | **MC** Morning Call: Android button `#4fa8d1` | `#539cc4` | Android | Sheet = iOS. Android value is HC Hartford's blue. Selected-tab color still OPEN. | KNOWN |
 | DSC-08 | **SIT** Sonoma Index-Tribune: selected tab Android `#149ce5`, iOS `#ffeb00` | `#ffea00` | both | Sheet secondary `#ffea00`; iOS is it with drift. | KNOWN |
-| DSC-09 | Template blue on iOS: TBAN, TBH, TCE, TDB, TDF, TLBPT, TMI, TRDF, TSPPP, TT show `#004e87` (and black / `#9dd1f5` tabs) where Android shows each market's own color | ? (likely Android) | ? | Sheet has no color for these markets. | OPEN |
-| DSC-10 | SCNG group PSN, TPE, TSBS, TWDN: iOS red `#b01f36` bar with orange `#ff6900` button and tab; Android `#a6371e` bar and button, black tab | ? | ? | Sheet has no color for these markets. SGVT has the same orange button on iOS. | OPEN |
-| DSC-11 | Smaller open differences: TBHS bar `#b01f36` vs `#c00030`; TDCD `#5b9bc8` vs `#4891b3`; OCR `#b04f0f` vs `#ac4e0f`; TSV bar black vs `#557fba`; TOP button and tab `#004e87` vs `#5ab1c3`; TEBT button `#6bd1e6` vs `#557fba`; TDP `#f7a430` vs `#daa520`; TDLW and TOP bar off by 1–2 units (no drift pattern) | ? | ? | Not in the sheet, or the sheet color matches neither app. | OPEN |
-| DSC-12 | Selected tab only: DP `#005f7e` vs `#4fa8d1`; TIVDB `#000000` vs `#807c7c`; TMN `#000000` vs `#6bd1e6`; OS `#15919d` vs `#00919e`; MC `#539cc4` vs `#4fa8d1` | ? | ? | No secondary color in the sheet. | OPEN |
+| DSC-09 | Template blue on iOS: TBAN, TDB, TDF, TSPPP, TT show `#004e87` where Android shows each market's own color | ? | ? | Not in the migration sheet; web color far from both apps. (TBH, TCE, TMI, TLBPT, TRDF were settled by DEC-02, see DSC-18.) | OPEN |
+| DSC-10 | SCNG group: bar settled to web `#b93611` for PSN, TPE, TSBS, TWDN (DSC-18). Still open: SGVT button (iOS orange `#ff6900` vs Android `#b11e35`) and the selected tab in all five (iOS orange vs Android black) | ? | ? | Web color only covers the bar. | OPEN |
+| DSC-11 | Smaller open differences: TBHS bar `#b01f36` vs `#c00030`; TDCD `#5b9bc8` vs `#4891b3` (web rust `#b93611`); OCR `#b04f0f` vs `#ac4e0f` (web teal `#0a5962`); TSV bar black vs `#557fba`; TOP bar and button (web `#3a527a`); TEBT button `#6bd1e6` vs `#557fba`; TDP button `#f7a430` vs `#daa520` (web maroon `#7d161e`); TDLW bar off by 2 units (web rust) | ? | ? | Not in the migration sheet, or the web color is far from both apps. | OPEN |
+| DSC-12 | Selected tab only: DP `#005f7e` vs `#4fa8d1`; TIVDB `#000000` vs `#807c7c`; TMN `#000000` vs `#6bd1e6`; OS `#15919d` vs `#00919e`; MC `#539cc4` vs `#4fa8d1`; TBH, TLBPT, TRDF (iOS black or `#9dd1f5` vs Android light blues) | ? | ? | No secondary color in either sheet. | OPEN |
+| DSC-18 | 27 brand colors moved to the web color by DEC-02: TBH, TCE, TMI, TLBPT, TRDF, PSN, TPE, TSBS, TWDN (were open); OS button `#15919d` (iOS already); TCCDR, TETS, TJA, TSCS → `#32408f`; TLADN, TLS, TNH, TOD, TSEB, TMJ, TPM, TTH, TRR → `#b93611`; TMD, TMS → `#3a527a`; TGT → `#44687f`; NYDN → `#4492e0` | Web color (list in DECISIONS.md) | both (OS: Android) | Visually close to what ships (ΔE < 0.05); aligns apps with web themes. | KNOWN |
 | DSC-13 | **TPD** Press Democrat: sheet says `#9e0b0f` / `#ffea00`; both apps use black bar and gray `#999999` | ? | ? | Sheet row is marked WIP; only the iOS section header uses `#9e0b0f`. | OPEN |
 | DSC-14 | Legacy markets OS, SS, NYDN: the sheet's Primary (`#004e87`, `#000000`, `#ec2127`) appears in neither app | ? | ? | Sheet column may mean something else for the legacy template. | OPEN |
 | DSC-15 | Breaking-news red: iOS `#ff0000` (71) / `#d80000` (6), Android `#cf000e` | `#cf000e` (proposed) | iOS | PLAT-03. iOS `#ff0000` fails 4.5:1 with white. | KNOWN (pending PLAT-03) |
@@ -55,5 +57,7 @@ Fix on: `iOS` · `Android` · `both` · `?`
 | DSC-31 | Text size: iOS smaller/larger glyphs, Android one glyph | One Core glyph + iOS variant | — | PLAT-08 | KNOWN |
 
 ## Log
+
+- **2026-10-21** — DEC-02 applied: 27 brand colors moved to the Cluster Audit web color (DSC-18). 28 brands still have an open color (16 bar/button, 12 selected tab only).
 
 - **2026-10-21** — Started. Brand colors checked against the migration sheet: 47 of 77 markets fully resolved, 30 have at least one open role.

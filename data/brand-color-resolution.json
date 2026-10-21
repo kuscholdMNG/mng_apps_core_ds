@@ -10,10 +10,11 @@
   "Roles: navbar, action (sheet Primary) and tabactive (sheet Secondary)."
  ],
  "stats": {
-  "agree": 37,
+  "agree": 36,
   "agree+sheet": 44,
-  "unresolved": 68,
-  "sheet+drift": 67,
+  "unresolved": 49,
+  "web-close": 52,
+  "sheet+drift": 35,
   "sheet": 11,
   "drift-rule": 4
  },
@@ -48,7 +49,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TBAN",
@@ -80,7 +82,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TBH",
@@ -92,17 +95,25 @@
      "ios": "#004e87",
      "android": "#255e97",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#00538a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#9dd1f5",
      "android": "#255e97",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#00538a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#9dd1f5",
@@ -112,7 +123,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TBHS",
@@ -144,7 +156,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TBCP",
@@ -176,7 +189,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TBE",
@@ -208,7 +222,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TB",
@@ -240,7 +255,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TCCDR",
@@ -252,17 +268,25 @@
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -272,7 +296,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "CT",
@@ -304,7 +329,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TCE",
@@ -316,17 +342,25 @@
      "ios": "#004e87",
      "android": "#1f4d83",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#004e87",
      "android": "#1f4d83",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -336,7 +370,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TCHW",
@@ -368,7 +403,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TDB",
@@ -400,7 +436,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TDF",
@@ -432,7 +469,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TDLW",
@@ -464,7 +502,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "DP",
@@ -496,7 +535,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TDCD",
@@ -528,7 +568,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TDPS",
@@ -560,7 +601,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TEPTG",
@@ -592,7 +634,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TETS",
@@ -604,17 +647,25 @@
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -624,7 +675,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TFMT",
@@ -656,7 +708,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TGT",
@@ -668,17 +721,25 @@
      "ios": "#546e80",
      "android": "#536e7f",
      "sheet": "#536e7f",
-     "value": "#536e7f",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#44687f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#536e7f",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#546e80",
      "android": "#536e7f",
      "sheet": "#536e7f",
-     "value": "#536e7f",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#44687f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#536e7f",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -688,7 +749,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "HC",
@@ -720,7 +782,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TIVDB",
@@ -752,7 +815,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TJA",
@@ -764,17 +828,25 @@
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -784,7 +856,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TLBPT",
@@ -796,17 +869,25 @@
      "ios": "#004e87",
      "android": "#2c47a0",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#004e87",
      "android": "#2c47a0",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -816,7 +897,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TLTC",
@@ -848,7 +930,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TLADN",
@@ -860,17 +943,25 @@
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -880,7 +971,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TLR",
@@ -912,7 +1004,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TLS",
@@ -924,17 +1017,25 @@
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -944,7 +1045,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TMD",
@@ -956,17 +1058,25 @@
      "ios": "#405278",
      "android": "#3f5177",
      "sheet": "#3f5177",
-     "value": "#3f5177",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#3a527a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#3f5177",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#405278",
      "android": "#3f5177",
      "sheet": "#3f5177",
-     "value": "#3f5177",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#3a527a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#3f5177",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -976,7 +1086,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TMI",
@@ -988,17 +1099,25 @@
      "ios": "#004e87",
      "android": "#1f4d83",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#004e87",
      "android": "#1f4d83",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1008,7 +1127,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TMCH",
@@ -1040,7 +1160,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "MC",
@@ -1072,7 +1193,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "NYDN",
@@ -1092,9 +1214,13 @@
      "ios": "#4591e0",
      "android": "#4591e0",
      "sheet": "#ec2127",
-     "value": "#4591e0",
-     "evidence": "agree",
-     "fix": null
+     "value": "#4492e0",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#4591e0",
+      "evidence": "agree"
+     }
     },
     "tabactive": {
      "ios": "#4591e0",
@@ -1104,7 +1230,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TOD",
@@ -1116,17 +1243,25 @@
      "ios": "#ba2112",
      "android": "#b92111",
      "sheet": "#b92111",
-     "value": "#b92111",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#b92111",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#ba2112",
      "android": "#b92111",
      "sheet": "#b92111",
-     "value": "#b92111",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#b92111",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1136,7 +1271,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "OCR",
@@ -1168,7 +1304,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "OS",
@@ -1188,9 +1325,13 @@
      "ios": "#15919d",
      "android": "#00919e",
      "sheet": "#004e87",
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#15919d",
+     "evidence": "web-close",
+     "fix": "android",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#15919d",
@@ -1200,7 +1341,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "PSN",
@@ -1212,17 +1354,25 @@
      "ios": "#b01f36",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#ff6900",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#ff6900",
@@ -1232,7 +1382,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "PAC",
@@ -1264,7 +1415,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TRE",
@@ -1296,7 +1448,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TRDF",
@@ -1308,17 +1461,25 @@
      "ios": "#004e87",
      "android": "#2c47a0",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#9dd1f5",
      "android": "#2c47a0",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#9dd1f5",
@@ -1328,7 +1489,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TRH",
@@ -1360,7 +1522,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TROT",
@@ -1392,7 +1555,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "SGVT",
@@ -1424,7 +1588,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TSCS",
@@ -1436,17 +1601,25 @@
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#36408a",
      "android": "#353f8a",
      "sheet": "#353f8a",
-     "value": "#353f8a",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#32408f",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#353f8a",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1456,7 +1629,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TSAR",
@@ -1488,7 +1662,8 @@
      "evidence": "sheet",
      "fix": "ios"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TSEB",
@@ -1500,17 +1675,25 @@
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1520,7 +1703,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TSV",
@@ -1552,7 +1736,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "SIT",
@@ -1584,7 +1769,8 @@
      "evidence": "sheet+drift",
      "fix": "both"
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TSPPP",
@@ -1616,7 +1802,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "SS",
@@ -1648,7 +1835,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TCV",
@@ -1680,7 +1868,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TDC",
@@ -1712,7 +1901,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TDP",
@@ -1744,7 +1934,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TEBT",
@@ -1776,7 +1967,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TMN",
@@ -1808,7 +2000,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TMJ",
@@ -1820,17 +2013,25 @@
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1840,7 +2041,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TMS",
@@ -1852,17 +2054,25 @@
      "ios": "#405278",
      "android": "#3f5177",
      "sheet": "#3f5177",
-     "value": "#3f5177",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#3a527a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#3f5177",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#405278",
      "android": "#3f5177",
      "sheet": "#3f5177",
-     "value": "#3f5177",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#3a527a",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#3f5177",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1872,7 +2082,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TNH",
@@ -1884,17 +2095,25 @@
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#ab4021",
      "android": "#ab4022",
      "sheet": "#ab4022",
-     "value": "#ab4022",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#ab4022",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1904,7 +2123,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TOP",
@@ -1936,7 +2156,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TPM",
@@ -1948,17 +2169,25 @@
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -1968,7 +2197,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TPD",
@@ -2000,7 +2230,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TPE",
@@ -2012,17 +2243,25 @@
      "ios": "#b01f36",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#ff6900",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#ff6900",
@@ -2032,7 +2271,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TR",
@@ -2064,7 +2304,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TSBS",
@@ -2076,17 +2317,25 @@
      "ios": "#b01f36",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#ff6900",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#ff6900",
@@ -2096,7 +2345,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "SDUT",
@@ -2128,7 +2378,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TSS",
@@ -2160,7 +2411,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TTH",
@@ -2172,17 +2424,25 @@
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -2192,7 +2452,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TT",
@@ -2224,7 +2485,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TRR",
@@ -2236,17 +2498,25 @@
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "action": {
      "ios": "#bd3b0f",
      "android": "#bc3b10",
      "sheet": "#bc3b10",
-     "value": "#bc3b10",
-     "evidence": "sheet+drift",
-     "fix": "ios"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": "#bc3b10",
+      "evidence": "sheet+drift"
+     }
     },
     "tabactive": {
      "ios": "#000000",
@@ -2256,7 +2526,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TTT",
@@ -2288,7 +2559,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TUDJ",
@@ -2320,7 +2592,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TVR",
@@ -2352,7 +2625,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TVTH",
@@ -2384,7 +2658,8 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "VP",
@@ -2416,7 +2691,8 @@
      "evidence": "agree",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   },
   {
    "code": "TWDN",
@@ -2428,17 +2704,25 @@
      "ios": "#b01f36",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "action": {
      "ios": "#ff6900",
      "android": "#a6371e",
      "sheet": null,
-     "value": null,
-     "evidence": "unresolved",
-     "fix": "ask"
+     "value": "#b93611",
+     "evidence": "web-close",
+     "fix": "both",
+     "previous": {
+      "value": null,
+      "evidence": "unresolved"
+     }
     },
     "tabactive": {
      "ios": "#ff6900",
@@ -2448,7 +2732,8 @@
      "evidence": "unresolved",
      "fix": "ask"
     }
-   }
+   },
+   "status": "open"
   },
   {
    "code": "TWDD",
@@ -2480,7 +2765,502 @@
      "evidence": "agree+sheet",
      "fix": null
     }
-   }
+   },
+   "status": "resolved"
   }
- ]
+ ],
+ "web_alignment": {
+  "rule": "DEC-02",
+  "close_dE": 0.05,
+  "log": [
+   {
+    "code": "BS",
+    "role": "action",
+    "web": "#daa520",
+    "before": "#daa520",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TBH",
+    "role": "navbar",
+    "web": "#00538a",
+    "before": null,
+    "dE": 0.015,
+    "applied": true
+   },
+   {
+    "code": "TCCDR",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#353f8a",
+    "dE": 0.009,
+    "applied": true
+   },
+   {
+    "code": "CT",
+    "role": "navbar",
+    "web": "#004e87",
+    "before": "#004e87",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TCE",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": null,
+    "dE": 0.046,
+    "applied": true
+   },
+   {
+    "code": "TDB",
+    "role": "navbar",
+    "web": "#0a5962",
+    "before": null,
+    "dE": 0.079,
+    "applied": false
+   },
+   {
+    "code": "TDF",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.289,
+    "applied": false
+   },
+   {
+    "code": "TDLW",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.296,
+    "applied": false
+   },
+   {
+    "code": "DP",
+    "role": "action",
+    "web": "#005f7e",
+    "before": "#005f7e",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TDCD",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.278,
+    "applied": false
+   },
+   {
+    "code": "TEPTG",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#32408f",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TETS",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#353f8a",
+    "dE": 0.009,
+    "applied": true
+   },
+   {
+    "code": "TFMT",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#32408f",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TGT",
+    "role": "navbar",
+    "web": "#44687f",
+    "before": "#536e7f",
+    "dE": 0.028,
+    "applied": true
+   },
+   {
+    "code": "HC",
+    "role": "action",
+    "web": "#4fa8d1",
+    "before": "#4fa8d1",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TIVDB",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#004e87",
+    "dE": 0.052,
+    "applied": false
+   },
+   {
+    "code": "TJA",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#353f8a",
+    "dE": 0.009,
+    "applied": true
+   },
+   {
+    "code": "TLBPT",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": null,
+    "dE": 0.032,
+    "applied": true
+   },
+   {
+    "code": "TLTC",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#007cba",
+    "dE": 0.169,
+    "applied": false
+   },
+   {
+    "code": "TLADN",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#ab4022",
+    "dE": 0.029,
+    "applied": true
+   },
+   {
+    "code": "TLR",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#4e5dca",
+    "dE": 0.126,
+    "applied": false
+   },
+   {
+    "code": "TLS",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#ab4022",
+    "dE": 0.029,
+    "applied": true
+   },
+   {
+    "code": "TMD",
+    "role": "navbar",
+    "web": "#3a527a",
+    "before": "#3f5177",
+    "dE": 0.008,
+    "applied": true
+   },
+   {
+    "code": "TMI",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": null,
+    "dE": 0.046,
+    "applied": true
+   },
+   {
+    "code": "TMCH",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#3c6292",
+    "dE": 0.099,
+    "applied": false
+   },
+   {
+    "code": "MC",
+    "role": "action",
+    "web": "#539cc4",
+    "before": "#539cc4",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "NYDN",
+    "role": "action",
+    "web": "#4492e0",
+    "before": "#4591e0",
+    "dE": 0.003,
+    "applied": true
+   },
+   {
+    "code": "TOD",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#b92111",
+    "dE": 0.028,
+    "applied": true
+   },
+   {
+    "code": "OCR",
+    "role": "navbar",
+    "web": "#0a5962",
+    "before": null,
+    "dE": 0.235,
+    "applied": false
+   },
+   {
+    "code": "OS",
+    "role": "action",
+    "web": "#15919d",
+    "before": null,
+    "dE": 0.0,
+    "applied": true
+   },
+   {
+    "code": "PSN",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.038,
+    "applied": true
+   },
+   {
+    "code": "TRE",
+    "role": "action",
+    "web": "#b93611",
+    "before": "#004e87",
+    "dE": 0.298,
+    "applied": false
+   },
+   {
+    "code": "TRDF",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": null,
+    "dE": 0.032,
+    "applied": true
+   },
+   {
+    "code": "TROT",
+    "role": "navbar",
+    "web": "#3a527a",
+    "before": "#013a67",
+    "dE": 0.099,
+    "applied": false
+   },
+   {
+    "code": "SGVT",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#b11e35",
+    "dE": 0.058,
+    "applied": false
+   },
+   {
+    "code": "TSCS",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#353f8a",
+    "dE": 0.009,
+    "applied": true
+   },
+   {
+    "code": "TSAR",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#f5f5f5",
+    "dE": 0.477,
+    "applied": false
+   },
+   {
+    "code": "TSEB",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#bc3b10",
+    "dE": 0.011,
+    "applied": true
+   },
+   {
+    "code": "TSPPP",
+    "role": "navbar",
+    "web": "#0065a8",
+    "before": null,
+    "dE": 0.08,
+    "applied": false
+   },
+   {
+    "code": "SS",
+    "role": "action",
+    "web": "#761113",
+    "before": "#761113",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TDC",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#007639",
+    "dE": 0.244,
+    "applied": false
+   },
+   {
+    "code": "TDP",
+    "role": "action",
+    "web": "#7d161e",
+    "before": null,
+    "dE": 0.393,
+    "applied": false
+   },
+   {
+    "code": "TEBT",
+    "role": "navbar",
+    "web": "#006394",
+    "before": "#557fba",
+    "dE": 0.119,
+    "applied": false
+   },
+   {
+    "code": "TMN",
+    "role": "navbar",
+    "web": "#006394",
+    "before": "#004e87",
+    "dE": 0.064,
+    "applied": false
+   },
+   {
+    "code": "TMJ",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#bc3b10",
+    "dE": 0.011,
+    "applied": true
+   },
+   {
+    "code": "TMS",
+    "role": "navbar",
+    "web": "#3a527a",
+    "before": "#3f5177",
+    "dE": 0.008,
+    "applied": true
+   },
+   {
+    "code": "TNH",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#ab4022",
+    "dE": 0.029,
+    "applied": true
+   },
+   {
+    "code": "TOP",
+    "role": "navbar",
+    "web": "#3a527a",
+    "before": null,
+    "dE": 0.252,
+    "applied": false
+   },
+   {
+    "code": "TPM",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#bc3b10",
+    "dE": 0.011,
+    "applied": true
+   },
+   {
+    "code": "TPE",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.038,
+    "applied": true
+   },
+   {
+    "code": "TR",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#007cba",
+    "dE": 0.299,
+    "applied": false
+   },
+   {
+    "code": "TSBS",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.038,
+    "applied": true
+   },
+   {
+    "code": "TTH",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#bc3b10",
+    "dE": 0.011,
+    "applied": true
+   },
+   {
+    "code": "TT",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.273,
+    "applied": false
+   },
+   {
+    "code": "TRR",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": "#bc3b10",
+    "dE": 0.011,
+    "applied": true
+   },
+   {
+    "code": "TUDJ",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#32408f",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TVR",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#408fcb",
+    "dE": 0.229,
+    "applied": false
+   },
+   {
+    "code": "TVTH",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#8d092d",
+    "dE": 0.229,
+    "applied": false
+   },
+   {
+    "code": "VP",
+    "role": "action",
+    "web": "#005f7e",
+    "before": "#005f7e",
+    "dE": 0.0,
+    "applied": false
+   },
+   {
+    "code": "TWDN",
+    "role": "navbar",
+    "web": "#b93611",
+    "before": null,
+    "dE": 0.038,
+    "applied": true
+   },
+   {
+    "code": "TWDD",
+    "role": "navbar",
+    "web": "#32408f",
+    "before": "#007639",
+    "dE": 0.244,
+    "applied": false
+   }
+  ]
+ }
 }

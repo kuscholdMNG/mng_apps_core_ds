@@ -65,7 +65,7 @@ Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targe
 
 ## Rules
 
-0. **Log every iOS/Android difference that should match** in `docs/DISCREPANCIES.md` (DSC- ID, right value, evidence, which app to fix).
+0. **Record every approved decision** in `docs/DECISIONS.md` (DEC- ID, rule, date, what changed). **Log every iOS/Android difference that should match** in `docs/DISCREPANCIES.md` (DSC- ID, right value, evidence, which app to fix).
 1. **Shipped values are documented exactly as shipped**, failing ones included. Proposed changes go in `docs/IMPROVEMENTS.md` (iOS-era IDs) or `docs/PLATFORM-OWNERSHIP.md` (`PLAT-` IDs) and are shown beside the shipped value, never instead of it.
 2. **One phase at a time.** Karl reviews each phase before the next starts. Track it in `PROGRESS.md` and add a dated line to its Log.
 3. **Plan before work.** For anything beyond adding review pages or sections, post the plan and wait for an OK.
@@ -87,6 +87,7 @@ CLAUDE.md                         this file (platform repos point here)
 PROGRESS.md                       phase tracker + log (start here for status)
 docs/ARCHITECTURE.md              how Core, iOS and Android fit together (registry, variables, wayfinding)
 docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- decisions
+docs/DECISIONS.md                 approved decisions (DEC- IDs): rule, date, what changed
 docs/DISCREPANCIES.md             iOS vs Android differences that should match (DSC- IDs), with the right value and which app to fix
 docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
@@ -104,6 +105,7 @@ python3 scripts/compare_platform_colors.py data/source/markets.json data/source/
 python3 scripts/icon_platform_map.py data/icon-comparison.json data/icon-platform-map.json
 python3 scripts/component_platform_map.py data/component-platform-map.json
 python3 scripts/resolve_brand_colors.py data/source/markets.json data/source/android-markets.json data/source/migration-sheet-brand-colors.json data/brand-color-resolution.json
+python3 scripts/apply_web_alignment.py data/brand-color-resolution.json data/source/cluster-audit-web-colors.json   # DEC-02, right after resolve
 python3 scripts/build_registry.py   # run last; reads the two maps above
 ```
 

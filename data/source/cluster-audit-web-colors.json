@@ -1,0 +1,433 @@
+{
+ "source": "Google Sheet \"_Adabel's Cluster Audit - MAIN\" (1J1pW6Nc7WdfQVMEO7QvqR3W9uyEvxu0-UgYGgwR67iw), tab colors, column {{PropertyColor}}, read once on 2026-10-21. Web (WordPress / ARC) colors, not app colors. Used once as a tie-breaker (DEC-02); not a live source.",
+ "note": "Site names mapped to app market codes by hand. Sites with no app are left out.",
+ "rows": [
+  {
+   "site": "Marin Independent Journal",
+   "code": "TMI",
+   "cluster": "BANG",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "East Bay Times",
+   "code": "TEBT",
+   "cluster": "BANG",
+   "theme": "BoldCoastal",
+   "property_color": "#006394"
+  },
+  {
+   "site": "The Mercury News",
+   "code": "TMN",
+   "cluster": "BANG",
+   "theme": "BoldCoastal",
+   "property_color": "#006394"
+  },
+  {
+   "site": "The Denver Post",
+   "code": "TDP",
+   "cluster": "Denver",
+   "theme": "BoldCoastal",
+   "property_color": "#7D161E"
+  },
+  {
+   "site": "Boulder Daily Camera",
+   "code": "TDC",
+   "cluster": "PMP",
+   "theme": "ModernVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Loveland Reporter-Herald",
+   "code": "TLR",
+   "cluster": "PMP",
+   "theme": "ModernVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Longmont Times Call",
+   "code": "TLTC",
+   "cluster": "PMP",
+   "theme": "ModernVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Greeley Tribune",
+   "code": "TGT",
+   "cluster": "PMP",
+   "theme": "ModernVibrant",
+   "property_color": "#44687F"
+  },
+  {
+   "site": "Boston Herald",
+   "code": "TBH",
+   "cluster": "Boston",
+   "theme": "ModernEarthy",
+   "property_color": "#00538A"
+  },
+  {
+   "site": "Lowell Sun",
+   "code": "TLS",
+   "cluster": "Boston",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Sentinel & Enterprise",
+   "code": "TSEB",
+   "cluster": "Boston",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Kingston Daily Freeman",
+   "code": "TDF",
+   "cluster": "21C / New York",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Oneida Daily Dispatch",
+   "code": "TOD",
+   "cluster": "21C / New York",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Saratogian",
+   "code": "TSAR",
+   "cluster": "21C / New York",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "The Troy Record",
+   "code": "TRR",
+   "cluster": "21C / New York",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Lorain Morning Journal",
+   "code": "TMJ",
+   "cluster": "21C / Ohio",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Lake County News-Herald",
+   "code": "TNH",
+   "cluster": "21C / Ohio",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Mount Pleasant Morning Sun",
+   "code": "TMS",
+   "cluster": "21C / Mich",
+   "theme": "?",
+   "property_color": "#3A527A"
+  },
+  {
+   "site": "Royal Oak Daily Tribune",
+   "code": "TROT",
+   "cluster": "21C / Mich",
+   "theme": "?",
+   "property_color": "#3A527A"
+  },
+  {
+   "site": "Macomb Daily",
+   "code": "TMD",
+   "cluster": "21C / Mich",
+   "theme": "?",
+   "property_color": "#3A527A"
+  },
+  {
+   "site": "Daily Oakland Press",
+   "code": "TOP",
+   "cluster": "21C / Mich",
+   "theme": "?",
+   "property_color": "#3A527A"
+  },
+  {
+   "site": "Delaware County Times",
+   "code": "TDCD",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "The Lansdale Reporter",
+   "code": "TR",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Norristown Times Herald",
+   "code": "TTH",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "The Pottstown Mercury",
+   "code": "TPM",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Trentonian",
+   "code": "TT",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "West Chester Daily Local",
+   "code": "TDLW",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Reading Eagle",
+   "code": "TRE",
+   "cluster": "21C / Philly",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Chico Enterprise-Record",
+   "code": "TCE",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Santa Cruz Sentinel",
+   "code": "TSCS",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Monterey Herald",
+   "code": "TMCH",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Eureka Times-Standard",
+   "code": "TETS",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Ukiah Daily Journal",
+   "code": "TUDJ",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Vacaville Reporter",
+   "code": "TVR",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Vallejo Times-Herald",
+   "code": "TVTH",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Woodland Daily Democrat",
+   "code": "TWDD",
+   "cluster": "Norcal",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "St. Paul Pioneer Press",
+   "code": "TSPPP",
+   "cluster": "St. Paul",
+   "theme": "BoldCoastal",
+   "property_color": "#0065A8"
+  },
+  {
+   "site": "Inland Valley Daily Bulletin",
+   "code": "TIVDB",
+   "cluster": "SCNG",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "LA Daily News",
+   "code": "TLADN",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Long Beach Press-Telegram",
+   "code": "TLBPT",
+   "cluster": "SCNG",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Orange County Register",
+   "code": "OCR",
+   "cluster": "SCNG",
+   "theme": "BoldCoastal",
+   "property_color": "#0A5962"
+  },
+  {
+   "site": "Press Enterprise",
+   "code": "TPE",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Pasadena Star-News",
+   "code": "PSN",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Redlands Daily Facts",
+   "code": "TRDF",
+   "cluster": "SCNG",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "San Bernardino Sun",
+   "code": "TSBS",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "San Gabriel Valley Tribune",
+   "code": "SGVT",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Torrance Daily Breeze",
+   "code": "TDB",
+   "cluster": "SCNG",
+   "theme": "BoldCoastal",
+   "property_color": "#0A5962"
+  },
+  {
+   "site": "Whittier Daily News",
+   "code": "TWDN",
+   "cluster": "SCNG",
+   "theme": "ModernEarthy",
+   "property_color": "#B93611"
+  },
+  {
+   "site": "Fort Morgan Times",
+   "code": "TFMT",
+   "cluster": "PMP - Weeklies",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Sterling Journal Advocate",
+   "code": "TJA",
+   "cluster": "PMP - Weeklies",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Ca\u00f1on City Daily Record",
+   "code": "TCCDR",
+   "cluster": "PMP - Weeklies",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Estes Park Trail-Gazette",
+   "code": "TEPTG",
+   "cluster": "PMP - Weeklies",
+   "theme": "MeasuredVibrant",
+   "property_color": "#32408F"
+  },
+  {
+   "site": "Chicago Tribune",
+   "code": "CT",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#004E87"
+  },
+  {
+   "site": "NewYork Daily News",
+   "code": "NYDN",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#4492E0"
+  },
+  {
+   "site": "Virginian Pilot",
+   "code": "VP",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#005F7E"
+  },
+  {
+   "site": "Baltimore Sun",
+   "code": "BS",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#DAA520"
+  },
+  {
+   "site": "Hartford Courant",
+   "code": "HC",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#4FA8D1"
+  },
+  {
+   "site": "Sun Sentinel of FL",
+   "code": "SS",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#761113"
+  },
+  {
+   "site": "Orlando Sentinel",
+   "code": "OS",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#15919D"
+  },
+  {
+   "site": "Daily Press of VA",
+   "code": "DP",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#005F7E"
+  },
+  {
+   "site": "Morning Call of PA",
+   "code": "MC",
+   "cluster": "TRIB",
+   "theme": "ARC",
+   "property_color": "#539CC4"
+  }
+ ]
+}
