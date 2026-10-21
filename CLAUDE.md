@@ -1,6 +1,15 @@
 # Project instructions — MNG Apps Design System
 
-Read this file first in every session. Karl edits it here on GitHub; nothing in this file needs to live in Claude. If this file and a chat request disagree, ask.
+Read this file first in every session. **This is the only copy of the project instructions.** Karl edits it here (locally or on GitHub); the Claude project's own instructions only point to this file. If this file and a chat request disagree, ask.
+
+## Start of every session
+
+1. Pull all three repos (`mng_apps_core_ds`, `mng_apps_ios_ds`, `mng_apps_android_ds`) and re-read this file if it changed.
+2. Read `PROGRESS.md` for the current phase and what is waiting on review.
+3. Check `docs/PLATFORM-OWNERSHIP.md` for open `PLAT-` decisions before moving anything between libraries.
+4. End the session by updating `PROGRESS.md` (dated log line) and committing. Karl pushes.
+
+To change these instructions, edit this file and push. No change in Claude is needed.
 
 ## Goal
 
