@@ -70,9 +70,10 @@ Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targe
 2. **One phase at a time.** Karl reviews each phase before the next starts. Track it in `PROGRESS.md` and add a dated line to its Log.
 3. **Plan before work.** For anything beyond adding review pages or sections, post the plan and wait for an OK.
 4. **Figma edits are additive.** Add new sections (`NN · Title`) beside existing ones and never overwrite or delete Karl's content. Re-running a build replaces only the section it created. Screenshot each section after building it.
-5. **Data first, then Figma.** Every Figma table comes from a JSON in `data/` that a script in `scripts/` regenerates. Never type values by hand.
-6. **Don't invent.** If the source doesn't say, write "unknown, ask Apps team" and add it to `docs/MISSING-ASSETS.md`.
-7. **Moving items to the platform files** happens only after Karl approves the ownership page for that area.
+5. **Tokens are the delivery format.** Colors (and later type, spacing, radius) live as DTCG tokens in `tokens/`; Swift and Kotlin are generated, never hand-written. Always document colors as hex and RGB.
+6. **Data first, then Figma.** Every Figma table comes from a JSON in `data/` that a script in `scripts/` regenerates. Never type values by hand.
+7. **Don't invent.** If the source doesn't say, write "unknown, ask Apps team" and add it to `docs/MISSING-ASSETS.md`.
+8. **Moving items to the platform files** happens only after Karl approves the ownership page for that area.
 
 ## Figma page style (match the existing pages)
 
@@ -92,6 +93,9 @@ docs/DISCREPANCIES.md             iOS vs Android differences that should match (
 docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
 docs/MISSING-ASSETS.md            what we need from the Apps team
+tokens/                           DTCG design tokens (generated; the source for Swift, Kotlin and Figma)
+style-dictionary.config.mjs       builds Swift / Kotlin / Android XML from tokens/
+docs/BRAND-COLORS.md              every brand color as hex and RGB (generated)
 data/source/                      raw exports from each app (don't edit)
 data/*.json                       generated analysis
 scripts/                          regenerate data/*.json
@@ -106,6 +110,9 @@ python3 scripts/icon_platform_map.py data/icon-comparison.json data/icon-platfor
 python3 scripts/component_platform_map.py data/component-platform-map.json
 python3 scripts/resolve_brand_colors.py data/source/markets.json data/source/android-markets.json data/source/migration-sheet-brand-colors.json data/brand-color-resolution.json
 python3 scripts/apply_web_alignment.py data/brand-color-resolution.json data/source/cluster-audit-web-colors.json   # DEC-02, right after resolve
+python3 scripts/apply_ios_default.py data/brand-color-resolution.json data/color-platform-comparison.json   # DEC-03
+python3 scripts/build_tokens.py     # tokens/*.tokens.json + docs/BRAND-COLORS.md
+npm install && npm run build        # Style Dictionary → ../mng_apps_ios_ds/Tokens, ../mng_apps_android_ds/tokens
 python3 scripts/build_registry.py   # run last; reads the two maps above
 ```
 

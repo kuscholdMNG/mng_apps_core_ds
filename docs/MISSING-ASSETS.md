@@ -40,7 +40,7 @@ The iOS app has no vector icon masters. Everything below is needed before the Ic
 |---|-----|--------|--------|
 | 3.1 | "Not set" theme colors | Some of the 124 themed colors are `null` in some markets (UIKit falls back to its system default). Confirm whether system default is intended or a value is missing. | OPEN |
 | 3.2 | Dark mode | Every app is light-only. Confirm there are no plans/specs for dark mode before we decide the variable mode structure. | OPEN |
-| 3.3 | Brand colors neither sheet settles | After DEC-01 and DEC-02 (docs/DECISIONS.md), 28 brands still have an open color. **Bar / button (16):** TBAN, TBHS, TDB, TDF, TDLW, TDCD, OCR, TSV, TSPPP, TOP, TT (bar and button); SGVT, TSAR, TDP, TEBT, TPD (button only). **Selected tab only (12):** TBH, DP, TIVDB, TLBPT, MC, OS, PSN, TRDF, TMN, TPE, TSBS, TWDN. Ask for these brands' primary/secondary in the migration sheet. | OPEN |
+| 3.3 | Confirm the iOS-default brand colors | DEC-03 set every remaining difference to the iOS value (list in docs/DECISIONS.md → DEC-03). Ask the Apps team only to confirm, especially TDP (iOS `#f7a430` vs Android `#daa520`), TPD (sheet says `#9e0b0f`, both apps black), SGVT and the SCNG selected tabs (iOS orange `#ff6900`), and the breaking-news red (PLAT-03). | OPEN (confirm only) |
 
 ## 4. Typography — `OPEN`
 

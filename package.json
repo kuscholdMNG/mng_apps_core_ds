@@ -1,0 +1,13 @@
+{
+  "name": "mng-apps-core-ds-tokens",
+  "private": true,
+  "type": "module",
+  "description": "MNG Apps design tokens: DTCG source in tokens/, Swift and Kotlin output via Style Dictionary.",
+  "scripts": {
+    "tokens": "python3 scripts/build_tokens.py",
+    "build": "node style-dictionary.config.mjs"
+  },
+  "devDependencies": {
+    "style-dictionary": "4.4.0"
+  }
+}

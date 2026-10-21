@@ -45,6 +45,13 @@ Owner values: `core` · `core+variant` · `ios` · `android`. Chip colors are in
 
 Platform files never copy a Core value; they alias it.
 
+**Tokens (DEC-04)**: the variables above come from one DTCG source in this repo (`tokens/`). Style Dictionary generates the platform code: Swift for iOS (`mng_apps_ios_ds/Tokens/`) and Kotlin + per-flavor XML for Android (`mng_apps_android_ds/tokens/`). Every color is stored as hex and RGB. Figma variables are built from the same files, so Figma, Swift and Kotlin never disagree.
+
+```
+data/brand-color-resolution.json ─► tokens/*.tokens.json (DTCG) ─► Style Dictionary ─► Swift · Kotlin · Android XML
+                                                                  └─────────────► Figma variables
+```
+
 **Components**: Core holds the spec (anatomy, states, tokens, content rules). iOS and Android hold the native build using Core tokens. Component names are identical across iOS and Android (`Nav bar`, `Button/Primary`, `Icon/Search`) so a mockup can move between platforms with Swap Library.
 
 **Icons**: Core holds the semantic list and custom vectors (brands, gaps). iOS holds SF Symbols glyphs (mockup licence only), Android holds Material Symbols, named to match.

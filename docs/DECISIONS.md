@@ -6,6 +6,8 @@ Design-system decisions with the rule, the date, who made it and what changed. P
 |---|---|---|---|
 | DEC-01 | Brand colors: the migration sheet wins when it matches an app; otherwise Android, because iOS rounds each color channel to 2 decimals | 2026-10-21 | Karl |
 | DEC-02 | Brand colors: where the Cluster Audit web color is close to our value (ΔE < 0.05), use the web color. Where it's far, keep our earlier choice. Where neither settles it, the brand stays open | 2026-10-21 | Karl |
+| DEC-03 | Brand colors: any color still unresolved after DEC-01 and DEC-02 takes the iOS value | 2026-10-21 | Karl |
+| DEC-04 | Colors are managed as design tokens: one DTCG source in Core, Style Dictionary generates Swift and Kotlin; every color is documented as hex and RGB | 2026-10-21 | Karl |
 
 ## DEC-01 · Migration sheet + iOS drift rule
 
@@ -93,3 +95,85 @@ BS, CT, DP, TEPTG, TFMT, HC, MC, SS, TUDJ, VP
 | TDP | The Denver Post | #f7a430 | #daa520 | #7d161e | 0.393 |
 | TOP | The Oakland Press | #0b151e | #0b151d | #3a527a | 0.252 |
 | TT | The Trentonian | #004e87 | #357dad | #b93611 | 0.273 |
+
+## DEC-03 · Defer to iOS when nothing else settles it
+
+- **Rule:** after DEC-01 (migration sheet, iOS rounding) and DEC-02 (Cluster Audit when close), any brand color where the apps still differ takes the **iOS** value. Android gets the fix.
+- **Also covers** the shared roles not checked by DEC-01/02: bar text, unselected tab, tab bar (the tab bar follows the bar color wherever both apps already do that) and the breaking-news red.
+- **Applied by:** `scripts/apply_ios_default.py` (after `apply_web_alignment.py`). Each changed role keeps the earlier state under `previous`.
+- **Result:** every one of the 77 markets now has a value for all 7 Core roles.
+
+### Brand roles set to iOS (56)
+
+| Code | Brand | Role | iOS (chosen) | Android (needs fix) |
+|---|---|---|---|---|
+| BS | Baltimore Sun | tabbar | #ffffff | #000000 |
+| BS | Baltimore Sun | tabinactive | #000000 | #ffffff |
+| TBAN | Bay Area News | navbar | #004e87 | #152c4f |
+| TBAN | Bay Area News | action | #004e87 | #152c4f |
+| TBAN | Bay Area News | tabactive | #000000 | #9fbfef |
+| TBH | Boston Herald | tabactive | #9dd1f5 | #000000 |
+| TBHS | Boston Herald Sports | navbar | #b01f36 | #c00030 |
+| TBHS | Boston Herald Sports | action | #b01e35 | #c00030 |
+| TBHS | Boston Herald Sports | tabactive | #004e87 | #000000 |
+| TDB | Daily Breeze | navbar | #004e87 | #2e6c90 |
+| TDB | Daily Breeze | action | #9dd1f5 | #2e6c90 |
+| TDB | Daily Breeze | tabactive | #9dd1f5 | #6bd1e6 |
+| TDF | Daily Freeman | navbar | #004e87 | #1b6bad |
+| TDF | Daily Freeman | action | #9dd1f5 | #1b6bad |
+| TDF | Daily Freeman | tabactive | #9dd1f5 | #000000 |
+| TDLW | Daily Local Weschester | navbar | #1591b7 | #1591b5 |
+| TDLW | Daily Local Weschester | action | #1591b7 | #1591b5 |
+| DP | Daily Press | tabactive | #005f7e | #4fa8d1 |
+| TDCD | Delaware County Daily Times | navbar | #5b9bc8 | #4891b3 |
+| TDCD | Delaware County Daily Times | action | #5b9bc8 | #4891b3 |
+| TIVDB | Inland Valley Daily Bulletin | tabactive | #000000 | #807c7c |
+| TIVDB | Inland Valley Daily Bulletin | navtext | #cccccc | #ffffff |
+| TIVDB | Inland Valley Daily Bulletin | tabinactive | #cccccc | #ffffff |
+| TLBPT | Long Beach Press-Telegram | tabactive | #000000 | #97b8ed |
+| MC | Morning Call | tabactive | #539cc4 | #4fa8d1 |
+| OCR | Orange County Register | navbar | #b04f0f | #ac4e0f |
+| OCR | Orange County Register | action | #b04f0f | #ac4e0f |
+| OS | Orlando Sentinel | tabactive | #15919d | #00919e |
+| OS | Orlando Sentinel | navtext | #333333 | #000000 |
+| OS | Orlando Sentinel | tabinactive | #333333 | #000000 |
+| PSN | Pasadena Star News | tabactive | #ff6900 | #000000 |
+| TRDF | Redlands Daily Facts | tabactive | #9dd1f5 | #97b8ed |
+| SGVT | San Gabriel Valley Tribune | action | #ff6900 | #b11e35 |
+| SGVT | San Gabriel Valley Tribune | tabactive | #ff6900 | #daa520 |
+| TSAR | Saratogian | action | #004e87 | #00919e |
+| TSV | Silicon Valley | navbar | #000000 | #557fba |
+| TSV | Silicon Valley | action | #004e87 | #557fba |
+| TSV | Silicon Valley | tabactive | #004e87 | #6bd1e6 |
+| TSPPP | St. Paul Pioneer Press | navbar | #004e87 | #557fba |
+| TSPPP | St. Paul Pioneer Press | action | #004e87 | #557fba |
+| TSPPP | St. Paul Pioneer Press | tabactive | #000000 | #6bd1e6 |
+| TDP | The Denver Post | action | #f7a430 | #daa520 |
+| TDP | The Denver Post | tabactive | #f7a430 | #daa520 |
+| TDP | The Denver Post | tabinactive | #999999 | #ffffff |
+| TEBT | The East Bay Times | action | #6bd1e6 | #557fba |
+| TMN | The Mercury News | tabactive | #000000 | #6bd1e6 |
+| TOP | The Oakland Press | navbar | #0b151e | #0b151d |
+| TOP | The Oakland Press | action | #004e87 | #5ab1c3 |
+| TOP | The Oakland Press | tabactive | #004e87 | #5ab1c3 |
+| TPD | The Press Democrat | action | #000000 | #999999 |
+| TPE | The Press-Enterprise | tabactive | #ff6900 | #000000 |
+| TSBS | The San Bernardino Sun | tabactive | #ff6900 | #000000 |
+| TT | The Trentonian | navbar | #004e87 | #357dad |
+| TT | The Trentonian | action | #004e87 | #357dad |
+| TT | The Trentonian | tabactive | #000000 | #0d0d0e |
+| TWDN | Whittier Daily News | tabactive | #ff6900 | #040404 |
+
+### Breaking-news red
+
+All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value is the iOS one: `#d80000` in 6, `#ff0000` in 71. **Flag:** `#ff0000` fails 4.5:1 with white text (4.0:1). PLAT-03 (one Core red, `#cf000e`) is still a proposal; approving it would replace these 77 values.
+
+## DEC-04 · Design tokens for Swift and Kotlin
+
+- **Source of truth:** DTCG (W3C Design Tokens) JSON in `tokens/`: `tokens/core/brand.tokens.json` (`color.brand.<market>.<role>`, 7 Core roles + `buy`/`continue` aliases), `tokens/ios/` (iOS-only `header`), `tokens/android/` (Android-only `statusbar`). Generated from `data/brand-color-resolution.json` by `scripts/build_tokens.py`; never edited by hand.
+- **Hex and RGB:** every token stores hex as `$value` and RGB (0–255) in `$extensions.mng.rgb`, plus how it was chosen and what each app ships today. `docs/BRAND-COLORS.md` lists every color as hex · R, G, B.
+- **Build:** Style Dictionary 4.4.0 (`npm run tokens && npm run build`) writes:
+  - iOS: `mng_apps_ios_ds/Tokens/MNGBrandColors.swift`: `MNGBrandPalette` (UIKit `UIColor`, SwiftUI via `color(\.navbar)`), `MNGBrandPalettes.<code>`, `forMarket("TDP")`.
+  - Android: `mng_apps_android_ds/tokens/MngBrandColors.kt` (Jetpack Compose `Color`, `MngBrandPalettes.<CODE>`, `forMarket("tdp")`) and `tokens/flavors/<flavor>/res/values/mng_brand_colors.xml` (one per Gradle flavor, `@color/mng_brand_navbar` …).
+- **Exact colors:** platform code is written from the hex bytes (`0xRRGGBB`), never from rounded decimals, which removes the cause of the iOS drift (DSC-01).
+- **Open:** Kotlin package name `com.mng.designsystem.tokens` is a placeholder; confirm with the Apps team. Generated code is not compiled in an app yet. Figma variables will be built from the same tokens (ARCHITECTURE §3).
