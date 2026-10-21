@@ -1,0 +1,2486 @@
+{
+ "rule": [
+  "Evidence, strongest first:",
+  "  sheet        the migration sheet's Primary / Secondary color matches one app exactly",
+  "  sheet+drift  the sheet matches one app, and the other app's value is the sheet value after iOS 2-decimal rounding",
+  "  drift-rule   no sheet value; iOS = Android after 2-decimal rounding, so Android is the authored value",
+  "  agree        both apps already ship the same value",
+  "  unresolved   none of the above; needs the Apps team",
+  "iOS drift: TroncKit stores each RGB channel as a 2-decimal fraction (0x22 = 0.133 -> 0.13 -> 0x21).",
+  "Roles: navbar, action (sheet Primary) and tabactive (sheet Secondary)."
+ ],
+ "stats": {
+  "agree": 37,
+  "agree+sheet": 44,
+  "unresolved": 68,
+  "sheet+drift": 67,
+  "sheet": 11,
+  "drift-rule": 4
+ },
+ "markets": [
+  {
+   "code": "BS",
+   "name": "Baltimore Sun",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#daa520",
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "sheet": "#daa520",
+     "value": "#daa520",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#daa520",
+     "android": "#daa520",
+     "sheet": null,
+     "value": "#daa520",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TBAN",
+   "name": "Bay Area News",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#152c4f",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#9fbfef",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TBH",
+   "name": "Boston Herald",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#255e97",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#255e97",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TBHS",
+   "name": "Boston Herald Sports",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#c00030",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#b01e35",
+     "android": "#c00030",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TBCP",
+   "name": "Boulder County Preps",
+   "cluster": "",
+   "sheet_status": "Not using",
+   "roles": {
+    "navbar": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "sheet": "#3f51b5",
+     "value": "#3f51b5",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#4052b5",
+     "android": "#3f51b5",
+     "sheet": "#3f51b5",
+     "value": "#3f51b5",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TBE",
+   "name": "Broomfield Enterprise News",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "sheet": "#4351af",
+     "value": "#4351af",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#0070b8",
+     "android": "#4351af",
+     "sheet": "#4351af",
+     "value": "#4351af",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TB",
+   "name": "Buffzone",
+   "cluster": "",
+   "sheet_status": "Not using",
+   "roles": {
+    "navbar": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "sheet": "#4351af",
+     "value": "#4351af",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#4252b0",
+     "android": "#4351af",
+     "sheet": "#4351af",
+     "value": "#4351af",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TCCDR",
+   "name": "Canon City Daily Record",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "CT",
+   "name": "Chicago Tribune",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": "#004e87",
+     "value": "#004e87",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#9dd1f5",
+     "sheet": "#004e87",
+     "value": "#9dd1f5",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#9dd1f5",
+     "sheet": null,
+     "value": "#9dd1f5",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TCE",
+   "name": "Chico Enterprise Record",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TCHW",
+   "name": "Colorado Hometown Weekly",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TDB",
+   "name": "Daily Breeze",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2e6c90",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#2e6c90",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#6bd1e6",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TDF",
+   "name": "Daily Freeman",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1b6bad",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#1b6bad",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TDLW",
+   "name": "Daily Local Weschester",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#1591b7",
+     "android": "#1591b5",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "DP",
+   "name": "Daily Press",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#005f7e",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "sheet": "#005f7e",
+     "value": "#005f7e",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#005f7e",
+     "android": "#4fa8d1",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TDCD",
+   "name": "Delaware County Daily Times",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#5b9bc8",
+     "android": "#4891b3",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TDPS",
+   "name": "Denver Post Sports",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "sheet": null,
+     "value": "#c75d14",
+     "evidence": "drift-rule",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#c75c14",
+     "android": "#c75d14",
+     "sheet": null,
+     "value": "#c75d14",
+     "evidence": "drift-rule",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TEPTG",
+   "name": "Estes Park Trail Gazette",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet+drift",
+     "fix": "both"
+    },
+    "action": {
+     "ios": "#33408f",
+     "android": "#3e8e75",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet+drift",
+     "fix": "both"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TETS",
+   "name": "Eureka Times Standard",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TFMT",
+   "name": "Fort Morgan Times",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#33408f",
+     "android": "#32408f",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TGT",
+   "name": "Greeley Tribune",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "sheet": "#536e7f",
+     "value": "#536e7f",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#546e80",
+     "android": "#536e7f",
+     "sheet": "#536e7f",
+     "value": "#536e7f",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "HC",
+   "name": "Hartford Courant",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#4fa8d1",
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "sheet": "#4fa8d1",
+     "value": "#4fa8d1",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#4fa8d1",
+     "android": "#4fa8d1",
+     "sheet": null,
+     "value": "#4fa8d1",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TIVDB",
+   "name": "Inland Valley Daily Bulletin",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#807c7c",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TJA",
+   "name": "Journal Advocate",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TLBPT",
+   "name": "Long Beach Press-Telegram",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#97b8ed",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TLTC",
+   "name": "Longmont Times-Call for Mobile",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "sheet": "#007cba",
+     "value": "#007cba",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "sheet": "#007cba",
+     "value": "#007cba",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TLADN",
+   "name": "Los Angeles Daily News",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TLR",
+   "name": "Loveland Reporter Herald",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "sheet": "#4e5dca",
+     "value": "#4e5dca",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#4e5dca",
+     "sheet": "#4e5dca",
+     "value": "#4e5dca",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TLS",
+   "name": "Lowell Sun News for Mobile",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TMD",
+   "name": "Macomb Daily",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "sheet": "#3f5177",
+     "value": "#3f5177",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "sheet": "#3f5177",
+     "value": "#3f5177",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TMI",
+   "name": "Marin Independent Journal News",
+   "cluster": "BANG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#1f4d83",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TMCH",
+   "name": "Monterey County Herald",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "sheet": "#3c6292",
+     "value": "#3c6292",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#3d6191",
+     "android": "#3c6292",
+     "sheet": "#3c6292",
+     "value": "#3c6292",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "MC",
+   "name": "Morning Call",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#539cc4",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "sheet": "#539cc4",
+     "value": "#539cc4",
+     "evidence": "sheet",
+     "fix": "android"
+    },
+    "tabactive": {
+     "ios": "#539cc4",
+     "android": "#4fa8d1",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "NYDN",
+   "name": "New York Daily News",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#ec2127",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "sheet": "#ec2127",
+     "value": "#4591e0",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#4591e0",
+     "android": "#4591e0",
+     "sheet": null,
+     "value": "#4591e0",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TOD",
+   "name": "Oneida Daily Dispatch",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "sheet": "#b92111",
+     "value": "#b92111",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ba2112",
+     "android": "#b92111",
+     "sheet": "#b92111",
+     "value": "#b92111",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "OCR",
+   "name": "Orange County Register",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#b04f0f",
+     "android": "#ac4e0f",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "OS",
+   "name": "Orlando Sentinel",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#004e87",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#15919d",
+     "android": "#00919e",
+     "sheet": "#004e87",
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#15919d",
+     "android": "#00919e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "PSN",
+   "name": "Pasadena Star News",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "PAC",
+   "name": "Petaluma Argus-Courier",
+   "cluster": "Sonoma",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "sheet": "#a06318",
+     "value": "#a06318",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "action": {
+     "ios": "#a06318",
+     "android": "#a06318",
+     "sheet": "#a06318",
+     "value": "#a06318",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#ffea00",
+     "android": "#ffea00",
+     "sheet": "#ffea00",
+     "value": "#ffea00",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TRE",
+   "name": "Reading Eagle",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TRDF",
+   "name": "Redlands Daily Facts",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#2c47a0",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#9dd1f5",
+     "android": "#2c47a0",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#9dd1f5",
+     "android": "#97b8ed",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TRH",
+   "name": "Republican-Herald",
+   "cluster": "NEPA",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TROT",
+   "name": "Royal Oak Tribune",
+   "cluster": "",
+   "sheet_status": "Not using",
+   "roles": {
+    "navbar": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "sheet": "#013a67",
+     "value": "#013a67",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#003b66",
+     "android": "#013a67",
+     "sheet": "#013a67",
+     "value": "#013a67",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "SGVT",
+   "name": "San Gabriel Valley Tribune",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#b11e35",
+     "sheet": null,
+     "value": "#b11e35",
+     "evidence": "drift-rule",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#b11e35",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#daa520",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TSCS",
+   "name": "Santa Cruz Sentinel",
+   "cluster": "BANG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#36408a",
+     "android": "#353f8a",
+     "sheet": "#353f8a",
+     "value": "#353f8a",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TSAR",
+   "name": "Saratogian",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#f5f5f5",
+     "sheet": "#f5f5f5",
+     "value": "#f5f5f5",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#00919e",
+     "sheet": "#f5f5f5",
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#00919e",
+     "sheet": "#00919e",
+     "value": "#00919e",
+     "evidence": "sheet",
+     "fix": "ios"
+    }
+   }
+  },
+  {
+   "code": "TSEB",
+   "name": "Sentinel and Enterprise",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TSV",
+   "name": "Silicon Valley",
+   "cluster": "BANG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#557fba",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#6bd1e6",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "SIT",
+   "name": "Sonoma Index Tribune",
+   "cluster": "Sonoma",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "sheet": "#0f73a9",
+     "value": "#0f73a9",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#0f73a8",
+     "android": "#0f73a9",
+     "sheet": "#0f73a9",
+     "value": "#0f73a9",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#ffeb00",
+     "android": "#149ce5",
+     "sheet": "#ffea00",
+     "value": "#ffea00",
+     "evidence": "sheet+drift",
+     "fix": "both"
+    }
+   }
+  },
+  {
+   "code": "TSPPP",
+   "name": "St. Paul Pioneer Press",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#557fba",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#6bd1e6",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "SS",
+   "name": "Sun Sentinel",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#000000",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#761113",
+     "android": "#761113",
+     "sheet": "#000000",
+     "value": "#761113",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#761113",
+     "android": "#761113",
+     "sheet": null,
+     "value": "#761113",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TCV",
+   "name": "The Citizens' Voice",
+   "cluster": "NEPA",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TDC",
+   "name": "The Daily Camera",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#007538",
+     "android": "#007639",
+     "sheet": "#007639",
+     "value": "#007639",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#007538",
+     "android": "#007639",
+     "sheet": "#007639",
+     "value": "#007639",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TDP",
+   "name": "The Denver Post",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#f7a430",
+     "android": "#daa520",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TEBT",
+   "name": "The East Bay Times",
+   "cluster": "BANG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#5480ba",
+     "android": "#557fba",
+     "sheet": null,
+     "value": "#557fba",
+     "evidence": "drift-rule",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#6bd1e6",
+     "android": "#557fba",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#6bd1e6",
+     "android": "#6bd1e6",
+     "sheet": null,
+     "value": "#6bd1e6",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TMN",
+   "name": "The Mercury News",
+   "cluster": "BANG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#004e87",
+     "sheet": null,
+     "value": "#004e87",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#6bd1e6",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TMJ",
+   "name": "The Morning Journal",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TMS",
+   "name": "The Morning Sun",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "sheet": "#3f5177",
+     "value": "#3f5177",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#405278",
+     "android": "#3f5177",
+     "sheet": "#3f5177",
+     "value": "#3f5177",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TNH",
+   "name": "The News Herald",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#ab4021",
+     "android": "#ab4022",
+     "sheet": "#ab4022",
+     "value": "#ab4022",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TOP",
+   "name": "The Oakland Press",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#0b151e",
+     "android": "#0b151d",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#004e87",
+     "android": "#5ab1c3",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TPM",
+   "name": "The Pottstown Mercury",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TPD",
+   "name": "The Press Democrat",
+   "cluster": "Sonoma",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#9e0b0f",
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#000000",
+     "android": "#999999",
+     "sheet": "#9e0b0f",
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#999999",
+     "android": "#999999",
+     "sheet": "#ffea00",
+     "value": "#999999",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TPE",
+   "name": "The Press-Enterprise",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TR",
+   "name": "The Reporter for Mobile",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "sheet": "#007cba",
+     "value": "#007cba",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#007dba",
+     "android": "#007cba",
+     "sheet": "#007cba",
+     "value": "#007cba",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TSBS",
+   "name": "The San Bernardino Sun",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#000000",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "SDUT",
+   "name": "The San Diego Union-Tribune",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": null,
+     "value": "#000000",
+     "evidence": "agree",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TSS",
+   "name": "The Standard-Speaker",
+   "cluster": "NEPA",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TTH",
+   "name": "The Times Herald",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TT",
+   "name": "The Trentonian",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#004e87",
+     "android": "#357dad",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#0d0d0e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TRR",
+   "name": "The Troy Record",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#bd3b0f",
+     "android": "#bc3b10",
+     "sheet": "#bc3b10",
+     "value": "#bc3b10",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TTT",
+   "name": "Times-Tribune",
+   "cluster": "NEPA",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#424a54",
+     "android": "#434953",
+     "sheet": "#434953",
+     "value": "#434953",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TUDJ",
+   "name": "Ukiah Daily Journal",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#408fcc",
+     "android": "#32408f",
+     "sheet": "#32408f",
+     "value": "#32408f",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TVR",
+   "name": "Vacaville Reporter",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "sheet": "#408fcb",
+     "value": "#408fcb",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#408fcc",
+     "android": "#408fcb",
+     "sheet": "#408fcb",
+     "value": "#408fcb",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TVTH",
+   "name": "Vallejo Times Herald News",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "sheet": "#8d092d",
+     "value": "#8d092d",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#8c0a2e",
+     "android": "#8d092d",
+     "sheet": "#8d092d",
+     "value": "#8d092d",
+     "evidence": "sheet+drift",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "VP",
+   "name": "Virginian Pilot",
+   "cluster": "TripPub",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#ffffff",
+     "android": "#ffffff",
+     "sheet": "#005f7e",
+     "value": "#ffffff",
+     "evidence": "agree",
+     "fix": null
+    },
+    "action": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "sheet": "#005f7e",
+     "value": "#005f7e",
+     "evidence": "agree+sheet",
+     "fix": null
+    },
+    "tabactive": {
+     "ios": "#005f7e",
+     "android": "#005f7e",
+     "sheet": null,
+     "value": "#005f7e",
+     "evidence": "agree",
+     "fix": null
+    }
+   }
+  },
+  {
+   "code": "TWDN",
+   "name": "Whittier Daily News",
+   "cluster": "SCNG",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#b01f36",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "action": {
+     "ios": "#ff6900",
+     "android": "#a6371e",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    },
+    "tabactive": {
+     "ios": "#ff6900",
+     "android": "#040404",
+     "sheet": null,
+     "value": null,
+     "evidence": "unresolved",
+     "fix": "ask"
+    }
+   }
+  },
+  {
+   "code": "TWDD",
+   "name": "Woodland Daily Democrat",
+   "cluster": "",
+   "sheet_status": "Released",
+   "roles": {
+    "navbar": {
+     "ios": "#007739",
+     "android": "#007639",
+     "sheet": "#007639",
+     "value": "#007639",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "action": {
+     "ios": "#007739",
+     "android": "#007639",
+     "sheet": "#007639",
+     "value": "#007639",
+     "evidence": "sheet",
+     "fix": "ios"
+    },
+    "tabactive": {
+     "ios": "#000000",
+     "android": "#000000",
+     "sheet": "#000000",
+     "value": "#000000",
+     "evidence": "agree+sheet",
+     "fix": null
+    }
+   }
+  }
+ ]
+}

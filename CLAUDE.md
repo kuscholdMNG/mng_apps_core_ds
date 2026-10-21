@@ -7,7 +7,7 @@ Read this file first in every session. **This is the only copy of the project in
 1. Pull all three repos (`mng_apps_core_ds`, `mng_apps_ios_ds`, `mng_apps_android_ds`) and re-read this file if it changed.
 2. Read `PROGRESS.md` for the current phase and what is waiting on review. How the three libraries fit together: `docs/ARCHITECTURE.md`.
 3. Check `docs/PLATFORM-OWNERSHIP.md` for open `PLAT-` decisions before moving anything between libraries.
-4. End the session by updating `PROGRESS.md` (dated log line) and committing. Karl pushes.
+4. End the session by updating `PROGRESS.md` (dated log line), committing and pushing.
 
 To change these instructions, edit this file and push. No change in Claude is needed.
 
@@ -35,7 +35,7 @@ Each library has one Figma file and one GitHub repo. This repo (Core) is the sou
 | MNG iOS Design System | `uNxwBNoP4ODDUFGByi73mZ` | [kuscholdMNG/mng_apps_ios_ds](https://github.com/kuscholdMNG/mng_apps_ios_ds) | `~/Github/mng_apps_ios_ds` |
 | MNG Android Design System | `FGUeuRYhGudxo0VQdToZT9` | [kuscholdMNG/mng_apps_android_ds](https://github.com/kuscholdMNG/mng_apps_android_ds) | `~/Github/mng_apps_android_ds` |
 
-Sync rule: when a session changes a repo, it commits with a clear message and Karl pushes (GitHub Desktop → Push origin). Start every session by pulling all three. A change that touches Core and a platform goes in both repos in the same session, and each PROGRESS.md log line names the other repo.
+Sync rule: when a session changes a repo, Claude commits with a clear message and pushes. (Karl asked Claude to do all pushing through the color work.) Start every session by pulling all three. A change that touches Core and a platform goes in both repos in the same session, and each PROGRESS.md log line names the other repo.
 
 Use the figma-console Desktop Bridge. Pass `fileKey` on every call, or `figma_navigate` with `lock: true`, because other files (including the Web DS) are often open at the same time.
 
@@ -45,6 +45,8 @@ Use the figma-console Desktop Bridge. Pass `fileKey` on every call, or `figma_na
 |----------|------|-------------------------------|-------------------|
 | iOS | TroncKit @ `e30ad2585` | https://claude.ai/artifact/V364juyHFU3STfVZ6EgjMc | `data/source/markets.json`, `data/source/ios-tokens.json` |
 | Android | android-tribpub @ `1cfb069a6` (dev, 2026-10-15) | https://claude.ai/artifact/5MyLP13QSt52WGRgXW35ZJ | `data/source/android-markets.json` |
+
+Brand colors also come from the **migration sheet** "Tribpub-MNG App Migrations" (Google Sheet `1PGCnV0mSnOMOycNT-CSViYKyH82TrnwPSO4VrCl_HS4`, tab Production, Primary / Secondary color), copied to `data/source/migration-sheet-brand-colors.json`. It is the source of truth when it matches either app.
 
 When the app team sends a new export, update `data/source/`, re-run the scripts and note the new commit here.
 
@@ -63,6 +65,7 @@ Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targe
 
 ## Rules
 
+0. **Log every iOS/Android difference that should match** in `docs/DISCREPANCIES.md` (DSC- ID, right value, evidence, which app to fix).
 1. **Shipped values are documented exactly as shipped**, failing ones included. Proposed changes go in `docs/IMPROVEMENTS.md` (iOS-era IDs) or `docs/PLATFORM-OWNERSHIP.md` (`PLAT-` IDs) and are shown beside the shipped value, never instead of it.
 2. **One phase at a time.** Karl reviews each phase before the next starts. Track it in `PROGRESS.md` and add a dated line to its Log.
 3. **Plan before work.** For anything beyond adding review pages or sections, post the plan and wait for an OK.
@@ -84,6 +87,7 @@ CLAUDE.md                         this file (platform repos point here)
 PROGRESS.md                       phase tracker + log (start here for status)
 docs/ARCHITECTURE.md              how Core, iOS and Android fit together (registry, variables, wayfinding)
 docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- decisions
+docs/DISCREPANCIES.md             iOS vs Android differences that should match (DSC- IDs), with the right value and which app to fix
 docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
 docs/MISSING-ASSETS.md            what we need from the Apps team
@@ -99,6 +103,7 @@ python3 scripts/analyze_palettes.py data/source/markets.json data/palette-analys
 python3 scripts/compare_platform_colors.py data/source/markets.json data/source/android-markets.json data/color-platform-comparison.json
 python3 scripts/icon_platform_map.py data/icon-comparison.json data/icon-platform-map.json
 python3 scripts/component_platform_map.py data/component-platform-map.json
+python3 scripts/resolve_brand_colors.py data/source/markets.json data/source/android-markets.json data/source/migration-sheet-brand-colors.json data/brand-color-resolution.json
 python3 scripts/build_registry.py   # run last; reads the two maps above
 ```
 

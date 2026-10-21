@@ -37,7 +37,8 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 | Icons: who uses each purpose | ⏸ | Figma Icons page → **04 · Platform ownership**: 32 Core, 2 Core + variant, 25 iOS only, 2 Android only |
 | Colors: iOS vs Android per market | ⏸ | Figma Color page → **05 · iOS vs Android**: 7 Core roles, 2 aliases, 1 iOS-only, 2 Android-only; 43 markets aligned, 34 differ |
 | Decisions PLAT-01 … PLAT-10 | ⏸ | docs/PLATFORM-OWNERSHIP.md |
-| Palette cleanup by brand | ⏸ blocked | Waiting on Apps team: why iOS and Android brand colors differ (MISSING-ASSETS 3.3; PLAT-02/06/07) |
+| Palette cleanup by brand | 🔄 | Migration sheet + iOS 2-decimal drift rule: 47 of 77 brands resolved, 30 open (Figma Color page **06 · Brand color source of truth**; MISSING-ASSETS 3.3) |
+| Discrepancy tracker | ✅ | docs/DISCREPANCIES.md: DSC-01…31 |
 | Architecture | ✅ | docs/ARCHITECTURE.md: registry, variables, wayfinding, rollout |
 | Registry | ✅ | data/registry.json + docs/REGISTRY.md: 99 items (12 color roles, 61 icons, 20 components, 6 layout rules) |
 | Components + layout: who owns what | ⏸ | New Figma page **Components · Platform Ownership**: 9 Core, 13 Core + variant, 2 iOS only, 2 Android only |
@@ -57,3 +58,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-16** — SF Symbols exported (46/46, macOS 15.5) and placed in the iOS column of the Icons page; export sheet kept in section 03 of that page.
 - **2026-10-20** — Android export received. Added CLAUDE.md (project instructions). Built Core file sections: Icons 04 · Platform ownership, Color 05 · iOS vs Android. Wrote docs/PLATFORM-OWNERSHIP.md (PLAT-01 to PLAT-10).
 - **2026-10-21** — Added docs/ARCHITECTURE.md, registry (data/registry.json, docs/REGISTRY.md) and Figma page Components · Platform Ownership. Palette cleanup paused until the Apps team explains the iOS/Android color differences (MISSING-ASSETS 3.3). "Rounding twins" renamed "near-identical hexes".
+- **2026-10-21** — Checked brand colors against the migration sheet. Found the iOS drift pattern (2-decimal channels). PLAT-02 approved by rule. Started docs/DISCREPANCIES.md. Figma Color page section 06 added. Claude now pushes all commits.
