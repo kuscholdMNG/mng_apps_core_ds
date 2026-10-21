@@ -478,6 +478,23 @@
      }
     }
    },
+   "tdh": {
+    "statusbar": {
+     "$value": "#0072b4",
+     "$type": "color",
+     "$description": "Status bar (Android only)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        0,
+        114,
+        180
+       ],
+       "owner": "android"
+      }
+     }
+    }
+   },
    "tdlw": {
     "statusbar": {
      "$value": "#1591b5",

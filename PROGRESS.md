@@ -38,6 +38,7 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 | Colors: iOS vs Android per market | ⏸ | Figma Color page → **05 · iOS vs Android**: 7 Core roles, 2 aliases, 1 iOS-only, 2 Android-only; 43 markets aligned, 34 differ |
 | Decisions PLAT-01 … PLAT-10 | ⏸ | docs/PLATFORM-OWNERSHIP.md |
 | Palette cleanup by brand | ✅ | DEC-01 sheet + drift, DEC-02 Cluster Audit when close, DEC-03 iOS default: all 77 brands have all 7 Core roles. Team to confirm (MISSING-ASSETS 3.3) |
+| Figma color variables | ✅ | Core file: Brand colors (624 vars, 78 markets) + Brand theme (20 modes); page Color · Brand Theme (DEC-06) |
 | Design tokens | ✅ v1 | DEC-04: tokens/ (DTCG) → Style Dictionary → Swift (iOS repo), Kotlin + 77 flavor XML (Android repo); hex + RGB in docs/BRAND-COLORS.md | (Figma Color page **06 · Brand color source of truth**; MISSING-ASSETS 3.3) |
 | Discrepancy tracker | ✅ | docs/DISCREPANCIES.md: DSC-01…31 |
 | Architecture | ✅ | docs/ARCHITECTURE.md: registry, variables, wayfinding, rollout |
@@ -63,3 +64,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-21** — DEC-02: 27 brand colors moved to Cluster Audit web colors where close; 15 kept (web too far); 9 still open. Added docs/DECISIONS.md.
 - **2026-10-21** — DEC-03 (iOS default) and DEC-04 (design tokens). All brand colors decided; Swift and Kotlin generated into the platform repos.
 - **2026-10-21** — DEC-05: breaking-news red `#cf000e` everywhere with white text (5.74:1 AA); new `alerttext` token; iOS fix flagged ASAP (DSC-15, DSC-19).
+- **2026-10-21** — DEC-06: Figma Brand colors + Brand theme variables built in Core; Daily Herald added as provisional market (tokens now 78 markets).

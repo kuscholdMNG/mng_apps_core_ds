@@ -39,7 +39,8 @@ Owner values: `core` · `core+variant` · `ios` · `android`. Chip colors are in
 | Collection | File | Holds |
 |------------|------|-------|
 | Primitives | Core | Raw colors (near-identical hexes merged), type scale, spacing, radius |
-| Brand | Core | The 7 brand roles; one mode per palette (markets map to a palette) |
+| Brand colors | Core | Every market's brand roles as plain variables, `TDP/navbar` … (no modes; DEC-06) |
+| Brand theme | Core | Role variables with 20 modes, each aliasing one market's Brand colors; components bind here (DEC-06) |
 | System | Core | Colors identical in every market (≈62 iOS / 71 Android) |
 | Platform overrides | iOS / Android | Aliases Core by default; stores only exceptions (e.g. Android `statusbar`, iOS `header`) |
 

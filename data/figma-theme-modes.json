@@ -1,0 +1,181 @@
+{
+ "rule": "DEC-06",
+ "limit": 20,
+ "excluded": {
+  "BS": "decommissioned Nov 1 2026",
+  "TB": "decommissioned Dec 2024",
+  "TBCP": "not using",
+  "TROT": "not using"
+ },
+ "modes": [
+  {
+   "code": "OCR",
+   "name": "Orange County Register",
+   "cluster": "SCNG",
+   "why": "required",
+   "nearest": "TNH",
+   "nearest_dE": 0.024
+  },
+  {
+   "code": "TDP",
+   "name": "The Denver Post",
+   "cluster": "Denver",
+   "why": "required",
+   "nearest": "HC",
+   "nearest_dE": 0.143
+  },
+  {
+   "code": "TCCDR",
+   "name": "Canon City Daily Record",
+   "cluster": "PMP - Weeklies",
+   "why": "required",
+   "nearest": "TMN",
+   "nearest_dE": 0.026
+  },
+  {
+   "code": "SS",
+   "name": "Sun Sentinel",
+   "cluster": "Tribune",
+   "why": "required",
+   "nearest": "TSAR",
+   "nearest_dE": 0.105
+  },
+  {
+   "code": "MC",
+   "name": "Morning Call",
+   "cluster": "Tribune",
+   "why": "required",
+   "nearest": "TSAR",
+   "nearest_dE": 0.065
+  },
+  {
+   "code": "CT",
+   "name": "Chicago Tribune",
+   "cluster": "Tribune",
+   "why": "required",
+   "nearest": "TBH",
+   "nearest_dE": 0.073
+  },
+  {
+   "code": "TMN",
+   "name": "The Mercury News",
+   "cluster": "BANG",
+   "why": "required",
+   "nearest": "TSPPP",
+   "nearest_dE": 0.0
+  },
+  {
+   "code": "TDH",
+   "name": "Daily Herald",
+   "cluster": "Tribune",
+   "why": "required",
+   "nearest": "TGT",
+   "nearest_dE": 0.043
+  },
+  {
+   "code": "TBH",
+   "name": "Boston Herald",
+   "cluster": "Boston",
+   "why": "required",
+   "nearest": "CT",
+   "nearest_dE": 0.073
+  },
+  {
+   "code": "TOP",
+   "name": "The Oakland Press",
+   "cluster": "21C / Mich",
+   "why": "covers cluster 21C / Mich",
+   "nearest": "TMN",
+   "nearest_dE": 0.153
+  },
+  {
+   "code": "TSAR",
+   "name": "Saratogian",
+   "cluster": "21C / New York",
+   "why": "covers cluster 21C / New York",
+   "nearest": "MC",
+   "nearest_dE": 0.065
+  },
+  {
+   "code": "TNH",
+   "name": "The News Herald",
+   "cluster": "21C / Ohio",
+   "why": "covers cluster 21C / Ohio",
+   "nearest": "OCR",
+   "nearest_dE": 0.024
+  },
+  {
+   "code": "TDCD",
+   "name": "Delaware County Daily Times",
+   "cluster": "21C / Philly",
+   "why": "covers cluster 21C / Philly",
+   "nearest": "TDH",
+   "nearest_dE": 0.069
+  },
+  {
+   "code": "TTT",
+   "name": "Times-Tribune",
+   "cluster": "NEPA",
+   "why": "covers cluster NEPA",
+   "nearest": "TMN",
+   "nearest_dE": 0.049
+  },
+  {
+   "code": "TWDD",
+   "name": "Woodland Daily Democrat",
+   "cluster": "Norcal",
+   "why": "covers cluster Norcal",
+   "nearest": "TGT",
+   "nearest_dE": 0.069
+  },
+  {
+   "code": "TGT",
+   "name": "Greeley Tribune",
+   "cluster": "PMP",
+   "why": "covers cluster PMP",
+   "nearest": "TDH",
+   "nearest_dE": 0.043
+  },
+  {
+   "code": "TPD",
+   "name": "The Press Democrat",
+   "cluster": "Sonoma",
+   "why": "covers cluster Sonoma",
+   "nearest": "HC",
+   "nearest_dE": 0.134
+  },
+  {
+   "code": "TSPPP",
+   "name": "St. Paul Pioneer Press",
+   "cluster": "St. Paul",
+   "why": "covers cluster St. Paul",
+   "nearest": "TMN",
+   "nearest_dE": 0.0
+  },
+  {
+   "code": "PAC",
+   "name": "Petaluma Argus-Courier",
+   "cluster": "Sonoma",
+   "why": "most different remaining",
+   "nearest": "TBH",
+   "nearest_dE": 0.175
+  },
+  {
+   "code": "HC",
+   "name": "Hartford Courant",
+   "cluster": "Tribune",
+   "why": "most different remaining",
+   "nearest": "TPD",
+   "nearest_dE": 0.134
+  }
+ ],
+ "no_cluster": [
+  "TB",
+  "TBAN",
+  "TBCP",
+  "TBE",
+  "TBHS",
+  "TCHW",
+  "TDPS"
+ ]
+}

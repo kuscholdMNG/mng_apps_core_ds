@@ -17636,6 +17636,135 @@
      "statusbar": "#007639"
     }
    }
+  },
+  {
+   "code": "TDH",
+   "name": "Daily Herald",
+   "cluster": "Tribune",
+   "provisional": true,
+   "status": "provisional",
+   "roles": {
+    "navbar": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#0072b4",
+     "value_rgb": [
+      0,
+      114,
+      180
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "navtext": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "tabbar": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#0072b4",
+     "value_rgb": [
+      0,
+      114,
+      180
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "tabactive": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#000000",
+     "value_rgb": [
+      0,
+      0,
+      0
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "tabinactive": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "action": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#0072b4",
+     "value_rgb": [
+      0,
+      114,
+      180
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "alert": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#cf000e",
+     "value_rgb": [
+      207,
+      0,
+      14
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    },
+    "alerttext": {
+     "ios": null,
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "evidence": "new-market",
+     "fix": null,
+     "note": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4"
+    }
+   },
+   "platform_only": {
+    "ios": {
+     "header": "#0072b4"
+    },
+    "android": {
+     "statusbar": "#0072b4"
+    }
+   }
   }
  ],
  "web_alignment": {

@@ -1,0 +1,6 @@
+{"note": "Markets with no app build yet. Values are provisional: the brand's primary from the migration sheet plus the standard-template defaults (white bar text, black selected tab, white unselected tab, Core alert). Replace when the market ships. Added 2026-10-21 (DEC-06).",
+ "markets": [
+  {"code": "TDH", "name": "Daily Herald", "cluster": "Tribune", "source": "Tribpub-MNG App Migrations, Production row tdh: #hex Primary Color #0072B4",
+   "roles": {"navbar": "#0072b4", "navtext": "#ffffff", "tabbar": "#0072b4", "tabactive": "#000000", "tabinactive": "#ffffff", "action": "#0072b4", "alert": "#cf000e", "alerttext": "#ffffff"},
+   "platform_only": {"ios": {"header": "#0072b4"}, "android": {"statusbar": "#0072b4"}}}
+ ]}

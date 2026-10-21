@@ -9,6 +9,7 @@ Design-system decisions with the rule, the date, who made it and what changed. P
 | DEC-03 | Brand colors: any color still unresolved after DEC-01 and DEC-02 takes the iOS value | 2026-10-21 | Karl |
 | DEC-04 | Colors are managed as design tokens: one DTCG source in Core, Style Dictionary generates Swift and Kotlin; every color is documented as hex and RGB | 2026-10-21 | Karl |
 | DEC-05 | One breaking-news red for every market and both apps: `#cf000e` with white text (5.74:1, WCAG AA). Fix on iOS ASAP | 2026-10-21 | Karl |
+| DEC-06 | Figma color variables: a **Brand colors** collection with every market as plain variables (no modes), plus a **Brand theme** collection with 20 modes (the plan limit) for the required markets, one per cluster and the most different ones. Daily Herald added as a provisional market | 2026-10-21 | Karl |
 
 ## DEC-01 · Migration sheet + iOS drift rule
 
@@ -186,3 +187,37 @@ All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value i
 - **New Core token:** `alerttext` (white) so the text color is defined, not left to each app.
 - **Fix:** iOS, all 77 markets, **ASAP** because of contrast (DSC-15). iOS TIVDB also uses black banner text; change to white (DSC-19). Android already ships `#cf000e`; confirm its banner text is white.
 - **Applied by:** `scripts/apply_core_alert.py` (after `apply_ios_default.py`). Replaces proposal PLAT-03 and covers CLR-01.
+
+## DEC-06 · Figma variables: Brand colors + Brand theme (20 modes)
+
+- **Why not modes per market:** the Figma plan allows 20 modes per collection. Splitting 78 markets across four collections breaks component binding (a layer bound to one collection can't switch to a market in another).
+- **Brand colors** (Core file): one collection, one mode ("Value"), a folder per market: `TDP/navbar` … 78 markets × 8 roles = 624 variables. Names and code syntax match the tokens: iOS `MNGBrandPalettes.tdp.navbar`, Android `MngBrandPalettes.TDP.navbar`, Web `color.brand.tdp.navbar`. Each description has hex and RGB.
+- **Brand theme** (Core file): 10 role variables (`navbar`, `navtext`, `tabbar`, `tabactive`, `tabinactive`, `action`, `alert`, `alerttext`, `buy`, `continue`) with 20 modes. Each mode aliases one market's Brand colors. Components bind to Brand theme; switching a frame's mode recolors the design. Markets without a mode use their Brand colors variables directly, or get swapped into a mode.
+- **Picking the 20** (`scripts/select_theme_modes.py` → `data/figma-theme-modes.json`): Karl's required list (OCR, TDP, TCCDR, SS, MC, CT, TMN, TDH, TBH), then the most visually different market from each cluster not yet covered, then the most different overall. Skipped: BS, TB (decommissioned), TBCP, TROT (not using).
+
+| Code | Market | Cluster | Why |
+|---|---|---|---|
+| OCR | Orange County Register | SCNG | required |
+| TDP | The Denver Post | Denver | required |
+| TCCDR | Canon City Daily Record | PMP - Weeklies | required |
+| SS | Sun Sentinel | Tribune | required |
+| MC | Morning Call | Tribune | required |
+| CT | Chicago Tribune | Tribune | required |
+| TMN | The Mercury News | BANG | required |
+| TDH | Daily Herald | Tribune | required |
+| TBH | Boston Herald | Boston | required |
+| TOP | The Oakland Press | 21C / Mich | covers cluster 21C / Mich |
+| TSAR | Saratogian | 21C / New York | covers cluster 21C / New York |
+| TNH | The News Herald | 21C / Ohio | covers cluster 21C / Ohio |
+| TDCD | Delaware County Daily Times | 21C / Philly | covers cluster 21C / Philly |
+| TTT | Times-Tribune | NEPA | covers cluster NEPA |
+| TWDD | Woodland Daily Democrat | Norcal | covers cluster Norcal |
+| TGT | Greeley Tribune | PMP | covers cluster PMP |
+| TPD | The Press Democrat | Sonoma | covers cluster Sonoma |
+| TSPPP | St. Paul Pioneer Press | St. Paul | covers cluster St. Paul |
+| PAC | Petaluma Argus-Courier | Sonoma | most different remaining |
+| HC | Hartford Courant | Tribune | most different remaining |
+
+- **Notes:** TSPPP (St. Paul's only market) has the same palette as TMN; TNH (Ohio) is close to OCR. Both are in only because each cluster needs one. Brands with no cluster in either sheet (TBAN, TBE, TB, TBCP, TBHS, TCHW, TDPS) weren't treated as a cluster.
+- **Daily Herald (TDH):** no app build yet, so it's added as a **provisional** market (`data/source/new-markets.json`): migration-sheet primary `#0072b4` plus standard-template defaults. White on `#0072b4` = 5.16:1 (AA); black selected tab on it = 4.07:1 (passes 3:1). Replace when the app ships.
+- **Figma page:** Core file → **Color · Brand Theme** shows all 20 modes as mini app chrome bound to the theme variables.

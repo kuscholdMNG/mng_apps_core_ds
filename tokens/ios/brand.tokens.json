@@ -478,6 +478,23 @@
      }
     }
    },
+   "tdh": {
+    "header": {
+     "$value": "#0072b4",
+     "$type": "color",
+     "$description": "Section-front header band (iOS only)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        0,
+        114,
+        180
+       ],
+       "owner": "ios"
+      }
+     }
+    }
+   },
    "tdlw": {
     "header": {
      "$value": "#1591b7",
