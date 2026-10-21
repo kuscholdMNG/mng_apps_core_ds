@@ -9,6 +9,13 @@ Everything that differs between the two apps but **should be the same**. Each ro
 Status: `OPEN` (cause unknown, ask Apps team) · `KNOWN` (right value known, fix not scheduled) · `TICKETED` · `FIXED`
 Fix on: `iOS` · `Android` · `both` · `?`
 
+## 🔴 Fix ASAP
+
+| ID | Why | Fix on |
+|----|-----|--------|
+| **DSC-15** | Breaking-news banner fails WCAG AA on iOS: white on `#ff0000` = 4.0:1 in 71 markets. Core value `#cf000e` = 5.74:1 (DEC-05). | iOS (all 77 markets) |
+| **DSC-19** | iOS TIVDB banner text is black on red (3.66:1 on `#cf000e`, fails AA). Use white. | iOS |
+
 ## How we decide the right value
 
 1. **Migration sheet wins.** If the sheet's Primary / Secondary color matches either app, that is the source of truth.
@@ -37,7 +44,8 @@ All brand colors are now decided; the values are in `docs/BRAND-COLORS.md` (hex 
 | DSC-18 | 27 brand colors moved to the web color by DEC-02: TBH, TCE, TMI, TLBPT, TRDF, PSN, TPE, TSBS, TWDN (were open); OS button `#15919d` (iOS already); TCCDR, TETS, TJA, TSCS → `#32408f`; TLADN, TLS, TNH, TOD, TSEB, TMJ, TPM, TTH, TRR → `#b93611`; TMD, TMS → `#3a527a`; TGT → `#44687f`; NYDN → `#4492e0` | Web color (list in DECISIONS.md) | both (OS: Android) | Visually close to what ships (ΔE < 0.05); aligns apps with web themes. | KNOWN |
 | DSC-13 | **TPD** Press Democrat: sheet says `#9e0b0f` / `#ffea00`; both apps use black bar and gray `#999999` | iOS value (DEC-03) | Android | Sheet row is marked WIP; only the iOS section header uses `#9e0b0f`. | KNOWN |
 | DSC-14 | Legacy markets OS, SS, NYDN: the sheet's Primary (`#004e87`, `#000000`, `#ec2127`) appears in neither app | iOS value (DEC-03) | Android | Sheet column may mean something else for the legacy template. | KNOWN |
-| DSC-15 | Breaking-news red: iOS `#ff0000` (71) / `#d80000` (6), Android `#cf000e` | `#cf000e` (proposed) | iOS | PLAT-03. iOS `#ff0000` fails 4.5:1 with white. | KNOWN: Core = iOS by DEC-03 until PLAT-03 is decided |
+| DSC-15 | **🔴 ASAP · contrast.** Breaking-news red: iOS `#ff0000` (71) / `#d80000` (6), Android `#cf000e`. White on `#ff0000` = 4.0:1, fails WCAG AA | `#cf000e` (rgb 207, 0, 14) with white text, 5.74:1 AA (DEC-05) | iOS | Android already ships `#cf000e`. | KNOWN · PRIORITY |
+| DSC-19 | **🔴 ASAP · contrast.** iOS TIVDB breaking-news text is black (3.66:1 on `#cf000e`) | White `#ffffff` (`alerttext`) | iOS | Confirm Android banner text is white (not in the export). | KNOWN · PRIORITY |
 | DSC-16 | BS tab bar: iOS white with black unselected icons, Android black with white | iOS value (DEC-03) | Android | BS is decommissioned Nov 1 2026; may not need a fix. | KNOWN |
 | DSC-17 | Bar text: TIVDB iOS `#cccccc` vs `#ffffff`; OS iOS `#333333` vs `#000000`; TDP unselected tab iOS `#999999` vs `#ffffff` | iOS value (DEC-03) | Android | | KNOWN |
 
@@ -59,6 +67,8 @@ All brand colors are now decided; the values are in `docs/BRAND-COLORS.md` (hex 
 | DSC-31 | Text size: iOS smaller/larger glyphs, Android one glyph | One Core glyph + iOS variant | — | PLAT-08 | KNOWN |
 
 ## Log
+
+- **2026-10-21** — DEC-05: one Core breaking-news red `#cf000e` with white text (5.74:1 AA). DSC-15 and DSC-19 flagged ASAP.
 
 - **2026-10-21** — DEC-03: every remaining brand-color difference takes the iOS value (Android to fix). DEC-04: colors now ship as tokens (Swift + Kotlin); all values documented as hex and RGB in docs/BRAND-COLORS.md.
 

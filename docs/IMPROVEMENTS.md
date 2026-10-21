@@ -12,7 +12,7 @@ Source: iOS TroncKit @ `e30ad2585` (via the App iOS Design System artifact). Dat
 | ICON-01 | Icons | Consolidate three icon systems (Font Awesome, TroncKit PNGs, SF Symbols) into one semantic icon set | All 77 apps, ~250 icon files | PROPOSED |
 | ICON-02 | Icons | Replace per-market recolored icon copies with one tinted icon | ~60 duplicate PNGs | PROPOSED |
 | ICON-03 | Icons | Remove dead `"saved"` SF Symbol reference | 1 call site | PROPOSED |
-| CLR-01 | Color | Breaking-news red fails 4.5:1 with white text | 70 markets | PROPOSED |
+| CLR-01 | Color | Breaking-news red fails 4.5:1 with white text | 70 markets | APPROVED (DEC-05) |
 | CLR-02 | Color | Nav bar title contrast | 6 markets | PROPOSED |
 | CLR-03 | Color | Selected tab icon contrast | 34 markets | PROPOSED |
 | CLR-04 | Color | White label on primary (paywall) button | 22 markets | PROPOSED |
@@ -60,7 +60,7 @@ Shipped values stay in the design system as-is. The suggestions below change **o
 
 > **Known limitation — revisit later (decision 2026-10-16):** the selected-tab suggestions are checked at 3:1 as icons. Tab *labels* are text and would need 4.5:1; suggestions at ~3.1:1 (P03, P11, P13, P14, P25, P39, P40) and the dimmed unselected-tab values (~3.06:1) pass for the icon but not the label. The "white selected tab" fixes pass both.
 
-### CLR-01 · Breaking-news banner (target 4.5:1) — darken `alert`
+### CLR-01 · Breaking-news banner (target 4.5:1) — darken `alert` — `APPROVED` 2026-10-21 as DEC-05: one Core red `#cf000e`, white text 5.74:1
 
 70 markets fail.
 

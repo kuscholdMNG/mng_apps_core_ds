@@ -130,23 +130,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Baltimore Sun",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Baltimore Sun",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -289,23 +310,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Chicago Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Chicago Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -448,23 +490,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Daily Press",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Daily Press",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -607,23 +670,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Hartford Courant",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Hartford Courant",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -766,23 +850,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Morning Call",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Morning Call",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -925,23 +1030,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "New York Daily News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "New York Daily News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1084,23 +1210,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Orange County Register",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Orange County Register",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1243,23 +1390,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Orlando Sentinel",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Orlando Sentinel",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1402,23 +1570,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Petaluma Argus-Courier",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Petaluma Argus-Courier",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1561,23 +1750,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Pasadena Star News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Pasadena Star News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1720,23 +1930,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The San Diego Union-Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The San Diego Union-Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -1879,23 +2110,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "San Gabriel Valley Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "San Gabriel Valley Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2038,23 +2290,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Sonoma Index Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Sonoma Index Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2197,23 +2470,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Sun Sentinel",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Sun Sentinel",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2356,23 +2650,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Buffzone",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Buffzone",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2515,23 +2830,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Bay Area News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Bay Area News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2674,23 +3010,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Boulder County Preps",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Boulder County Preps",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2833,23 +3190,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Broomfield Enterprise News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Broomfield Enterprise News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -2992,23 +3370,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Boston Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Boston Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3151,23 +3550,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Boston Herald Sports",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Boston Herald Sports",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3310,23 +3730,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Canon City Daily Record",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Canon City Daily Record",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3469,23 +3910,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Chico Enterprise Record",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Chico Enterprise Record",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3628,23 +4090,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Colorado Hometown Weekly",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Colorado Hometown Weekly",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3787,23 +4270,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Citizens' Voice",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Citizens' Voice",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -3946,23 +4450,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Daily Breeze",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Daily Breeze",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4105,23 +4630,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Daily Camera",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Daily Camera",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4264,23 +4810,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Delaware County Daily Times",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Delaware County Daily Times",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4423,23 +4990,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Daily Freeman",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Daily Freeman",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4582,23 +5170,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Daily Local Weschester",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Daily Local Weschester",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4741,23 +5350,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Denver Post",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Denver Post",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -4900,23 +5530,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Denver Post Sports",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Denver Post Sports",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5059,23 +5710,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The East Bay Times",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The East Bay Times",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5218,23 +5890,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Estes Park Trail Gazette",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Estes Park Trail Gazette",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5377,23 +6070,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Eureka Times Standard",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Eureka Times Standard",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5536,23 +6250,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Fort Morgan Times",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Fort Morgan Times",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5695,23 +6430,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Greeley Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Greeley Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -5854,23 +6610,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Inland Valley Daily Bulletin",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Inland Valley Daily Bulletin",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#000000",
+        "android": null
+       },
+       "fix": "ios"
       }
      }
     },
@@ -6013,23 +6790,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Journal Advocate",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Journal Advocate",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6172,23 +6970,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Los Angeles Daily News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Los Angeles Daily News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6331,23 +7150,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Long Beach Press-Telegram",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Long Beach Press-Telegram",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6490,23 +7330,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Loveland Reporter Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Loveland Reporter Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6649,23 +7510,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Lowell Sun News for Mobile",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Lowell Sun News for Mobile",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6808,23 +7690,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Longmont Times-Call for Mobile",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Longmont Times-Call for Mobile",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -6967,23 +7870,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Monterey County Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Monterey County Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7126,23 +8050,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Macomb Daily",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Macomb Daily",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7285,23 +8230,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Marin Independent Journal News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Marin Independent Journal News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7444,23 +8410,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Morning Journal",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Morning Journal",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7603,23 +8590,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Mercury News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Mercury News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7762,23 +8770,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Morning Sun",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Morning Sun",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -7921,23 +8950,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The News Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The News Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8080,23 +9130,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Oneida Daily Dispatch",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Oneida Daily Dispatch",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8239,23 +9310,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Oakland Press",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Oakland Press",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8398,23 +9490,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Press Democrat",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Press Democrat",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8557,23 +9670,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Press-Enterprise",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Press-Enterprise",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8716,23 +9850,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Pottstown Mercury",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Pottstown Mercury",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -8875,23 +10030,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Reporter for Mobile",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Reporter for Mobile",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9034,23 +10210,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Redlands Daily Facts",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Redlands Daily Facts",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9193,23 +10390,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Reading Eagle",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Reading Eagle",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9352,23 +10570,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Republican-Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Republican-Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9511,23 +10750,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Royal Oak Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Royal Oak Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9670,23 +10930,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Troy Record",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Troy Record",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9829,23 +11110,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Saratogian",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Saratogian",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -9988,23 +11290,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The San Bernardino Sun",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The San Bernardino Sun",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10147,23 +11470,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Santa Cruz Sentinel",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Santa Cruz Sentinel",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10306,23 +11650,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Sentinel and Enterprise",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Sentinel and Enterprise",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10465,23 +11830,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "St. Paul Pioneer Press",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "St. Paul Pioneer Press",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10624,23 +12010,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Standard-Speaker",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Standard-Speaker",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10783,23 +12190,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Silicon Valley",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Silicon Valley",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -10942,23 +12370,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Trentonian",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Trentonian",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11101,23 +12550,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "The Times Herald",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "The Times Herald",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11260,23 +12730,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Times-Tribune",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Times-Tribune",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11419,23 +12910,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Ukiah Daily Journal",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Ukiah Daily Journal",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11578,23 +13090,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Vacaville Reporter",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Vacaville Reporter",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11737,23 +13270,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Vallejo Times Herald News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Vallejo Times Herald News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -11896,23 +13450,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Woodland Daily Democrat",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Woodland Daily Democrat",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -12055,23 +13630,44 @@
      }
     },
     "alert": {
-     "$value": "#ff0000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        255,
+        207,
         0,
-        0
+        14
        ],
        "market": "Whittier Daily News",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#ff0000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Whittier Daily News",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },
@@ -12214,23 +13810,44 @@
      }
     },
     "alert": {
-     "$value": "#d80000",
+     "$value": "#cf000e",
      "$type": "color",
-     "$description": "Breaking-news banner",
+     "$description": "Breaking-news banner (one Core red, DEC-05)",
      "$extensions": {
       "mng": {
        "rgb": [
-        216,
+        207,
         0,
-        0
+        14
        ],
        "market": "Virginian Pilot",
-       "evidence": "ios-default",
+       "evidence": "core-alert",
        "shipped": {
         "ios": "#d80000",
         "android": "#cf000e"
        },
-       "fix": "android"
+       "fix": "ios"
+      }
+     }
+    },
+    "alerttext": {
+     "$value": "#ffffff",
+     "$type": "color",
+     "$description": "Text on the breaking-news banner (white, 5.74:1 WCAG AA)",
+     "$extensions": {
+      "mng": {
+       "rgb": [
+        255,
+        255,
+        255
+       ],
+       "market": "Virginian Pilot",
+       "evidence": "core-alert",
+       "shipped": {
+        "ios": "#ffffff",
+        "android": null
+       },
+       "fix": null
       }
      }
     },

@@ -8,6 +8,7 @@ Design-system decisions with the rule, the date, who made it and what changed. P
 | DEC-02 | Brand colors: where the Cluster Audit web color is close to our value (ΔE < 0.05), use the web color. Where it's far, keep our earlier choice. Where neither settles it, the brand stays open | 2026-10-21 | Karl |
 | DEC-03 | Brand colors: any color still unresolved after DEC-01 and DEC-02 takes the iOS value | 2026-10-21 | Karl |
 | DEC-04 | Colors are managed as design tokens: one DTCG source in Core, Style Dictionary generates Swift and Kotlin; every color is documented as hex and RGB | 2026-10-21 | Karl |
+| DEC-05 | One breaking-news red for every market and both apps: `#cf000e` with white text (5.74:1, WCAG AA). Fix on iOS ASAP | 2026-10-21 | Karl |
 
 ## DEC-01 · Migration sheet + iOS drift rule
 
@@ -166,7 +167,7 @@ BS, CT, DP, TEPTG, TFMT, HC, MC, SS, TUDJ, VP
 
 ### Breaking-news red
 
-All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value is the iOS one: `#d80000` in 6, `#ff0000` in 71. **Flag:** `#ff0000` fails 4.5:1 with white text (4.0:1). PLAT-03 (one Core red, `#cf000e`) is still a proposal; approving it would replace these 77 values.
+All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value is the iOS one: `#d80000` in 6, `#ff0000` in 71. **Flag:** `#ff0000` fails 4.5:1 with white text (4.0:1). **Superseded by DEC-05:** all 77 markets now use `#cf000e`.
 
 ## DEC-04 · Design tokens for Swift and Kotlin
 
@@ -177,3 +178,11 @@ All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value i
   - Android: `mng_apps_android_ds/tokens/MngBrandColors.kt` (Jetpack Compose `Color`, `MngBrandPalettes.<CODE>`, `forMarket("tdp")`) and `tokens/flavors/<flavor>/res/values/mng_brand_colors.xml` (one per Gradle flavor, `@color/mng_brand_navbar` …).
 - **Exact colors:** platform code is written from the hex bytes (`0xRRGGBB`), never from rounded decimals, which removes the cause of the iOS drift (DSC-01).
 - **Open:** Kotlin package name `com.mng.designsystem.tokens` is a placeholder; confirm with the Apps team. Generated code is not compiled in an app yet. Figma variables will be built from the same tokens (ARCHITECTURE §3).
+
+## DEC-05 · One breaking-news red (`#cf000e`), WCAG AA
+
+- **Rule:** every market on both apps uses `#cf000e` (rgb 207, 0, 14) for the breaking-news banner, with white `#ffffff` text. The build checks the pair and fails if it drops below WCAG AA for normal text (4.5:1).
+- **Contrast:** white on `#cf000e` = **5.74:1** (AA pass; AAA needs 7:1). iOS today: white on `#ff0000` = 4.0:1 (fails AA) in 71 markets; `#d80000` = 5.36:1 in 6. Black text on `#cf000e` would be 3.66:1 (fails), so the text must be white.
+- **New Core token:** `alerttext` (white) so the text color is defined, not left to each app.
+- **Fix:** iOS, all 77 markets, **ASAP** because of contrast (DSC-15). iOS TIVDB also uses black banner text; change to white (DSC-19). Android already ships `#cf000e`; confirm its banner text is white.
+- **Applied by:** `scripts/apply_core_alert.py` (after `apply_ios_default.py`). Replaces proposal PLAT-03 and covers CLR-01.

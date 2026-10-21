@@ -12,7 +12,8 @@
  "stats": {
   "agree": 184,
   "agree+sheet": 44,
-  "ios-default": 133,
+  "ios-default": 56,
+  "core-alert": 154,
   "follows-navbar": 76,
   "web-close": 52,
   "sheet+drift": 35,
@@ -190,18 +191,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -213,7 +214,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -392,18 +419,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -415,7 +442,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -594,18 +647,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -617,7 +670,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -796,18 +875,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -819,7 +898,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -998,18 +1103,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -1021,7 +1126,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -1200,18 +1331,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -1223,7 +1354,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -1402,18 +1559,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -1425,7 +1582,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -1612,18 +1795,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -1635,7 +1818,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -1810,18 +2019,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -1833,7 +2042,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -2008,18 +2243,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -2031,7 +2266,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -2210,18 +2471,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -2233,7 +2494,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -2412,18 +2699,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -2435,7 +2722,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -2614,18 +2927,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -2637,7 +2950,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -2812,18 +3151,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -2835,7 +3174,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -3014,18 +3379,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -3037,7 +3402,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -3212,18 +3603,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -3235,7 +3626,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -3402,18 +3819,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -3425,7 +3842,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -3604,18 +4047,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -3627,7 +4070,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -3814,18 +4283,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -3837,7 +4306,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -4016,18 +4511,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -4039,7 +4534,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -4226,18 +4747,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -4249,7 +4770,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -4424,18 +4971,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -4447,7 +4994,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -4626,18 +5199,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -4649,7 +5222,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#000000",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": "ios",
+     "ios_rgb": [
+      0,
+      0,
+      0
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -4836,18 +5435,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -4859,7 +5458,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -5038,18 +5663,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -5061,7 +5686,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -5240,18 +5891,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -5263,7 +5914,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -5450,18 +6127,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -5473,7 +6150,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -5652,18 +6355,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -5675,7 +6378,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -5862,18 +6591,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -5885,7 +6614,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -6072,18 +6827,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -6095,7 +6850,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -6270,18 +7051,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -6293,7 +7074,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -6472,18 +7279,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -6495,7 +7302,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -6674,18 +7507,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -6697,7 +7530,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -6876,18 +7735,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -6899,7 +7758,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -7086,18 +7971,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -7109,7 +7994,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -7284,18 +8195,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -7307,7 +8218,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -7498,18 +8435,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -7521,7 +8458,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -7700,18 +8663,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -7723,7 +8686,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -7902,18 +8891,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -7925,7 +8914,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -8092,18 +9107,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -8115,7 +9130,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -8294,18 +9335,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -8317,7 +9358,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -8496,18 +9563,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -8519,7 +9586,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -8698,18 +9791,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -8721,7 +9814,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -8896,18 +10015,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -8919,7 +10038,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -9106,18 +10251,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -9129,7 +10274,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -9312,18 +10483,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -9335,7 +10506,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -9522,18 +10719,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -9545,7 +10742,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -9724,18 +10947,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -9747,7 +10970,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -9926,18 +11175,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -9949,7 +11198,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -10128,18 +11403,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -10151,7 +11426,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -10326,18 +11627,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -10349,7 +11650,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -10528,18 +11855,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -10551,7 +11878,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -10730,18 +12083,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -10753,7 +12106,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -10932,18 +12311,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -10955,7 +12334,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -11126,18 +12531,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -11149,7 +12554,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -11320,18 +12751,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -11343,7 +12774,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -11530,18 +12987,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -11553,7 +13010,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -11740,18 +13223,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -11763,7 +13246,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -11950,18 +13459,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -11973,7 +13482,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -12152,18 +13687,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -12175,7 +13710,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -12362,18 +13923,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -12385,7 +13946,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -12568,18 +14155,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -12591,7 +14178,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -12770,18 +14383,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -12793,7 +14406,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -12972,18 +14611,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -12995,7 +14634,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -13174,18 +14839,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -13197,7 +14862,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -13364,18 +15055,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -13387,7 +15078,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -13566,18 +15283,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -13589,7 +15306,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -13776,18 +15519,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -13799,7 +15542,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -13978,18 +15747,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -14001,7 +15770,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -14188,18 +15983,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -14211,7 +16006,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -14390,18 +16211,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -14413,7 +16234,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -14592,18 +16439,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -14615,7 +16462,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -14794,18 +16667,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -14817,7 +16690,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -14996,18 +16895,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -15019,7 +16918,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -15194,18 +17119,18 @@
      "ios": "#d80000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#d80000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#d80000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      216,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       216,
@@ -15217,7 +17142,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -15396,18 +17347,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -15419,7 +17370,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -15598,18 +17575,18 @@
      "ios": "#ff0000",
      "android": "#cf000e",
      "sheet": null,
-     "value": "#ff0000",
-     "evidence": "ios-default",
+     "value": "#cf000e",
+     "evidence": "core-alert",
      "previous": {
-      "value": null,
-      "evidence": "unresolved"
+      "value": "#ff0000",
+      "evidence": "ios-default"
      },
-     "fix": "android",
-     "note": "PLAT-03 proposes one Core value #cf000e (passes 4.5:1); not approved yet",
+     "fix": "ios",
+     "note": "DEC-05: one Core red; fix on iOS ASAP (contrast)",
      "value_rgb": [
-      255,
+      207,
       0,
-      0
+      14
      ],
      "ios_rgb": [
       255,
@@ -15621,7 +17598,33 @@
       0,
       14
      ],
-     "sheet_rgb": null
+     "sheet_rgb": null,
+     "contrast": {
+      "text": "#ffffff",
+      "ratio": 5.74,
+      "wcag": "AA"
+     }
+    },
+    "alerttext": {
+     "ios": "#ffffff",
+     "android": null,
+     "sheet": null,
+     "value": "#ffffff",
+     "evidence": "core-alert",
+     "fix": null,
+     "ios_rgb": [
+      255,
+      255,
+      255
+     ],
+     "android_rgb": null,
+     "sheet_rgb": null,
+     "value_rgb": [
+      255,
+      255,
+      255
+     ],
+     "note": "Android banner text color not in the export; confirm it is white"
     }
    },
    "status": "resolved",
@@ -16131,5 +18134,11 @@
  },
  "ios_default": {
   "rule": "DEC-03"
+ },
+ "core_alert": {
+  "rule": "DEC-05",
+  "value": "#cf000e",
+  "text": "#ffffff",
+  "ratio": 5.74
  }
 }

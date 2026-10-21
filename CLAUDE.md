@@ -111,6 +111,7 @@ python3 scripts/component_platform_map.py data/component-platform-map.json
 python3 scripts/resolve_brand_colors.py data/source/markets.json data/source/android-markets.json data/source/migration-sheet-brand-colors.json data/brand-color-resolution.json
 python3 scripts/apply_web_alignment.py data/brand-color-resolution.json data/source/cluster-audit-web-colors.json   # DEC-02, right after resolve
 python3 scripts/apply_ios_default.py data/brand-color-resolution.json data/color-platform-comparison.json   # DEC-03
+python3 scripts/apply_core_alert.py data/brand-color-resolution.json data/source/markets.json   # DEC-05 (fails if below WCAG AA)
 python3 scripts/build_tokens.py     # tokens/*.tokens.json + docs/BRAND-COLORS.md
 npm install && npm run build        # Style Dictionary → ../mng_apps_ios_ds/Tokens, ../mng_apps_android_ds/tokens
 python3 scripts/build_registry.py   # run last; reads the two maps above

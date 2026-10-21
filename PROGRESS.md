@@ -62,3 +62,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-21** — Checked brand colors against the migration sheet. Found the iOS drift pattern (2-decimal channels). PLAT-02 approved by rule. Started docs/DISCREPANCIES.md. Figma Color page section 06 added. Claude now pushes all commits.
 - **2026-10-21** — DEC-02: 27 brand colors moved to Cluster Audit web colors where close; 15 kept (web too far); 9 still open. Added docs/DECISIONS.md.
 - **2026-10-21** — DEC-03 (iOS default) and DEC-04 (design tokens). All brand colors decided; Swift and Kotlin generated into the platform repos.
+- **2026-10-21** — DEC-05: breaking-news red `#cf000e` everywhere with white text (5.74:1 AA); new `alerttext` token; iOS fix flagged ASAP (DSC-15, DSC-19).
