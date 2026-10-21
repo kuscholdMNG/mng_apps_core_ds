@@ -53,6 +53,13 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 ## Phase 5 — QA & publish  ⬜
 ## Phase 6 — Move platform-only items into the iOS and Android files  ⬜
 
+## Next session (handoff 2026-10-21)
+
+1. **Push first.** Core, iOS and Android repos have unpushed local commits (the old session couldn't push). Pull/fetch, then push all three.
+2. **Waiting on Karl / Apps team:** confirm DEC-03 iOS-default colors (MISSING-ASSETS 3.3); confirm Android banner text is white (DSC-19); Kotlin package name (DEC-04); cluster for TBAN, TBE, TB, TBCP, TBHS, TCHW, TDPS.
+3. **Next work:** pilot the button system end-to-end (Core spec + iOS + Android, bound to Brand theme variables); then type, spacing and radius tokens; then the remaining components. Open question for the pilot: corner radius (iOS 4 vs Android square).
+4. **Known contrast issues to keep visible:** DSC-15/19 (breaking-news, fix ASAP), CLR-03 selected-tab contrast (visible on Figma page Color · Brand Theme).
+
 ## Log
 
 - **2026-10-16** — Phase 0 complete. Built Color · Market Palettes page in Figma. Started IMPROVEMENTS (15 items) and MISSING-ASSETS (icons first).
