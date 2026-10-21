@@ -13,8 +13,8 @@
    "name": "Orange County Register",
    "cluster": "SCNG",
    "why": "required",
-   "nearest": "TNH",
-   "nearest_dE": 0.024
+   "nearest": "TGT",
+   "nearest_dE": 0.101
   },
   {
    "code": "TDP",
@@ -61,8 +61,8 @@
    "name": "The Mercury News",
    "cluster": "BANG",
    "why": "required",
-   "nearest": "TSPPP",
-   "nearest_dE": 0.0
+   "nearest": "TCCDR",
+   "nearest_dE": 0.026
   },
   {
    "code": "TDH",
@@ -95,14 +95,6 @@
    "why": "covers cluster 21C / New York",
    "nearest": "MC",
    "nearest_dE": 0.065
-  },
-  {
-   "code": "TNH",
-   "name": "The News Herald",
-   "cluster": "21C / Ohio",
-   "why": "covers cluster 21C / Ohio",
-   "nearest": "OCR",
-   "nearest_dE": 0.024
   },
   {
    "code": "TDCD",
@@ -145,20 +137,12 @@
    "nearest_dE": 0.134
   },
   {
-   "code": "TSPPP",
-   "name": "St. Paul Pioneer Press",
-   "cluster": "St. Paul",
-   "why": "covers cluster St. Paul",
-   "nearest": "TMN",
-   "nearest_dE": 0.0
-  },
-  {
-   "code": "PAC",
-   "name": "Petaluma Argus-Courier",
-   "cluster": "Sonoma",
+   "code": "SGVT",
+   "name": "San Gabriel Valley Tribune",
+   "cluster": "SCNG",
    "why": "most different remaining",
-   "nearest": "TBH",
-   "nearest_dE": 0.175
+   "nearest": "PAC",
+   "nearest_dE": 0.127
   },
   {
    "code": "HC",
@@ -167,8 +151,28 @@
    "why": "most different remaining",
    "nearest": "TPD",
    "nearest_dE": 0.134
+  },
+  {
+   "code": "OS",
+   "name": "Orlando Sentinel",
+   "cluster": "Tribune",
+   "why": "most different remaining",
+   "nearest": "MC",
+   "nearest_dE": 0.133
+  },
+  {
+   "code": "PAC",
+   "name": "Petaluma Argus-Courier",
+   "cluster": "Sonoma",
+   "why": "most different remaining",
+   "nearest": "SGVT",
+   "nearest_dE": 0.127
   }
  ],
+ "clusters_skipped_as_duplicates": {
+  "21C / Ohio": "TNH",
+  "St. Paul": "TSPPP"
+ },
  "no_cluster": [
   "TB",
   "TBAN",

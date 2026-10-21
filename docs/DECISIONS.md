@@ -208,16 +208,16 @@ All 77 markets differ (Android `#cf000e` everywhere). By DEC-03 the Core value i
 | TBH | Boston Herald | Boston | required |
 | TOP | The Oakland Press | 21C / Mich | covers cluster 21C / Mich |
 | TSAR | Saratogian | 21C / New York | covers cluster 21C / New York |
-| TNH | The News Herald | 21C / Ohio | covers cluster 21C / Ohio |
 | TDCD | Delaware County Daily Times | 21C / Philly | covers cluster 21C / Philly |
 | TTT | Times-Tribune | NEPA | covers cluster NEPA |
 | TWDD | Woodland Daily Democrat | Norcal | covers cluster Norcal |
 | TGT | Greeley Tribune | PMP | covers cluster PMP |
 | TPD | The Press Democrat | Sonoma | covers cluster Sonoma |
-| TSPPP | St. Paul Pioneer Press | St. Paul | covers cluster St. Paul |
-| PAC | Petaluma Argus-Courier | Sonoma | most different remaining |
+| SGVT | San Gabriel Valley Tribune | SCNG | most different remaining |
 | HC | Hartford Courant | Tribune | most different remaining |
+| OS | Orlando Sentinel | Tribune | most different remaining |
+| PAC | Petaluma Argus-Courier | Sonoma | most different remaining |
 
-- **Notes:** TSPPP (St. Paul's only market) has the same palette as TMN; TNH (Ohio) is close to OCR. Both are in only because each cluster needs one. Brands with no cluster in either sheet (TBAN, TBE, TB, TBCP, TBHS, TCHW, TDPS) weren't treated as a cluster.
+- **Duplicates skipped (Karl, 2026-10-21):** a cluster whose best pick would nearly duplicate a market already chosen (mean ΔE < 0.03) is skipped: 21C / Ohio (TNH ≈ OCR) and St. Paul (TSPPP = TMN). Their slots went to SGVT and OS. Brands with no cluster in either sheet (TBAN, TBE, TB, TBCP, TBHS, TCHW, TDPS) weren't treated as a cluster.
 - **Daily Herald (TDH):** no app build yet, so it's added as a **provisional** market (`data/source/new-markets.json`): migration-sheet primary `#0072b4` plus standard-template defaults. White on `#0072b4` = 5.16:1 (AA); black selected tab on it = 4.07:1 (passes 3:1). Replace when the app ships.
 - **Figma page:** Core file → **Color · Brand Theme** shows all 20 modes as mini app chrome bound to the theme variables.
