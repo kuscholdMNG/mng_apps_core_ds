@@ -6,7 +6,7 @@ What belongs in Core and what belongs in a platform file, based on the shipped c
 - Figma (Core file): **Icons · System Comparison → 04 · Platform ownership** and **Color · Market Palettes → 05 · iOS vs Android**
 - Data: `data/icon-platform-map.json`, `data/color-platform-comparison.json`
 
-Status key: `PROPOSED` · `APPROVED` · `REJECTED` · `DONE`
+Status key: `PROPOSED` · `WAITING` (on Apps team) · `APPROVED` · `REJECTED` · `DONE`
 
 ## Icons — 61 purposes
 
@@ -23,7 +23,7 @@ Most iOS-only items are **features** Android doesn't have, not icon disagreement
 
 | Role | Bucket | Same / close / differs (of 77) | Note |
 |------|--------|-------------------------------|------|
-| navbar | Core | 55 / 5 / 17 | 39 of the 55 are rounding twins (#4351af vs #4252b0) |
+| navbar | Core | 55 / 5 / 17 | 39 of the 55 are near-identical hexes (#4351af vs #4252b0) |
 | navtext | Core | 75 / 0 / 2 | TIVDB, OS |
 | tabbar | Core | 54 / 5 / 18 | Android always = navbar; iOS too except BS |
 | tabactive | Core | 54 / 2 / 21 | |
@@ -38,19 +38,19 @@ Most iOS-only items are **features** Android doesn't have, not icon disagreement
 
 - **43 markets** match on all six bar/tab/button roles and can share one Core palette now.
 - **34 markets** have at least one real difference (listed in Figma section 05).
-- Hexes: 63 on Android, 59 on iOS. 16 are identical; 34 more Android values are rounding twins of an iOS value.
+- Hexes: 63 on Android, 59 on iOS. 16 are identical; 34 more Android values are near-identical to an iOS value (off by 1 in one channel; invisible). They appear in 40 of the 77 brands.
 
 ## Decisions for Karl
 
 | ID | Decision | Recommendation | Status |
 |----|----------|----------------|--------|
 | PLAT-01 | Adopt the four buckets above as the ownership rule | Yes | PROPOSED |
-| PLAT-02 | Rounding twins: which hex is canonical | Android's XML value (authored); iOS values look like float round-trips | PROPOSED |
+| PLAT-02 | Near-identical hexes: which value is official | Android's XML value (authored); iOS values look like float round-trips | WAITING: Karl asking Apps team (MISSING-ASSETS 3.3) |
 | PLAT-03 | One Core `alert` color for both apps and all markets | #cf000e: passes 4.5:1 with white (5.74:1); iOS #ff0000 fails (4.0:1). Covers CLR-01 | PROPOSED |
 | PLAT-04 | Fold `buy` and `continue` into `action` | Yes, as aliases (removes 2 roles × 77 markets) | PROPOSED |
 | PLAT-05 | `statusbar` (Android) and `header` (iOS) default to `navbar` | Platform files only store the exceptions (7 and 11 markets) | PROPOSED |
-| PLAT-06 | 10 markets where iOS shows template blue #004e87 and Android shows the market's own color (TBAN, TBH, TCE, TDB, TDF, TLBPT, TMI, TRDF, TSPPP, TT) | Ask Apps team which is intended. Likely Android | PROPOSED |
-| PLAT-07 | Big brand differences: TLR (iOS rust vs Android blue), TEPTG (navy vs green), TSV (black vs blue), TUDJ, SGVT/PSN/TPE/TSBS/TWDN (orange action on iOS) | Ask brand owners for the correct color per market | PROPOSED |
+| PLAT-06 | 10 markets where iOS shows template blue #004e87 and Android shows the market's own color (TBAN, TBH, TCE, TDB, TDF, TLBPT, TMI, TRDF, TSPPP, TT) | Ask Apps team which is intended. Likely Android | WAITING: Karl asking Apps team (MISSING-ASSETS 3.3) |
+| PLAT-07 | Big brand differences: TLR (iOS rust vs Android blue), TEPTG (navy vs green), TSV (black vs blue), TUDJ, SGVT/PSN/TPE/TSBS/TWDN (orange action on iOS) | Ask brand owners for the correct color per market | WAITING: Karl asking Apps team (MISSING-ASSETS 3.3) |
 | PLAT-08 | Text size icons: one Core "text size" glyph; iOS keeps smaller/larger as a platform variant | Yes | PROPOSED |
 | PLAT-09 | Drop the Android special-section save star; use Core Saved | Yes | PROPOSED |
 | PLAT-10 | Android `accent`: decide the switch-on color (today the Material default in Settings, accent on alert topics) | Map to `action` or `tabactive` and retire gold #daa520 | PROPOSED |

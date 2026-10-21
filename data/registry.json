@@ -1,0 +1,1932 @@
+{
+ "generated_by": "scripts/build_registry.py",
+ "summary": {
+  "color-role": {
+   "core": 9,
+   "ios": 1,
+   "android": 2
+  },
+  "icon": {
+   "core": 32,
+   "ios": 25,
+   "core+variant": 2,
+   "android": 2
+  },
+  "component": {
+   "core+variant": 10,
+   "core": 6,
+   "ios": 2,
+   "android": 2
+  },
+  "layout": {
+   "core": 3,
+   "core+variant": 3
+  }
+ },
+ "items": [
+  {
+   "id": "color/navbar",
+   "type": "color-role",
+   "group": "Color",
+   "name": "navbar",
+   "owner": "core",
+   "ios": {
+    "source": "navigationBarBackgroundColor"
+   },
+   "android": {
+    "source": "Toolbar_Background"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/navtext",
+   "type": "color-role",
+   "group": "Color",
+   "name": "navtext",
+   "owner": "core",
+   "ios": {
+    "source": "navigationBarTitleColor"
+   },
+   "android": {
+    "source": "Toolbar_Text_Primary"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/tabbar",
+   "type": "color-role",
+   "group": "Color",
+   "name": "tabbar",
+   "owner": "core",
+   "ios": {
+    "source": "tabBarBackgroundColor"
+   },
+   "android": {
+    "source": "NavigationBar_Background"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/tabactive",
+   "type": "color-role",
+   "group": "Color",
+   "name": "tabactive",
+   "owner": "core",
+   "ios": {
+    "source": "tabBarSelectedTintColor"
+   },
+   "android": {
+    "source": "NavigationBar_Icon_ActiveTintColor"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/tabinactive",
+   "type": "color-role",
+   "group": "Color",
+   "name": "tabinactive",
+   "owner": "core",
+   "ios": {
+    "source": "tabBarUnselectedTintColor"
+   },
+   "android": {
+    "source": "NavigationBar_Icon_InactiveTintColor"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/action",
+   "type": "color-role",
+   "group": "Color",
+   "name": "action",
+   "owner": "core",
+   "ios": {
+    "source": "paywallPrimaryActionColor"
+   },
+   "android": {
+    "source": "Paywall_PurchaseButton_Background"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/alert",
+   "type": "color-role",
+   "group": "Color",
+   "name": "alert",
+   "owner": "core",
+   "ios": {
+    "source": "breakingNewsBannerBackgroundColor"
+   },
+   "android": {
+    "source": "br_news_red"
+   },
+   "note": "One value proposed (PLAT-03)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/buy",
+   "type": "color-role",
+   "group": "Color",
+   "name": "buy",
+   "owner": "core",
+   "ios": {
+    "source": "paywallViewPurchaseButtonColor"
+   },
+   "android": {
+    "source": "Paywall_BuyButton_Background"
+   },
+   "note": "Alias of action proposed (PLAT-04)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/continue",
+   "type": "color-role",
+   "group": "Color",
+   "name": "continue",
+   "owner": "core",
+   "ios": {
+    "source": "\u2014"
+   },
+   "android": {
+    "source": "btn_continue"
+   },
+   "note": "Alias of action proposed (PLAT-04)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/header",
+   "type": "color-role",
+   "group": "Color",
+   "name": "header",
+   "owner": "ios",
+   "ios": {
+    "source": "cell-tertiary-headerBg"
+   },
+   "android": {
+    "source": "\u2014"
+   },
+   "note": "Defaults to navbar (PLAT-05)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/statusbar",
+   "type": "color-role",
+   "group": "Color",
+   "name": "statusbar",
+   "owner": "android",
+   "ios": {
+    "source": "\u2014"
+   },
+   "android": {
+    "source": "MainStyle_Primary_Dark"
+   },
+   "note": "Defaults to navbar (PLAT-05)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "color/accent",
+   "type": "color-role",
+   "group": "Color",
+   "name": "accent",
+   "owner": "android",
+   "ios": {
+    "source": "alertTopicCellSwitchTint"
+   },
+   "android": {
+    "source": "MainStyle_Accent"
+   },
+   "note": "Switch color open (PLAT-10)",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/search",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Search",
+   "owner": "core",
+   "ios": {
+    "source": "FA search \u00b7 nav-search (3 PNG) \u00b7 ENewspaper search (2)",
+    "native": "magnifyingglass"
+   },
+   "android": {
+    "source": "mc_ic_search (+8 market copies)",
+    "native": "search"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/settings",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Settings",
+   "owner": "core",
+   "ios": {
+    "source": "nav-settings (3 PNG)",
+    "native": "gearshape"
+   },
+   "android": {
+    "source": "mc_ic_settings (+10 market copies)",
+    "native": "settings"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/share",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Share",
+   "owner": "core",
+   "ios": {
+    "source": "nav-share PNG",
+    "native": "square.and.arrow.up"
+   },
+   "android": {
+    "source": "ic_share (+9 market copies)",
+    "native": "share"
+   },
+   "note": "Glyph differs by platform convention; one semantic name.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/save-not-saved",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Save (not saved)",
+   "owner": "core",
+   "ios": {
+    "source": "FA bookmark \u00b7 nav-save-unfilled \u00b7 Unsaved-Article \u00b7 Saved-Unfilled-* (9)",
+    "native": "bookmark"
+   },
+   "android": {
+    "source": "ic_bookmark_outline \u00b7 ic_btn_unsave",
+    "native": "bookmark"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/saved",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Saved",
+   "owner": "core",
+   "ios": {
+    "source": "nav-save-filled \u00b7 Saved-Article \u00b7 Saved-Filled-* (9) \u00b7 Saved tab icons (11)",
+    "native": "bookmark.fill"
+   },
+   "android": {
+    "source": "ic_bookmark \u00b7 ic_btn_save \u00b7 mc_tab_icon_saved",
+    "native": "bookmark"
+   },
+   "note": "Android special-section star (card_star_default) also means saved: fold into this.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/home-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Home tab",
+   "owner": "core",
+   "ios": {
+    "source": "FA home \u00b7 tab-home \u00b7 9 market home icons",
+    "native": "house"
+   },
+   "android": {
+    "source": "mc_tab_icon_latestnews (77 market copies)",
+    "native": "home"
+   },
+   "note": "Both apps ship per-market Home icons; one Core glyph removes ~86 files.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/sections-menu",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Sections / menu",
+   "owner": "core",
+   "ios": {
+    "source": "FA bars \u00b7 tab-sections \u00b7 eNewspaper menu, menu-line",
+    "native": "line.3.horizontal"
+   },
+   "android": {
+    "source": "mc_tab_icon_sections",
+    "native": "menu"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/alerts-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Alerts tab",
+   "owner": "core",
+   "ios": {
+    "source": "FA bell \u00b7 tab-alerts \u00b7 Alert/bell",
+    "native": "bell"
+   },
+   "android": {
+    "source": "mc_tab_icon_alerts \u00b7 mc_alert_bell (69 market copies)",
+    "native": "notifications"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/for-you-your-news-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "For You / Your News tab",
+   "owner": "core",
+   "ios": {
+    "source": "tab-foryou \u00b7 For You \u00b7 YourNews-* (11)",
+    "native": null
+   },
+   "android": {
+    "source": "mc_tab_icon_for_you",
+    "native": null
+   },
+   "note": "Gap on both: one custom Core vector.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/enewspaper-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "eNewspaper tab",
+   "owner": "core",
+   "ios": {
+    "source": "tab-enews \u00b7 tab-newspaper",
+    "native": "newspaper"
+   },
+   "android": {
+    "source": "mc_tab_icon_newspaper \u00b7 ic_newspaper",
+    "native": "newspaper"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/games-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Games tab",
+   "owner": "core",
+   "ios": {
+    "source": "tab-games \u00b7 SF gamecontroller.fill",
+    "native": "gamecontroller.fill"
+   },
+   "android": {
+    "source": "mc_tab_icon_games \u00b7 ic_games",
+    "native": "sports_esports"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/digital-tab",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Digital tab",
+   "owner": "ios",
+   "ios": {
+    "source": "tab-digital (purpose unclear)",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "Not on Android. Ask Apps team whether to retire.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/expand-show-more",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Expand / show more",
+   "owner": "core",
+   "ios": {
+    "source": "FA chevronUp \u00b7 Chevron - Up \u00b7 chevron_up",
+    "native": "chevron.up"
+   },
+   "android": {
+    "source": "icon_uparrow",
+    "native": "expand_less"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/collapse-show-less",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Collapse / show less",
+   "owner": "core",
+   "ios": {
+    "source": "FA chevronDown \u00b7 Chevron - Down \u00b7 chevron_down \u00b7 button-downarrow",
+    "native": "chevron.down"
+   },
+   "android": {
+    "source": "icon_downarrow",
+    "native": "expand_more"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/back",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Back",
+   "owner": "core",
+   "ios": {
+    "source": "SF chevron.left",
+    "native": "chevron.left"
+   },
+   "android": {
+    "source": "web_view_navigation_back \u00b7 ic_arrow_back_black_24dp (from PDFViewCtrlTools)",
+    "native": "arrow_back"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/forward-disclosure",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Forward / disclosure",
+   "owner": "core",
+   "ios": {
+    "source": "SF chevron.right",
+    "native": "chevron.right"
+   },
+   "android": {
+    "source": "web_view_navigation_forward \u00b7 ic_arrow \u00b7 liveblog_arrow \u00b7 game_open_arrow",
+    "native": "chevron_right"
+   },
+   "note": "Android has 4 arrows for this; consolidate.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/close",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Close",
+   "owner": "core",
+   "ios": {
+    "source": "CloseButton \u00b7 overlay-close \u00b7 BannerCloseLight \u00b7 video-fullscreen-close \u00b7 SF xmark",
+    "native": "xmark"
+   },
+   "android": {
+    "source": "ic_close_white_36dp \u00b7 xbutton \u00b7 ic_ad_close \u00b7 close_player_button \u00b7 ic_persistent_player_close",
+    "native": "close"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/close-circle",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Close (circle)",
+   "owner": "core",
+   "ios": {
+    "source": "SF xmark.circle.fill \u00b7 button-miniplayer-close (2)",
+    "native": "xmark.circle.fill"
+   },
+   "android": {
+    "source": "ic_clear_search (search clear)",
+    "native": "cancel"
+   },
+   "note": "Confirm the Android glyph is a circled X.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/account",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Account",
+   "owner": "ios",
+   "ios": {
+    "source": "SF person.circle.fill",
+    "native": "person.circle.fill"
+   },
+   "android": {
+    "source": null,
+    "native": "account_circle"
+   },
+   "note": "Android has no account icon; login is Auth0 web.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/warning",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Warning",
+   "owner": "core",
+   "ios": {
+    "source": "SF exclamationmark.triangle.fill \u00b7 exclamation-icon",
+    "native": "exclamationmark.triangle.fill"
+   },
+   "android": {
+    "source": "stat_notify_error (Android framework, notifications only)",
+    "native": "warning"
+   },
+   "note": "Android uses it only in notifications.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/email",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Email",
+   "owner": "core",
+   "ios": {
+    "source": "SF envelope.fill",
+    "native": "envelope.fill"
+   },
+   "android": {
+    "source": "ic_email",
+    "native": "mail"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/refresh",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Refresh",
+   "owner": "core",
+   "ios": {
+    "source": "SF arrow.clockwise",
+    "native": "arrow.clockwise"
+   },
+   "android": {
+    "source": "ic_wc_refresh",
+    "native": "refresh"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/filter",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Filter",
+   "owner": "core",
+   "ios": {
+    "source": "icon_filter",
+    "native": "line.3.horizontal.decrease"
+   },
+   "android": {
+    "source": "ic_filter (+27 market copies)",
+    "native": "filter_list"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/text-size-smaller",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Text size smaller",
+   "owner": "core+variant",
+   "ios": {
+    "source": "textsizesmall",
+    "native": "textformat.size.smaller"
+   },
+   "android": {
+    "source": "ic_font_size \u00b7 ic_textsize_change (one icon, opens a 4-step list)",
+    "native": "text_decrease"
+   },
+   "note": "Core: one \"text size\" icon. iOS adds smaller/larger glyphs.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/text-size-larger",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Text size larger",
+   "owner": "core+variant",
+   "ios": {
+    "source": "textsizelarge",
+    "native": "textformat.size.larger"
+   },
+   "android": {
+    "source": "(same single icon)",
+    "native": "text_increase"
+   },
+   "note": "See Text size smaller.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/follow-topic",
+   "type": "icon",
+   "group": "Icons \u00b7 Topics & selection",
+   "name": "Follow topic",
+   "owner": "ios",
+   "ios": {
+    "source": "BTN_FollowTopic \u00b7 FollowTopic \u00b7 Plus-CT",
+    "native": "plus.circle"
+   },
+   "android": {
+    "source": "ic_follow_topic (file exists, not used)",
+    "native": "add_circle"
+   },
+   "note": "Android file is unreferenced.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/unfollow-topic",
+   "type": "icon",
+   "group": "Icons \u00b7 Topics & selection",
+   "name": "Unfollow topic",
+   "owner": "ios",
+   "ios": {
+    "source": "BTN_UnFollowTopic \u00b7 UnFollowTopic \u00b7 Minus-CT",
+    "native": "minus.circle"
+   },
+   "android": {
+    "source": "ic_unfollow_topic (file exists, not used)",
+    "native": "do_not_disturb_on"
+   },
+   "note": "Android file is unreferenced.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/checked",
+   "type": "icon",
+   "group": "Icons \u00b7 Topics & selection",
+   "name": "Checked",
+   "owner": "core",
+   "ios": {
+    "source": "Checked \u00b7 Checkmark-* (7) \u00b7 GreyCheckmark \u00b7 WhiteCheckmark \u00b7 ButtonWithCheckmark \u00b7 TopicSelection-* (9)",
+    "native": "checkmark.circle.fill"
+   },
+   "android": {
+    "source": "ic_check \u00b7 ic_topic_selected \u00b7 radio_button_on",
+    "native": "check_circle"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/unchecked",
+   "type": "icon",
+   "group": "Icons \u00b7 Topics & selection",
+   "name": "Unchecked",
+   "owner": "core",
+   "ios": {
+    "source": "Unchecked \u00b7 Uncheck-* (8)",
+    "native": "circle"
+   },
+   "android": {
+    "source": "radio_button_off",
+    "native": "radio_button_unchecked"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/continue",
+   "type": "icon",
+   "group": "Icons \u00b7 Topics & selection",
+   "name": "Continue",
+   "owner": "core",
+   "ios": {
+    "source": "Continue-* (10)",
+    "native": "arrow.right.circle.fill"
+   },
+   "android": {
+    "source": "arrow_circle_right",
+    "native": "arrow_circle_right"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/expand-page",
+   "type": "icon",
+   "group": "Icons \u00b7 eNewspaper",
+   "name": "Expand page",
+   "owner": "ios",
+   "ios": {
+    "source": "expand-paper (2)",
+    "native": "arrow.up.left.and.arrow.down.right"
+   },
+   "android": {
+    "source": null,
+    "native": "open_in_full"
+   },
+   "note": "Android eEdition is the PageSuite SDK; its icons ship inside the SDK.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/fit-to-screen",
+   "type": "icon",
+   "group": "Icons \u00b7 eNewspaper",
+   "name": "Fit to screen",
+   "owner": "ios",
+   "ios": {
+    "source": "fit-to-screen (2)",
+    "native": "arrow.down.right.and.arrow.up.left"
+   },
+   "android": {
+    "source": null,
+    "native": "close_fullscreen"
+   },
+   "note": "PageSuite SDK on Android.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/previous-page",
+   "type": "icon",
+   "group": "Icons \u00b7 eNewspaper",
+   "name": "Previous page",
+   "owner": "ios",
+   "ios": {
+    "source": "left-arrow (2)",
+    "native": "arrow.left"
+   },
+   "android": {
+    "source": null,
+    "native": "arrow_back"
+   },
+   "note": "PageSuite SDK on Android.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/next-page",
+   "type": "icon",
+   "group": "Icons \u00b7 eNewspaper",
+   "name": "Next page",
+   "owner": "ios",
+   "ios": {
+    "source": "right-arrow (2)",
+    "native": "arrow.right"
+   },
+   "android": {
+    "source": null,
+    "native": "arrow_forward"
+   },
+   "note": "PageSuite SDK on Android.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/play",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Play",
+   "owner": "core",
+   "ios": {
+    "source": "button-play* (6) \u00b7 embed-play \u00b7 gif-play \u00b7 button-miniplayer-play (2) \u00b7 SF play.fill",
+    "native": "play.fill"
+   },
+   "android": {
+    "source": "play_player_button \u00b7 ic_persistent_player_play \u00b7 ic_play_btn \u00b7 btn_play_large",
+    "native": "play_arrow"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/pause",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Pause",
+   "owner": "core",
+   "ios": {
+    "source": "button-pause* (5) \u00b7 button-miniplayer-pause (2) \u00b7 SF pause.fill",
+    "native": "pause.fill"
+   },
+   "android": {
+    "source": "pause_player_button \u00b7 ic_persistent_player_pause",
+    "native": "pause"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/skip-back-15-s",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Skip back 15 s",
+   "owner": "ios",
+   "ios": {
+    "source": "SF gobackward.15",
+    "native": "gobackward.15"
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "Android player has no skip controls.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/skip-forward-15-s",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Skip forward 15 s",
+   "owner": "ios",
+   "ios": {
+    "source": "SF goforward.15",
+    "native": "goforward.15"
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "Android player has no skip controls.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/rewind",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Rewind",
+   "owner": "ios",
+   "ios": {
+    "source": "button-rewind",
+    "native": "backward.fill"
+   },
+   "android": {
+    "source": null,
+    "native": "fast_rewind"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/fast-forward",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Fast forward",
+   "owner": "ios",
+   "ios": {
+    "source": "button-fastforward",
+    "native": "forward.fill"
+   },
+   "android": {
+    "source": null,
+    "native": "fast_forward"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/3d-embed",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "3D embed",
+   "owner": "ios",
+   "ios": {
+    "source": "embed-3d",
+    "native": "cube"
+   },
+   "android": {
+    "source": null,
+    "native": "view_in_ar"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/tournament-sport-symbols-6",
+   "type": "icon",
+   "group": "Icons \u00b7 Media",
+   "name": "Tournament sport symbols (6)",
+   "owner": "ios",
+   "ios": {
+    "source": "SF \u2014 six symbols, names not listed",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "Android World Cup tabs use text (Barlow Condensed), no icons.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/rating-star-empty",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Rating star (empty)",
+   "owner": "ios",
+   "ios": {
+    "source": "rating-star-empty",
+    "native": "star"
+   },
+   "android": {
+    "source": null,
+    "native": "star"
+   },
+   "note": "Android stars mean saved, not rating.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/rating-star-half",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Rating star (half)",
+   "owner": "ios",
+   "ios": {
+    "source": "rating-star-half",
+    "native": "star.leadinghalf.filled"
+   },
+   "android": {
+    "source": null,
+    "native": "star_half"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/rating-star-full",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Rating star (full)",
+   "owner": "ios",
+   "ios": {
+    "source": "rating-star-full",
+    "native": "star.fill"
+   },
+   "android": {
+    "source": null,
+    "native": "star"
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/like-favorite",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Like / favorite",
+   "owner": "ios",
+   "ios": {
+    "source": "tweet-favorite",
+    "native": "heart"
+   },
+   "android": {
+    "source": null,
+    "native": "favorite"
+   },
+   "note": "iOS native tweet embeds only.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/repost",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Repost",
+   "owner": "ios",
+   "ios": {
+    "source": "tweet-retweet",
+    "native": "arrow.2.squarepath"
+   },
+   "android": {
+    "source": null,
+    "native": "repeat"
+   },
+   "note": "iOS native tweet embeds only.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/verified",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Verified",
+   "owner": "ios",
+   "ios": {
+    "source": "tweet-verified",
+    "native": "checkmark.seal.fill"
+   },
+   "android": {
+    "source": null,
+    "native": "verified"
+   },
+   "note": "iOS native tweet embeds only.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/apple",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Apple",
+   "owner": "ios",
+   "ios": {
+    "source": "AppleIcon (Sign in with Apple)",
+    "native": "apple.logo"
+   },
+   "android": {
+    "source": "apple_button (file exists, not used)",
+    "native": null
+   },
+   "note": "Sign in with Apple is iOS-only.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/google",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Google",
+   "owner": "core",
+   "ios": {
+    "source": "GoogleIcon",
+    "native": null
+   },
+   "android": {
+    "source": "google_button (only when Auth0 is off)",
+    "native": null
+   },
+   "note": "Dormant on Android.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/facebook",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Facebook",
+   "owner": "core",
+   "ios": {
+    "source": "FacebookIcon \u00b7 AuthorContactFacebook",
+    "native": null
+   },
+   "android": {
+    "source": "fb_button \u00b7 ic_fb \u00b7 author_contact_facebook",
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/x-twitter",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "X (Twitter)",
+   "owner": "core",
+   "ios": {
+    "source": "TwitterIcon \u00b7 AuthorContactX \u00b7 tweet-logo \u00b7 twitter-logo",
+    "native": null
+   },
+   "android": {
+    "source": "ic_twitter \u00b7 author_contact_x",
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/bluesky",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Bluesky",
+   "owner": "core",
+   "ios": {
+    "source": "AuthorContactBluesky",
+    "native": null
+   },
+   "android": {
+    "source": "author_contact_bluesky",
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/instagram",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Instagram",
+   "owner": "core",
+   "ios": {
+    "source": "AuthorContactInstagram \u00b7 instagram-logo (3)",
+    "native": null
+   },
+   "android": {
+    "source": "author_contact_instagram",
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/youtube",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "YouTube",
+   "owner": "ios",
+   "ios": {
+    "source": "youtube-logo",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/vimeo",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Vimeo",
+   "owner": "ios",
+   "ios": {
+    "source": "vimeo-logo",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/amazon-sign-in",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Amazon (sign-in)",
+   "owner": "core",
+   "ios": {
+    "source": "TroncKit default button",
+    "native": null
+   },
+   "android": {
+    "source": "ic_amazon",
+    "native": null
+   },
+   "note": "",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/1password",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "1Password",
+   "owner": "ios",
+   "ios": {
+    "source": "paywall-1password",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "iOS paywall password autofill.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/outbrain",
+   "type": "icon",
+   "group": "Icons \u00b7 Brands",
+   "name": "Outbrain",
+   "owner": "ios",
+   "ios": {
+    "source": "outbrainLogo",
+    "native": null
+   },
+   "android": {
+    "source": null,
+    "native": null
+   },
+   "note": "Not in Android drawables; confirm Android Outbrain widget has no logo.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/notification-small-icon",
+   "type": "icon",
+   "group": "Icons \u00b7 Navigation & UI",
+   "name": "Notification small icon",
+   "owner": "android",
+   "ios": {
+    "source": null,
+    "native": null
+   },
+   "android": {
+    "source": "per-market notification icons (monochrome)",
+    "native": null
+   },
+   "note": "Android requires a monochrome status-bar icon; no iOS equivalent.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "icon/save-star-special-sections",
+   "type": "icon",
+   "group": "Icons \u00b7 Ratings & social",
+   "name": "Save star (special sections)",
+   "owner": "android",
+   "ios": {
+    "source": null,
+    "native": null
+   },
+   "android": {
+    "source": "card_star_default \u00b7 star_on_card_saved_state",
+    "native": null
+   },
+   "note": "Same meaning as Saved; recommend replacing with Core Saved and dropping.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/nav-bar",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Top bar",
+   "owner": "core+variant",
+   "ios": {
+    "source": "UINavigationBar \u00b7 navbar fill, navtext title/buttons"
+   },
+   "android": {
+    "source": "Toolbar \u00b7 bar fill, bartext title/icons"
+   },
+   "note": "Same job and tokens; each platform draws its native bar.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/section-tabs",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Section tabs",
+   "owner": "core+variant",
+   "ios": {
+    "source": "sectionBar* colors"
+   },
+   "android": {
+    "source": "Toolbar_Tabs_* colors"
+   },
+   "note": "Same job; native tab strip per platform.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/tab-bar",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Bottom tab bar",
+   "owner": "core+variant",
+   "ios": {
+    "source": "UITabBar \u00b7 tabbar, tabactive, tabinactive; FA icons 26\u00d723"
+   },
+   "android": {
+    "source": "Bottom navigation \u00b7 bar, navactive, bartext; 24dp icons"
+   },
+   "note": "Android always uses the nav bar color; iOS too except BS.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/breaking-banner",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Breaking-news banner",
+   "owner": "core",
+   "ios": {
+    "source": "breakingNewsBanner* \u00b7 alert fill"
+   },
+   "android": {
+    "source": "Overlay \u00b7 br_news_red #cf000e"
+   },
+   "note": "One component, one Core alert color (PLAT-03).",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/section-header",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Section header band",
+   "owner": "ios",
+   "ios": {
+    "source": "Style.json cell-tertiary-header*"
+   },
+   "android": {
+    "source": "\u2014"
+   },
+   "note": "No band on Android. Equals navbar in 66/77 markets.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/status-bar",
+   "type": "component",
+   "group": "App chrome",
+   "name": "Status bar color",
+   "owner": "android",
+   "ios": {
+    "source": "System (takes nav bar)"
+   },
+   "android": {
+    "source": "MainStyle_Primary_Dark"
+   },
+   "note": "Equals navbar in 70/77 markets.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/button-primary",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Primary button",
+   "owner": "core+variant",
+   "ios": {
+    "source": "Paywall Log In / Register \u00b7 action fill, white Open Sans Bold 14 caps, radius 4 (legacy 5 + 1pt border)"
+   },
+   "android": {
+    "source": "Paywall Subscribe \u00b7 action fill, white caps system font, 60dp tall, square"
+   },
+   "note": "One Core primary button. Differences to decide: radius (4 vs 0), height, font.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/button-continue",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Continue button",
+   "owner": "core",
+   "ios": {
+    "source": "Continue-* PNGs (10 market copies); tracking-consent Continue has the only disabled state"
+   },
+   "android": {
+    "source": "Your News Continue 152\u00d754 radius 9; What's New Continue radius 6"
+   },
+   "note": "Same job as Primary button; recommend it becomes Primary button, not its own component.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/subscription-option",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Subscription option",
+   "owner": "core+variant",
+   "ios": {
+    "source": "subscriptionTintColor, Open Sans Bold 16, radius 8, inset 16"
+   },
+   "android": {
+    "source": "buy fill, white 16sp (Monthly bold), square, 14dp padding"
+   },
+   "note": "Fill = action on both (PLAT-04). Differences: radius, font.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/button-text",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Text link button",
+   "owner": "core",
+   "ios": {
+    "source": "paywallLinkColor (Log In link)"
+   },
+   "android": {
+    "source": "Paywall Log In link, system 16sp"
+   },
+   "note": "Core text/link button.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/permission-prompt",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Notification prompt buttons",
+   "owner": "core+variant",
+   "ios": {
+    "source": "Push prompt Yes (filled) / No (text), radius 5"
+   },
+   "android": {
+    "source": "Alerts enable button, square"
+   },
+   "note": "Same job; iOS has a Yes/No pair.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/button-account",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Manage subscription / delete account",
+   "owner": "core+variant",
+   "ios": {
+    "source": "Manage Subscription buttons, 44pt"
+   },
+   "android": {
+    "source": "radius 10, filled or outlined (bottom sheets)"
+   },
+   "note": "Only place Android has an outlined (secondary) button.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/savings-badge",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Savings label",
+   "owner": "android",
+   "ios": {
+    "source": "\u2014"
+   },
+   "android": {
+    "source": "White, 2dp stroke in buy color, radius 15"
+   },
+   "note": "Not on iOS paywall.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/social-signin",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Social sign-in buttons",
+   "owner": "ios",
+   "ios": {
+    "source": "Apple (black, 44pt), Facebook, Google, Amazon (TroncKit defaults)"
+   },
+   "android": {
+    "source": "Native buttons exist but are hidden; login is Auth0's web page"
+   },
+   "note": "Android shows them only on the Auth0 web page.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/button-states",
+   "type": "component",
+   "group": "Buttons",
+   "name": "Secondary, disabled, loading states",
+   "owner": "core",
+   "ios": {
+    "source": "Missing (one disabled Continue)"
+   },
+   "android": {
+    "source": "Missing (Continue disabled #c1c8cb, text #767676)"
+   },
+   "note": "Gap on both. Define once in Core (CTRL-02).",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/switch",
+   "type": "component",
+   "group": "Controls",
+   "name": "Switch",
+   "owner": "core+variant",
+   "ios": {
+    "source": "UISwitch; 4 tint tokens, nil = iOS green"
+   },
+   "android": {
+    "source": "SwitchCompat; accent on alert topics, Material default in Settings"
+   },
+   "note": "One Core on-color token (PLAT-10); native control per platform.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/checkbox",
+   "type": "component",
+   "group": "Controls",
+   "name": "Checkbox (Your News topics)",
+   "owner": "core",
+   "ios": {
+    "source": "30\u00d730 images; 8 market image sets"
+   },
+   "android": {
+    "source": "checkbox_tint: continue color checked, #757575 unchecked"
+   },
+   "note": "One Core checkbox tinted by token; removes iOS image sets.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/text-size",
+   "type": "component",
+   "group": "Controls",
+   "name": "Text size setting",
+   "owner": "core+variant",
+   "ios": {
+    "source": "6-step slider"
+   },
+   "android": {
+    "source": "4-option list dialog with radio images"
+   },
+   "note": "Same job, different control. Core: the scale steps; platform: the control.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/segmented",
+   "type": "component",
+   "group": "Controls",
+   "name": "Segmented control",
+   "owner": "core+variant",
+   "ios": {
+    "source": "UISegmentedControl (Your News, login/register, editions)"
+   },
+   "android": {
+    "source": "MaterialButtonToggleGroup (For You / Saved / Alerts)"
+   },
+   "note": "Native control per platform; Core sets colors.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "component/loading",
+   "type": "component",
+   "group": "Controls",
+   "name": "Loading indicator",
+   "owner": "core",
+   "ios": {
+    "source": "Full-screen overlay (LoadingIndicatorManager)"
+   },
+   "android": {
+    "source": "Full-screen progress dialog"
+   },
+   "note": "Same pattern on both; no in-button spinner.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/grid",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Section-front grid",
+   "owner": "core",
+   "ios": {
+    "source": "12 columns (PageBuilder)"
+   },
+   "android": {
+    "source": "12 columns (PageBuilder)"
+   },
+   "note": "Identical.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/cell-spacing",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Cell spacing",
+   "owner": "core",
+   "ios": {
+    "source": "margin 16, padding 8"
+   },
+   "android": {
+    "source": "padding 16, spacing 8"
+   },
+   "note": "Same values, different names. Core: 16 / 8.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/breakpoints",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Breakpoints",
+   "owner": "core+variant",
+   "ios": {
+    "source": "Window width 668 / 835 / 1113 pt (and 668 / 769 / 1025 in PageItem)"
+   },
+   "android": {
+    "source": "Physical width 4.1 / 6.1 / 7.8 / 10.4 in"
+   },
+   "note": "Same job, different units. Core names the classes; platforms set thresholds (LAY-01).",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/article-margin",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Article side margin",
+   "owner": "core+variant",
+   "ios": {
+    "source": "0.3125 \u00d7 width \u2212 160, min 16"
+   },
+   "android": {
+    "source": "16 phone, 30 landscape, 75 tablet"
+   },
+   "note": "Both 16 on phones.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/touch-target",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Minimum touch target",
+   "owner": "core+variant",
+   "ios": {
+    "source": "44 pt (not enforced)"
+   },
+   "android": {
+    "source": "48 dp (not enforced)"
+   },
+   "note": "Core rule; platform value.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  },
+  {
+   "id": "layout/orientation",
+   "type": "layout",
+   "group": "Layout",
+   "name": "Orientation",
+   "owner": "core",
+   "ios": {
+    "source": "iPhone portrait, iPad all"
+   },
+   "android": {
+    "source": "Phone portrait, tablet all"
+   },
+   "note": "Identical.",
+   "core": {
+    "figma": null,
+    "spec": null
+   }
+  }
+ ]
+}

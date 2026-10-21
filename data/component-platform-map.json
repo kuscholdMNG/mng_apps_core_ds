@@ -1,0 +1,248 @@
+{
+ "source": {
+  "ios": "TroncKit @ e30ad2585",
+  "android": "android-tribpub @ 1cfb069a6"
+ },
+ "summary": {
+  "core+variant": 13,
+  "core": 9,
+  "ios": 2,
+  "android": 2
+ },
+ "items": [
+  {
+   "group": "App chrome",
+   "id": "nav-bar",
+   "name": "Top bar",
+   "ios_today": "UINavigationBar \u00b7 navbar fill, navtext title/buttons",
+   "android_today": "Toolbar \u00b7 bar fill, bartext title/icons",
+   "owner": "core+variant",
+   "note": "Same job and tokens; each platform draws its native bar."
+  },
+  {
+   "group": "App chrome",
+   "id": "section-tabs",
+   "name": "Section tabs",
+   "ios_today": "sectionBar* colors",
+   "android_today": "Toolbar_Tabs_* colors",
+   "owner": "core+variant",
+   "note": "Same job; native tab strip per platform."
+  },
+  {
+   "group": "App chrome",
+   "id": "tab-bar",
+   "name": "Bottom tab bar",
+   "ios_today": "UITabBar \u00b7 tabbar, tabactive, tabinactive; FA icons 26\u00d723",
+   "android_today": "Bottom navigation \u00b7 bar, navactive, bartext; 24dp icons",
+   "owner": "core+variant",
+   "note": "Android always uses the nav bar color; iOS too except BS."
+  },
+  {
+   "group": "App chrome",
+   "id": "breaking-banner",
+   "name": "Breaking-news banner",
+   "ios_today": "breakingNewsBanner* \u00b7 alert fill",
+   "android_today": "Overlay \u00b7 br_news_red #cf000e",
+   "owner": "core",
+   "note": "One component, one Core alert color (PLAT-03)."
+  },
+  {
+   "group": "App chrome",
+   "id": "section-header",
+   "name": "Section header band",
+   "ios_today": "Style.json cell-tertiary-header*",
+   "android_today": "\u2014",
+   "owner": "ios",
+   "note": "No band on Android. Equals navbar in 66/77 markets."
+  },
+  {
+   "group": "App chrome",
+   "id": "status-bar",
+   "name": "Status bar color",
+   "ios_today": "System (takes nav bar)",
+   "android_today": "MainStyle_Primary_Dark",
+   "owner": "android",
+   "note": "Equals navbar in 70/77 markets."
+  },
+  {
+   "group": "Buttons",
+   "id": "button-primary",
+   "name": "Primary button",
+   "ios_today": "Paywall Log In / Register \u00b7 action fill, white Open Sans Bold 14 caps, radius 4 (legacy 5 + 1pt border)",
+   "android_today": "Paywall Subscribe \u00b7 action fill, white caps system font, 60dp tall, square",
+   "owner": "core+variant",
+   "note": "One Core primary button. Differences to decide: radius (4 vs 0), height, font."
+  },
+  {
+   "group": "Buttons",
+   "id": "button-continue",
+   "name": "Continue button",
+   "ios_today": "Continue-* PNGs (10 market copies); tracking-consent Continue has the only disabled state",
+   "android_today": "Your News Continue 152\u00d754 radius 9; What's New Continue radius 6",
+   "owner": "core",
+   "note": "Same job as Primary button; recommend it becomes Primary button, not its own component."
+  },
+  {
+   "group": "Buttons",
+   "id": "subscription-option",
+   "name": "Subscription option",
+   "ios_today": "subscriptionTintColor, Open Sans Bold 16, radius 8, inset 16",
+   "android_today": "buy fill, white 16sp (Monthly bold), square, 14dp padding",
+   "owner": "core+variant",
+   "note": "Fill = action on both (PLAT-04). Differences: radius, font."
+  },
+  {
+   "group": "Buttons",
+   "id": "button-text",
+   "name": "Text link button",
+   "ios_today": "paywallLinkColor (Log In link)",
+   "android_today": "Paywall Log In link, system 16sp",
+   "owner": "core",
+   "note": "Core text/link button."
+  },
+  {
+   "group": "Buttons",
+   "id": "permission-prompt",
+   "name": "Notification prompt buttons",
+   "ios_today": "Push prompt Yes (filled) / No (text), radius 5",
+   "android_today": "Alerts enable button, square",
+   "owner": "core+variant",
+   "note": "Same job; iOS has a Yes/No pair."
+  },
+  {
+   "group": "Buttons",
+   "id": "button-account",
+   "name": "Manage subscription / delete account",
+   "ios_today": "Manage Subscription buttons, 44pt",
+   "android_today": "radius 10, filled or outlined (bottom sheets)",
+   "owner": "core+variant",
+   "note": "Only place Android has an outlined (secondary) button."
+  },
+  {
+   "group": "Buttons",
+   "id": "savings-badge",
+   "name": "Savings label",
+   "ios_today": "\u2014",
+   "android_today": "White, 2dp stroke in buy color, radius 15",
+   "owner": "android",
+   "note": "Not on iOS paywall."
+  },
+  {
+   "group": "Buttons",
+   "id": "social-signin",
+   "name": "Social sign-in buttons",
+   "ios_today": "Apple (black, 44pt), Facebook, Google, Amazon (TroncKit defaults)",
+   "android_today": "Native buttons exist but are hidden; login is Auth0's web page",
+   "owner": "ios",
+   "note": "Android shows them only on the Auth0 web page."
+  },
+  {
+   "group": "Buttons",
+   "id": "button-states",
+   "name": "Secondary, disabled, loading states",
+   "ios_today": "Missing (one disabled Continue)",
+   "android_today": "Missing (Continue disabled #c1c8cb, text #767676)",
+   "owner": "core",
+   "note": "Gap on both. Define once in Core (CTRL-02)."
+  },
+  {
+   "group": "Controls",
+   "id": "switch",
+   "name": "Switch",
+   "ios_today": "UISwitch; 4 tint tokens, nil = iOS green",
+   "android_today": "SwitchCompat; accent on alert topics, Material default in Settings",
+   "owner": "core+variant",
+   "note": "One Core on-color token (PLAT-10); native control per platform."
+  },
+  {
+   "group": "Controls",
+   "id": "checkbox",
+   "name": "Checkbox (Your News topics)",
+   "ios_today": "30\u00d730 images; 8 market image sets",
+   "android_today": "checkbox_tint: continue color checked, #757575 unchecked",
+   "owner": "core",
+   "note": "One Core checkbox tinted by token; removes iOS image sets."
+  },
+  {
+   "group": "Controls",
+   "id": "text-size",
+   "name": "Text size setting",
+   "ios_today": "6-step slider",
+   "android_today": "4-option list dialog with radio images",
+   "owner": "core+variant",
+   "note": "Same job, different control. Core: the scale steps; platform: the control."
+  },
+  {
+   "group": "Controls",
+   "id": "segmented",
+   "name": "Segmented control",
+   "ios_today": "UISegmentedControl (Your News, login/register, editions)",
+   "android_today": "MaterialButtonToggleGroup (For You / Saved / Alerts)",
+   "owner": "core+variant",
+   "note": "Native control per platform; Core sets colors."
+  },
+  {
+   "group": "Controls",
+   "id": "loading",
+   "name": "Loading indicator",
+   "ios_today": "Full-screen overlay (LoadingIndicatorManager)",
+   "android_today": "Full-screen progress dialog",
+   "owner": "core",
+   "note": "Same pattern on both; no in-button spinner."
+  },
+  {
+   "group": "Layout",
+   "id": "grid",
+   "name": "Section-front grid",
+   "ios_today": "12 columns (PageBuilder)",
+   "android_today": "12 columns (PageBuilder)",
+   "owner": "core",
+   "note": "Identical."
+  },
+  {
+   "group": "Layout",
+   "id": "cell-spacing",
+   "name": "Cell spacing",
+   "ios_today": "margin 16, padding 8",
+   "android_today": "padding 16, spacing 8",
+   "owner": "core",
+   "note": "Same values, different names. Core: 16 / 8."
+  },
+  {
+   "group": "Layout",
+   "id": "breakpoints",
+   "name": "Breakpoints",
+   "ios_today": "Window width 668 / 835 / 1113 pt (and 668 / 769 / 1025 in PageItem)",
+   "android_today": "Physical width 4.1 / 6.1 / 7.8 / 10.4 in",
+   "owner": "core+variant",
+   "note": "Same job, different units. Core names the classes; platforms set thresholds (LAY-01)."
+  },
+  {
+   "group": "Layout",
+   "id": "article-margin",
+   "name": "Article side margin",
+   "ios_today": "0.3125 \u00d7 width \u2212 160, min 16",
+   "android_today": "16 phone, 30 landscape, 75 tablet",
+   "owner": "core+variant",
+   "note": "Both 16 on phones."
+  },
+  {
+   "group": "Layout",
+   "id": "touch-target",
+   "name": "Minimum touch target",
+   "ios_today": "44 pt (not enforced)",
+   "android_today": "48 dp (not enforced)",
+   "owner": "core+variant",
+   "note": "Core rule; platform value."
+  },
+  {
+   "group": "Layout",
+   "id": "orientation",
+   "name": "Orientation",
+   "ios_today": "iPhone portrait, iPad all",
+   "android_today": "Phone portrait, tablet all",
+   "owner": "core",
+   "note": "Identical."
+  }
+ ]
+}

@@ -5,7 +5,7 @@ Read this file first in every session. **This is the only copy of the project in
 ## Start of every session
 
 1. Pull all three repos (`mng_apps_core_ds`, `mng_apps_ios_ds`, `mng_apps_android_ds`) and re-read this file if it changed.
-2. Read `PROGRESS.md` for the current phase and what is waiting on review.
+2. Read `PROGRESS.md` for the current phase and what is waiting on review. How the three libraries fit together: `docs/ARCHITECTURE.md`.
 3. Check `docs/PLATFORM-OWNERSHIP.md` for open `PLAT-` decisions before moving anything between libraries.
 4. End the session by updating `PROGRESS.md` (dated log line) and committing. Karl pushes.
 
@@ -54,7 +54,7 @@ Every token, icon and component gets exactly one:
 
 | Bucket | Rule | Goes to |
 |--------|------|---------|
-| **Core** | Both apps have it. Values are the same or rounding twins (OKLab ΔE < 0.012). | Core |
+| **Core** | Both apps have it. Values are the same or near-identical hexes (OKLab ΔE < 0.012: off by 1 in a channel, invisible). | Core |
 | **Core, per-platform value** | Both apps have it, but values differ. Keep one Core variable; record the difference as a decision for Karl. Don't split it out yet. | Core (flagged) |
 | **Core alias** | A role that equals another role almost everywhere (e.g. `buy` = `action`). | Core, as an alias |
 | **iOS only** / **Android only** | The other app has no such thing. | Platform file (later) |
@@ -82,7 +82,9 @@ Thresholds: same < 0.012 ΔE · close < 0.05 · differs ≥ 0.05. Contrast targe
 ```
 CLAUDE.md                         this file (platform repos point here)
 PROGRESS.md                       phase tracker + log (start here for status)
+docs/ARCHITECTURE.md              how Core, iOS and Android fit together (registry, variables, wayfinding)
 docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- decisions
+docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
 docs/MISSING-ASSETS.md            what we need from the Apps team
 data/source/                      raw exports from each app (don't edit)
@@ -96,6 +98,8 @@ Regenerate:
 python3 scripts/analyze_palettes.py data/source/markets.json data/palette-analysis.json
 python3 scripts/compare_platform_colors.py data/source/markets.json data/source/android-markets.json data/color-platform-comparison.json
 python3 scripts/icon_platform_map.py data/icon-comparison.json data/icon-platform-map.json
+python3 scripts/component_platform_map.py data/component-platform-map.json
+python3 scripts/build_registry.py   # run last; reads the two maps above
 ```
 
 ## People
