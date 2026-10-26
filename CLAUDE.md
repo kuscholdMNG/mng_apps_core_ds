@@ -93,6 +93,7 @@ docs/DISCREPANCIES.md             iOS vs Android differences that should match (
 docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
 docs/MISSING-ASSETS.md            what we need from the Apps team
+docs/components/                  component specs (generated, e.g. BUTTON.md)
 tokens/                           DTCG design tokens (generated; the source for Swift, Kotlin and Figma)
 style-dictionary.config.mjs       builds Swift / Kotlin / Android XML from tokens/
 docs/BRAND-COLORS.md              every brand color as hex and RGB (generated)
@@ -114,6 +115,7 @@ python3 scripts/apply_ios_default.py data/brand-color-resolution.json data/color
 python3 scripts/apply_core_alert.py data/brand-color-resolution.json data/source/markets.json   # DEC-05 (fails if below WCAG AA)
 python3 scripts/apply_new_markets.py data/brand-color-resolution.json data/source/new-markets.json   # provisional markets (TDH)
 python3 scripts/build_tokens.py     # tokens/*.tokens.json + docs/BRAND-COLORS.md
+python3 scripts/build_button_tokens.py   # button tokens, data/button-spec.json, docs/components/BUTTON.md, IMPROVEMENTS CLR-04 (DEC-07)
 python3 scripts/select_theme_modes.py   # the 20 Figma Brand theme modes (DEC-06)
 npm install && npm run build        # Style Dictionary → ../mng_apps_ios_ds/Tokens, ../mng_apps_android_ds/tokens
 python3 scripts/build_registry.py   # run last; reads the two maps above

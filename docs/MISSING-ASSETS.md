@@ -57,6 +57,7 @@ The iOS app has no vector icon masters. Everything below is needed before the Ic
 | 5.1 | Missing button states | No Secondary, Text, Disabled (except tracking-consent Continue) or Loading variants exist. Confirm whether these should be designed new. | OPEN |
 | 5.2 | Elevation / shadow values | None extracted from code. | OPEN |
 | 5.3 | Motion / animation specs | None extracted. | OPEN |
+| 5.5 | Button values not in the source | iOS primary button height (pilot uses 44 pt); Android button label weight and size (pilot uses Roboto Medium 14sp, the Material default); iOS paywall Log In link font (pilot uses Open Sans Regular 14); pressed state on both apps. | OPEN |
 | 5.4 | Current screenshots | Reference screenshots of key screens for a handful of markets (nav, section front, article, paywall, settings) to check the build against. | OPEN |
 
 ## 6. Platform — `OPEN`

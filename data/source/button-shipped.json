@@ -1,0 +1,37 @@
+{
+ "$description": "Shipped button values, copied from the two style-guide artifacts (read 2026-10-26). Source data: do not edit except to record a new app export. Values not in the source are null with a note; provisional values used by the pilot are in data/button-decisions.json.",
+ "sources": {
+  "ios": "MNG iOS Style Guide artifact (https://claude.ai/artifact/V364juyHFU3STfVZ6EgjMc), TroncKit @ e30ad2585: project/5-controls.md, project/components/Buttons, project/tokens.json; colors from data/source/markets.json",
+  "android": "MNG Android Style Guide artifact (https://claude.ai/artifact/5MyLP13QSt52WGRgXW35ZJ), android-tribpub @ 1cfb069a6: project/5-controls.md, project/components/Buttons, project/tokens.json; colors from data/source/android-markets.json"
+ },
+ "primary": {
+  "ios": {
+   "where": "Paywall Log In / Register",
+   "fill": "paywallPrimaryActionColor (= Core action role)",
+   "label_color": "#ffffff (paywallPrimaryTextColor, white in all 77 markets)",
+   "font": {"family": "Open Sans", "weight": "Bold", "postscript": "OpenSans-Bold", "size": 14, "case": "uppercase"},
+   "radius": 4, "radius_source": "radius-button (preferredButtonCornerRadius), 70 standard-template markets",
+   "radius_legacy": 5, "border_legacy": 1, "legacy_source": "radius-button-legacy, 1 pt border in the fill color; legacy-template markets (template = legacy in markets.json)",
+   "height": null, "height_note": "Not in the source. Only size-touch-min (44 pt) is documented.",
+   "disabled": null, "disabled_note": "Only the tracking-consent Continue button has a disabled style (text #aaaaaa, text-only button).",
+   "pressed": null, "pressed_note": "Not in the source.",
+   "loading": "Full-screen overlay (LoadingIndicatorManager); no in-button state"
+  },
+  "android": {
+   "where": "Paywall Subscribe (purchase_button)",
+   "fill": "Paywall_PurchaseButton_Background (= Core action role)",
+   "label_color": "#ffffff (Paywall_Button_TextColor; 6 markets use a selector with disabled @color/text_disabled)",
+   "font": {"family": "system (Roboto)", "weight": null, "size": null, "case": "uppercase", "note": "Weight and size not in the source."},
+   "radius": 0, "radius_source": "radius-paywall: plain color background, no corner radius",
+   "height": 60, "height_source": "size-paywall-button (paywall_button_height)",
+   "disabled": {"fill": "#c1c8cb", "label": "#767676", "source": "Your News Continue background (bg_continue) and Text_Disabled_Font / button_color selector"},
+   "pressed": null, "pressed_note": "Not in the source.",
+   "loading": "Full-screen progress dialog (openProgressDialogFragment); no in-button state"
+  }
+ },
+ "text_link": {
+  "ios": {"where": "Paywall Log In link", "color": "paywallLinkColor (per market, data/source/markets.json)", "font": null, "font_note": "Not in the source.", "underline": false},
+  "android": {"where": "Paywall Log In link", "color": "#000000 (Paywall_Text; underline_paywall_login #000000)", "font": {"family": "system sans", "size": 16}, "underline": true}
+ },
+ "not_shipped": ["Secondary (outlined) as a system: only two Android bottom-sheet drawables (radius 6 / 10)", "In-button loading on either app", "Disabled on iOS primary"]
+}

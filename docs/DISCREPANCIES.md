@@ -53,7 +53,7 @@ All brand colors are now decided; the values are in `docs/BRAND-COLORS.md` (hex 
 
 | ID | What differs | Should be | Fix on | Evidence | Status |
 |----|--------------|-----------|--------|----------|--------|
-| DSC-20 | Primary button: iOS radius 4 (legacy 5 + 1 pt border), Open Sans Bold 14; Android square corners, system font, 60 dp tall | One Core spec (to design) | both | Same component on both paywalls. | OPEN |
+| DSC-20 | Primary button: iOS radius 4 (legacy 5 + 1 pt border), Open Sans Bold 14; Android square corners, system font, 60 dp tall | One Core spec | both | Same component on both paywalls. DEC-07 (2026-10-26): kept per platform as tokens for now; height and label font are future changes (IMPROVEMENTS BTN-01, BTN-02). Spec: docs/components/BUTTON.md | KNOWN (kept per DEC-07) |
 | DSC-21 | Subscription option: iOS radius 8, Open Sans Bold 16; Android square, system 16sp | One Core spec | both | | OPEN |
 | DSC-22 | Article text size: iOS 6 steps (slider), Android 4 steps (list) | Same number of steps | ? | The control can differ per platform; the scale should not. | OPEN |
 | DSC-23 | Your News checkbox: iOS uses 8 per-market image sets; Android tints one control | One tinted checkbox | iOS | | KNOWN |
@@ -67,6 +67,8 @@ All brand colors are now decided; the values are in `docs/BRAND-COLORS.md` (hex 
 | DSC-31 | Text size: iOS smaller/larger glyphs, Android one glyph | One Core glyph + iOS variant | — | PLAT-08 | KNOWN |
 
 ## Log
+
+- **2026-10-26** — DEC-07 button pilot: DSC-20 kept per platform as tokens; contrast failures listed as required changes in IMPROVEMENTS CLR-04.
 
 - **2026-10-21** — DEC-05: one Core breaking-news red `#cf000e` with white text (5.74:1 AA). DSC-15 and DSC-19 flagged ASAP.
 
