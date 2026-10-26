@@ -1,0 +1,256 @@
+{
+ "$description": "Build status of every registry item and foundation, kept by hand (update it when something is built). scripts/build_backlog.py turns it into docs/BACKLOG.md. Items not listed under items take the defaults for their type.",
+ "columns": {
+  "figma": "Built in Figma (Core file, plus the platform file when the owner is Core + variant, iOS or Android)",
+  "tokens": "DTCG tokens in tokens/ (the source for Swift, Kotlin and Figma variables)",
+  "code": "Exported to GitHub as platform code: generated tokens in mng_apps_ios_ds / mng_apps_android_ds, plus component code or assets"
+ },
+ "statuses": {
+  "done": "✅ done",
+  "partial": "🟡 partial",
+  "written": "📝 written, not compiled",
+  "todo": "⬜ to do",
+  "blocked": "⛔ blocked",
+  "na": "— n/a"
+ },
+ "defaults": {
+  "color-role": {
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo"
+  },
+  "icon": {
+   "figma": "blocked",
+   "tokens": "na",
+   "code": "blocked",
+   "blocked_by": "Apps team icon answers (MISSING-ASSETS §1); semantic icon list + Icon component (PROGRESS 1.8)"
+  },
+  "component": {
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo"
+  },
+  "layout": {
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo",
+   "blocked_by": "Spacing, radius and size scales (foundations below)"
+  }
+ },
+ "foundations": [
+  {
+   "id": "foundation/type",
+   "group": "Typography",
+   "name": "Text styles (63 iOS styles; Android font maps per market)",
+   "owner": "core+variant",
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo",
+   "blocked_by": "Open Sans Light/ExtraBold files (MISSING-ASSETS 4.3), partly",
+   "note": "PROGRESS 1.5 + Type comparison. Button labels already exist as platform text styles (DEC-07)"
+  },
+  {
+   "id": "foundation/spacing",
+   "group": "Scales",
+   "name": "Spacing scale (6 values in use, no shared scale in code)",
+   "owner": "core",
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo",
+   "note": "PROGRESS 1.6"
+  },
+  {
+   "id": "foundation/radius",
+   "group": "Scales",
+   "name": "Radius scale (iOS 2/4/5/8, Android 0/6/9/10/15)",
+   "owner": "core+variant",
+   "figma": "partial",
+   "tokens": "partial",
+   "code": "partial",
+   "note": "Button radius only so far (DEC-07)"
+  },
+  {
+   "id": "foundation/size",
+   "group": "Scales",
+   "name": "Size scale (touch target, checkbox, icon sizes)",
+   "owner": "core+variant",
+   "figma": "partial",
+   "tokens": "partial",
+   "code": "partial",
+   "note": "Button height only so far (DEC-07)"
+  },
+  {
+   "id": "foundation/breakpoints",
+   "group": "Scales",
+   "name": "Breakpoints + 12-column grid",
+   "owner": "core+variant",
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo",
+   "blocked_by": "LAY-01: two iOS breakpoint sets to reconcile",
+   "note": "PROGRESS 1.6"
+  },
+  {
+   "id": "foundation/system-colors",
+   "group": "Color",
+   "name": "The other 117 themed colors per market (62 are the same in every market → System collection)",
+   "owner": "core",
+   "figma": "todo",
+   "tokens": "todo",
+   "code": "todo",
+   "note": "PROGRESS 1.4"
+  },
+  {
+   "id": "foundation/brand-colors",
+   "group": "Color",
+   "name": "Brand colors, 78 markets (Brand colors + Brand theme)",
+   "owner": "core",
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "DEC-01…06. Swift/Kotlin generated, not compiled in an app yet"
+  },
+  {
+   "id": "foundation/dark-mode",
+   "group": "Color",
+   "name": "Dark mode",
+   "owner": "core",
+   "figma": "na",
+   "tokens": "na",
+   "code": "na",
+   "note": "Every app is light-only; confirm no plans (MISSING-ASSETS 3.2)"
+  }
+ ],
+ "items": {
+  "color/navbar": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/navtext": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/tabbar": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/tabactive": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/tabinactive": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/action": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written"
+  },
+  "color/alert": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "DEC-05; alerttext added"
+  },
+  "color/buy": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "Alias of action"
+  },
+  "color/continue": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "Alias of action"
+  },
+  "color/header": {
+   "figma": "todo",
+   "tokens": "done",
+   "code": "written",
+   "note": "iOS-only role: tokens/ios, not yet in the iOS Figma file"
+  },
+  "color/statusbar": {
+   "figma": "todo",
+   "tokens": "done",
+   "code": "written",
+   "note": "Android-only role: tokens/android, not yet in the Android Figma file"
+  },
+  "color/accent": {
+   "figma": "blocked",
+   "tokens": "blocked",
+   "code": "blocked",
+   "blocked_by": "PLAT-10: switch-on color"
+  },
+  "component/button-primary": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "DEC-07 pilot; provisional values in MISSING-ASSETS 5.5"
+  },
+  "component/button-text": {
+   "figma": "done",
+   "tokens": "done",
+   "code": "written",
+   "note": "DEC-07 pilot"
+  },
+  "component/button-states": {
+   "figma": "partial",
+   "tokens": "partial",
+   "code": "partial",
+   "blocked_by": "CTRL-02 / MISSING-ASSETS 5.1: design Secondary and in-button Loading?",
+   "note": "Disabled done (DEC-07); Secondary and Loading not shipped by either app"
+  },
+  "component/button-continue": {
+   "note": "DSC-24: recommend folding into Primary button"
+  },
+  "component/breaking-banner": {
+   "tokens": "partial",
+   "code": "partial",
+   "note": "Colors done (alert, alerttext); component not built. DSC-15/19 ASAP"
+  },
+  "component/nav-bar": {
+   "tokens": "partial",
+   "code": "partial",
+   "note": "Colors done (navbar, navtext)"
+  },
+  "component/tab-bar": {
+   "tokens": "partial",
+   "code": "partial",
+   "note": "Colors done (tabbar, tabactive, tabinactive)"
+  },
+  "component/status-bar": {
+   "tokens": "done",
+   "code": "written",
+   "figma": "todo",
+   "note": "Color only (statusbar role)"
+  },
+  "component/section-header": {
+   "tokens": "done",
+   "code": "written",
+   "figma": "todo",
+   "note": "Color only (header role)"
+  },
+  "layout/orientation": {
+   "tokens": "na",
+   "code": "na",
+   "blocked_by": ""
+  }
+ },
+ "next": [
+  "Karl reviews the button pilot (DEC-07); Apps team answers MISSING-ASSETS 5.5",
+  "Typography: text styles as tokens, Figma text styles and code (foundation/type)",
+  "Spacing, radius and size scales (foundation/spacing, radius, size), which unblock the layout rules",
+  "App chrome components whose colors already exist: Breaking-news banner (DSC-15/19 ASAP), Top bar, Bottom tab bar, Section tabs",
+  "Remaining buttons: Continue (fold into Primary, DSC-24), Subscription option, Notification prompt, Manage subscription, Savings label, Social sign-in",
+  "Controls: Switch (needs PLAT-10), Checkbox, Segmented control, Text size, Loading indicator",
+  "System colors (the other 117 themed colors) and breakpoints (after LAY-01)",
+  "Icons, once the Apps team answers MISSING-ASSETS §1"
+ ]
+}

@@ -91,6 +91,7 @@ docs/PLATFORM-OWNERSHIP.md        Core vs iOS vs Android findings and PLAT- deci
 docs/DECISIONS.md                 approved decisions (DEC- IDs): rule, date, what changed
 docs/DISCREPANCIES.md             iOS vs Android differences that should match (DSC- IDs), with the right value and which app to fix
 docs/REGISTRY.md                  generated: every item and its owner (from data/registry.json)
+docs/BACKLOG.md                   generated: what is left to build in Figma and export to GitHub (status in data/backlog-status.json)
 docs/IMPROVEMENTS.md              proposed app changes (contrast, merges…)
 docs/MISSING-ASSETS.md            what we need from the Apps team
 docs/components/                  component specs (generated, e.g. BUTTON.md)
@@ -119,6 +120,7 @@ python3 scripts/build_button_tokens.py   # button tokens, data/button-spec.json,
 python3 scripts/select_theme_modes.py   # the 20 Figma Brand theme modes (DEC-06)
 npm install && npm run build        # Style Dictionary → ../mng_apps_ios_ds/Tokens, ../mng_apps_android_ds/tokens
 python3 scripts/build_registry.py   # run last; reads the two maps above
+python3 scripts/build_backlog.py    # after the registry: docs/BACKLOG.md from data/backlog-status.json (edit that file to mark progress)
 ```
 
 ## People

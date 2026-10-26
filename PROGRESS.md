@@ -4,6 +4,8 @@ One phase at a time. Each phase is reviewed before the next starts.
 
 Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not started
 
+Item-level to-do list (every element and component from the iOS and Android style guides, with Figma / tokens / code status): **docs/BACKLOG.md**.
+
 ## Phase 0 — Structure & setup  ✅
 
 | Step | Status | Notes |
@@ -77,3 +79,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-21** — Brand theme: swapped TNH and TSPPP (near-duplicates of OCR and TMN) for SGVT and OS.
 - **2026-10-26** — Button pilot (DEC-07): keep shipped colors/radius/height as per-platform tokens; Core Button component, label font per platform. New: data/source/button-shipped.json, data/button-decisions.json, scripts/build_button_tokens.py, tokens/*/button.tokens.json, docs/components/BUTTON.md; IMPROVEMENTS CLR-04 now REQUIRED (15 action + 9 iOS link markets), BTN-01/02 FUTURE; MISSING-ASSETS 5.5. Figma Core: Button collection + page Components · Button. iOS repo: Tokens/MNGButtonTokens.swift, Components/Button/MNGButton.swift. Android repo: tokens/res/values/mng_button.xml, components/button/ (View-based). Figma iOS/Android: Button · iOS / Button · Android variables.
 - **2026-10-26** — Core library published and enabled in the iOS and Android files. Built Button/Primary and Button/Text link in both platform files (mng_apps_ios_ds, mng_apps_android_ds).
+- **2026-10-26** — Added docs/BACKLOG.md (scripts/build_backlog.py, status in data/backlog-status.json): 107 items with Figma, tokens and code status.
