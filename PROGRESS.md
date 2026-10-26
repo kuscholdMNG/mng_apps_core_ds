@@ -45,7 +45,7 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 | Registry | ✅ | data/registry.json + docs/REGISTRY.md: 99 items (12 color roles, 61 icons, 20 components, 6 layout rules) |
 | Components + layout: who owns what | ⏸ | New Figma page **Components · Platform Ownership**: 9 Core, 13 Core + variant, 2 iOS only, 2 Android only |
 | Type comparison | ⬜ | |
-| Pilot: button system end-to-end in all three files | 🔄 ⏸ review | DEC-07. Tokens, docs/components/BUTTON.md, Swift + Android View code generated/written; Core Figma page **Components · Button** (01–04) + Button variable collection. Platform Figma components wait on Core library publish |
+| Pilot: button system end-to-end in all three files | 🔄 ⏸ review | DEC-07. Tokens, docs/components/BUTTON.md, Swift + Android View code generated/written; Core Figma page **Components · Button** (01–04) + Button variable collection; iOS and Android files: page Components · Button with Button/Primary (instances of Core Button + platform overrides) and Button/Text link |
 
 ## Phase 2 — Core atoms  ⬜
 ## Phase 3 — iOS file & iOS atoms  ⬜
@@ -57,7 +57,7 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 
 1. **Push.** This session could not push (repos not attached to the cloud session; the device shell has no GitHub login). All three repos have local commits from 2026-10-26: Karl pushes, or start the session with the three repos attached.
 2. **Karl to review the button pilot** (DEC-07): Core Figma page Components · Button, docs/components/BUTTON.md, IMPROVEMENTS CLR-04 (REQUIRED), BTN-01, BTN-02.
-3. **To finish the pilot in the platform Figma files:** publish the Core library and enable it in the iOS and Android files; then build `Button/Primary` and `Button/Text link` there as instances of Core Button with the platform overrides (Button · iOS / Button · Android variables already exist). iOS text styles (Button/Label, Button/Text link) not created yet: Open Sans font loading hung in the iOS file (bring it to the front and retry).
+3. **Platform Figma files done** (libraries published and enabled 2026-10-26): iOS and Android each have page Components · Button. iOS text link color is a separate collection, Text link · iOS (20 modes matching Brand theme): set the same market in both. Tip: library imports and font loads hang when a file's tab is in the background; bring the file to the front.
 4. **Ask the Apps team** (MISSING-ASSETS 5.5): iOS button height (pilot uses 44), Android label weight/size, iOS link font, pressed states. Code is not compiled yet (no Xcode or Android SDK here).
 5. **Still waiting from 2026-10-21:** DEC-03 confirmation (MISSING-ASSETS 3.3), DSC-19 Android banner text, Kotlin package name, clusters for TBAN, TBE, TB, TBCP, TBHS, TCHW, TDPS. DSC-15/19 still ASAP.
 6. **Next work after the pilot:** type, spacing and radius tokens; then the remaining components.
@@ -76,3 +76,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-21** — DEC-06: Figma Brand colors + Brand theme variables built in Core; Daily Herald added as provisional market (tokens now 78 markets).
 - **2026-10-21** — Brand theme: swapped TNH and TSPPP (near-duplicates of OCR and TMN) for SGVT and OS.
 - **2026-10-26** — Button pilot (DEC-07): keep shipped colors/radius/height as per-platform tokens; Core Button component, label font per platform. New: data/source/button-shipped.json, data/button-decisions.json, scripts/build_button_tokens.py, tokens/*/button.tokens.json, docs/components/BUTTON.md; IMPROVEMENTS CLR-04 now REQUIRED (15 action + 9 iOS link markets), BTN-01/02 FUTURE; MISSING-ASSETS 5.5. Figma Core: Button collection + page Components · Button. iOS repo: Tokens/MNGButtonTokens.swift, Components/Button/MNGButton.swift. Android repo: tokens/res/values/mng_button.xml, components/button/ (View-based). Figma iOS/Android: Button · iOS / Button · Android variables.
+- **2026-10-26** — Core library published and enabled in the iOS and Android files. Built Button/Primary and Button/Text link in both platform files (mng_apps_ios_ds, mng_apps_android_ds).
